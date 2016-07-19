@@ -24,6 +24,10 @@
     <link href="/Public/Admin/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/style.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/login.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/plugins/webuploader/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/demo/webuploader-demo.min.css">
+    <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
 </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
     <div id="wrapper">
@@ -35,7 +39,11 @@
                 <ul class="nav" id="side-menu">
                     <li class="nav-header">
                         <div class="dropdown profile-element">
-                            <span><img alt="image" class="img-circle" src="/Public/Admin/img/null.jpg"width="80"/></span>
+                            <span>
+                                <?php if($_SESSION['has_avatar']== 0): ?><img alt="image" class="img-circle" src="/Public/Admin/img/null.jpg"width="80"/>
+                                    <?php else: ?>
+                                    <img alt="image" class="img-circle" src="<?php echo (session('avatar')); ?>"width="80"/><?php endif; ?>
+                            </span>
                             <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                 <span class="clear">
                                <span class="block m-t-xs"><strong class="font-bold"><?php echo (session('name')); ?></strong></span>
@@ -43,7 +51,7 @@
                                 </span>
                             </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a class="J_menuItem" href="form_avatar.html">修改头像</a>
+                                <li><a class="J_menuItem" href="<?php echo U('Edit/avatar');?>">修改头像</a>
                                 </li>
                                 <li><a class="J_menuItem" href="<?php echo U('Edit/profile');?>">个人资料</a>
                                 <li class="divider"></li>
@@ -59,6 +67,9 @@
                     </li>
                     <li>
                         <a class="J_menuItem" href="<?php echo U('Blog/index');?>"><i class="fa fa-columns"></i> <span class="nav-label">BLOG</span></a>
+                    </li>
+                    <li>
+                            <a class="J_menuItem" href="form_basic.html"><i class="fa fa-edit"></i> <span class="nav-label">表单</span></a>
                     </li>
                     <li>
                         <a class="J_menuItem" href="<?php echo U('fresh');?>"><i class="fa fa fa-bar-chart-o"></i> <span class="nav-label">统计图表</span></a>
@@ -342,5 +353,7 @@
 <script src="/Public/Admin/js/plugins/easypiechart/jquery.easypiechart.js"></script>
 <script src="/Public/Admin/js/plugins/sparkline/jquery.sparkline.min.js"></script>
 <script src="/Public/Admin/js/demo/sparkline-demo.min.js"></script>
+<script src="/Public/Admin/js/plugins/dropzone/dropzone.js"></script>
+
 </body>
 </html>

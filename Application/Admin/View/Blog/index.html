@@ -16,24 +16,47 @@
 <!--内容-->
     <div class="wrapper wrapper-content animated fadeInRight">
         <div class="row">
+            <volist name="info" id="vol">
+                <div class="col-sm-4">
+                <div class="contact-box">
+                    <a href="__PUBLIC__/Admin/profile.html">
+                        <div class="col-sm-4">
+                            <div class="text-center">
+                                <if condition="$vol.has_avatar eq 0 ">
+                                    <img alt="image" class="img-circle m-t-xs img-responsive" src="__PUBLIC__/Admin/img/null.jpg">
+                                    <else/>
+                                <img alt="image" class="img-circle m-t-xs img-responsive" src="{$vol.avatar}">
+                                </if>
+                                <div class="m-t-xs font-bold">作者:{$vol.name}</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <h3><strong>{$vol.bride}&{$vol.bridegroom}</strong></h3>
+                            <p> {$vol.send_date|date='Y年m月d日 H时i分s秒',###}</p>
+                            <p>{$vol.address_name} <i class="fa fa-map-marker"></i></p>
+                            <p>{$vol.title}</p>
+                            <div>{$vol.synopsis}</div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+            </div>
+            </volist>
             <div class="col-sm-4">
                 <div class="contact-box">
                     <a href="__PUBLIC__/Admin/profile.html">
                         <div class="col-sm-4">
                             <div class="text-center">
                                 <img alt="image" class="img-circle m-t-xs img-responsive" src="__PUBLIC__/Admin/img/a2.jpg">
-                                <div class="m-t-xs font-bold">CTO</div>
+                                <div class="m-t-xs font-bold">作者</div>
                             </div>
                         </div>
                         <div class="col-sm-8">
-                            <h3><strong>奔波儿灞</strong></h3>
-                            <p><i class="fa fa-map-marker"></i> 甘肃·兰州</p>
-                            <address>
-                            <strong>Baidu, Inc.</strong><br>
-                            E-mail:xxx@baidu.com<br>
-                            Weibo:<a href="#">http://weibo.com/xxx</a><br>
-                            <abbr title="Phone">Tel:</abbr> (123) 456-7890
-                        </address>
+                            <h3><strong>新娘&新郎</strong></h3>
+                            <p> 2015年1月15日</p>
+                            <p>芬兰 <i class="fa fa-map-marker"></i></p>
+                            <p>标题内容</p>
+                            <p>简略摘要</p>
                         </div>
                         <div class="clearfix"></div>
                     </a>

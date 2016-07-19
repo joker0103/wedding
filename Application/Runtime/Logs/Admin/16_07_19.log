@@ -1,3 +1,160 @@
 [ 2016-07-19T08:28:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/login
 ERR: 非法操作:login
 
+[ 2016-07-19T15:41:38+08:00 ] 127.0.0.1 /index.php/Admin/Blog/index.html
+ERR: 1146:Table 'wedding.wed_' doesn't exist
+ [ SQL语句 ] : SELECT wed_article . *,wed_user . name,wed_address . address_name,wed_wedding . bride,wed_wedding . bridegroom FROM `wed_` left join wed_user on wed_article . author = wed_user . id left join wed_wedding on wed_article . wedding = wed_wedding . id left join wed_address on wed_wedding . address = wed_address . id  
+
+[ 2016-07-19T15:57:28+08:00 ] 127.0.0.1 /index.php/Admin/Blog/%E6%97%A0
+ERR: 非法操作:无
+
+[ 2016-07-19T15:57:37+08:00 ] 127.0.0.1 /index.php/Admin/Blog/%E6%97%A0
+ERR: 非法操作:无
+
+[ 2016-07-19T16:59:17+08:00 ] 127.0.0.1 /index.php/Admin/Blog/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T16:59:17+08:00 ] 127.0.0.1 /index.php/Admin/Blog/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T16:59:17+08:00 ] 127.0.0.1 /index.php/Admin/Blog/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T16:59:17+08:00 ] 127.0.0.1 /index.php/Admin/Blog/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:00:00+08:00 ] 127.0.0.1 /index.php/Admin/Core/form_avatar.html
+ERR: 非法操作:form_avatar
+
+[ 2016-07-19T17:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:00:34+08:00 ] 127.0.0.1 /index.php/Admin/Core/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:00:35+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:00:35+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:00:35+08:00 ] 127.0.0.1 /index.php/Admin/Core/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:00:35+08:00 ] 127.0.0.1 /index.php/Admin/Core/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:00:38+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:00:38+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:00:38+08:00 ] 127.0.0.1 /index.php/Admin/Edit/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Core/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Core/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:01:07+08:00 ] 127.0.0.1 /index.php/Admin/Core/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:01:10+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:01:10+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:01:10+08:00 ] 127.0.0.1 /index.php/Admin/Edit/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:01:43+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:01:43+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:01:43+08:00 ] 127.0.0.1 /index.php/Admin/Edit/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:03:47+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:47+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:47+08:00 ] 127.0.0.1 /index.php/Admin/Core/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Core/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Core/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:03:48+08:00 ] 127.0.0.1 /index.php/Admin/Core/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/bootstrap.min14ed.css?v=3.3.6
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/font-awesome.min93e3.css?v=4.4.0
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/style.min862f.css?v=4.1.0
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/animate.min.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/plugins/dropzone/basic.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/css/plugins/dropzone/dropzone.css
+ERR: 非法操作:css
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/js/jquery.min.js?v=2.1.4
+ERR: 非法操作:js
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/js/bootstrap.min.js?v=3.3.6
+ERR: 非法操作:js
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/js/content.min.js?v=1.0.0
+ERR: 非法操作:js
+
+[ 2016-07-19T17:03:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/js/plugins/dropzone/dropzone.js
+ERR: 非法操作:js
+
+[ 2016-07-19T17:17:21+08:00 ] 127.0.0.1 /index.php/Admin/Edit/avatared.html?
+ERR: 非法操作:avatared
+
+[ 2016-07-19T20:10:49+08:00 ] 127.0.0.1 /index.php/Admin/Edit/%7B'.'%20.%20$Think.session.avatar%7D
+ERR: 非法操作:{'.' . $Think.session.avatar}
+
+[ 2016-07-19T20:28:24+08:00 ] 127.0.0.1 /index.php/Admin/Edit/$url
+ERR: 非法操作:$url
+
+[ 2016-07-19T20:29:34+08:00 ] 127.0.0.1 /index.php/Admin/Edit/$url
+ERR: 非法操作:$url
+

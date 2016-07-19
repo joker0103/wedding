@@ -24,6 +24,10 @@
     <link href="/Public/Admin/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/style.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/login.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/plugins/webuploader/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/demo/webuploader-demo.min.css">
+    <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
 </head>
 <body class="gray-bg">
 <div class="ibox-content icons-box">
@@ -42,24 +46,43 @@
 <!--内容-->
     <div class="wrapper wrapper-content animated fadeInRight">
         <div class="row">
+            <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><div class="col-sm-4">
+                <div class="contact-box">
+                    <a href="/Public/Admin/profile.html">
+                        <div class="col-sm-4">
+                            <div class="text-center">
+                                <?php if($vol["has_avatar"] == 0 ): ?><img alt="image" class="img-circle m-t-xs img-responsive" src="/Public/Admin/img/null.jpg">
+                                    <?php else: ?>
+                                <img alt="image" class="img-circle m-t-xs img-responsive" src="<?php echo ($vol["avatar"]); ?>"><?php endif; ?>
+                                <div class="m-t-xs font-bold">作者:<?php echo ($vol["name"]); ?></div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <h3><strong><?php echo ($vol["bride"]); ?>&<?php echo ($vol["bridegroom"]); ?></strong></h3>
+                            <p> <?php echo (date('Y年m月d日 H时i分s秒',$vol["send_date"])); ?></p>
+                            <p><?php echo ($vol["address_name"]); ?> <i class="fa fa-map-marker"></i></p>
+                            <p><?php echo ($vol["title"]); ?></p>
+                            <div><?php echo ($vol["synopsis"]); ?></div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+            </div><?php endforeach; endif; else: echo "" ;endif; ?>
             <div class="col-sm-4">
                 <div class="contact-box">
                     <a href="/Public/Admin/profile.html">
                         <div class="col-sm-4">
                             <div class="text-center">
                                 <img alt="image" class="img-circle m-t-xs img-responsive" src="/Public/Admin/img/a2.jpg">
-                                <div class="m-t-xs font-bold">CTO</div>
+                                <div class="m-t-xs font-bold">作者</div>
                             </div>
                         </div>
                         <div class="col-sm-8">
-                            <h3><strong>奔波儿灞</strong></h3>
-                            <p><i class="fa fa-map-marker"></i> 甘肃·兰州</p>
-                            <address>
-                            <strong>Baidu, Inc.</strong><br>
-                            E-mail:xxx@baidu.com<br>
-                            Weibo:<a href="#">http://weibo.com/xxx</a><br>
-                            <abbr title="Phone">Tel:</abbr> (123) 456-7890
-                        </address>
+                            <h3><strong>新娘&新郎</strong></h3>
+                            <p> 2015年1月15日</p>
+                            <p>芬兰 <i class="fa fa-map-marker"></i></p>
+                            <p>标题内容</p>
+                            <p>简略摘要</p>
                         </div>
                         <div class="clearfix"></div>
                     </a>
@@ -391,6 +414,8 @@
 <script src="/Public/Admin/js/plugins/easypiechart/jquery.easypiechart.js"></script>
 <script src="/Public/Admin/js/plugins/sparkline/jquery.sparkline.min.js"></script>
 <script src="/Public/Admin/js/demo/sparkline-demo.min.js"></script>
+<script src="/Public/Admin/js/plugins/dropzone/dropzone.js"></script>
+
     <script>
         $(document).ready(function(){$(".contact-box").each(function(){animationHover(this,"pulse")})});
     </script>

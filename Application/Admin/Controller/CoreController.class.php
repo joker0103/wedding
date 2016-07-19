@@ -9,17 +9,15 @@ namespace Admin\Controller;
 
 use Think\Controller;
 
-class CoreController extends Controller
+class CoreController extends CommonController
 {
     public function index()
     {
-        authority();
         return $this->display();
     }
 
     public function fresh()
     {
-        authority();
         return $this->display();
     }
 }

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <title>个人资料</title>
+    <title>头像修改</title>
     <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
     <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
     <!--[if lt IE 9]>
@@ -26,40 +26,29 @@
     <link href="/Public/Admin/css/login.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/plugins/webuploader/webuploader.css">
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/demo/webuploader-demo.min.css">
-
+    <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
 </head>
+
+<script src="/Public/Admin/uploadify/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="/Public/Admin/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
 <body class="gray-bg">
-    <div class="wrapper wrapper-content animated fadeInRight">
-        <div class="row">
-            <div class="col-sm-12">
-                <div class="ibox float-e-margins">
-                    <div class="ibox-content">
-                        <form method="post" class="form-horizontal" action="<?php echo U('Edit/saveProfile');?>">
-                            <!--id-->
-                            <input type="hidden" name="id" value="<?php echo (session('id')); ?>">
-                            <!--姓名-->
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">姓名</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" maxlength="4" value="<?php echo (session('name')); ?>" name="name">
-                                </div>
+<div class="wrapper wrapper-content">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-content">
+                    <form method="post" class="form-horizontal" enctype="multipart/form-data" action="<?php echo U('avatared');?>">
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">
+                                <?php if($_SESSION['has_avatar']== 0): ?><img alt="image" id="avatar" class="img-circle m-t-xs img-responsive" src="/Public/Admin/img/null.jpg">
+                                    <?php else: ?>
+                                    <img alt="image" class="img-circle m-t-xs img-responsive" src="<?php echo (session('avatar')); ?>"><?php endif; ?>
+                            </label>
+                            <div class="col-sm-8">
+                                <input type="file" name="filepath" class="form-control" id="file">
                             </div>
-                            <div class="hr-line-dashed"></div>
-                            <!--箴言-->
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">箴言</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" maxlength="32" value="<?php echo (session('maxim')); ?>" name="maxim">
-                                </div>
-                            </div>
-                            <div class="hr-line-dashed"></div>
-                            <!--联系方式-->
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">联系方式</label>
-                                <div class="col-sm-10">
-                                    <input type="number" class="form-control" value="<?php echo (session('mobile_number')); ?>" maxlength="11" name="mobile_number">
-                                </div>
-                            </div>
+                        </div>
                             <div class="hr-line-dashed"></div>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-2">
@@ -67,11 +56,12 @@
                                 </div>
                             </div>
                         </form>
-                    </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
+
     <script src="/Public/Admin/js/jquery.min.js?v=2.1.4"></script>
 <script src="/Public/Admin/js/bootstrap.min.js?v=3.3.6"></script>
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
@@ -96,9 +86,16 @@
 <script src="/Public/Admin/js/plugins/easypiechart/jquery.easypiechart.js"></script>
 <script src="/Public/Admin/js/plugins/sparkline/jquery.sparkline.min.js"></script>
 <script src="/Public/Admin/js/demo/sparkline-demo.min.js"></script>
+<script src="/Public/Admin/js/plugins/dropzone/dropzone.js"></script>
 
-    <script>
-        $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
-    </script>
+<script>
+
+/*    $.post(url,[data],[callback], [type])*/
+    $('#file').on('change', function () {
+        console.log($('#file').val());
+        /*$('#avatar').attr('src', $('#file').val());*/
+    });
+    $(document).ready(function(){$(".summernote").summernote({lang:"zh-CN"})});var edit=function(){$("#eg").addClass("no-padding");$(".click2edit").summernote({lang:"zh-CN",focus:true})};var save=function(){$("#eg").removeClass("no-padding");var aHTML=$(".click2edit").code();$(".click2edit").destroy()};
+</script>
 </body>
 </html>

@@ -4,7 +4,18 @@ namespace Admin\Controller;
 use Think\Controller;
 use Think\Verify;
 
-class IndexController extends Controller {
+class IndexController extends Controller
+{
+    public function _initialize()
+    {
+        $id = session('id');
+  /*      $action = strtolower(ACTION_NAME);*/
+        $url = U('Core/index');
+        if (empty($id)) {
+            echo "<script>top.location.href='$url';</script>";
+            exit;
+        }
+    }
     public function index()
     {
         return $this->display();
@@ -51,6 +62,7 @@ class IndexController extends Controller {
             session('id', $data['id']);
             session('name', $data['name']);
             session('avatar', $data['avatar']);
+            session('has_avatar', $data['has_avatar']);
             session('position', $position);
             session('maxim', $data['maxim']);
             session('authority', $data['authority']);
