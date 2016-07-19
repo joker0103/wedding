@@ -1,0 +1,51 @@
+<include file="Public/header" title="个人资料"/>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <form method="post" class="form-horizontal" action="{:U('Edit/saveProfile')}">
+                            <!--id-->
+                            <input type="hidden" name="id" value="{$Think.session.id}">
+                            <!--姓名-->
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">姓名</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" maxlength="4" value="{$Think.session.name}" name="name">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <!--箴言-->
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">箴言</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" maxlength="32" value="{$Think.session.maxim}" name="maxim">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <!--联系方式-->
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">联系方式</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" value="{$Think.session.mobile_number}" maxlength="11" name="mobile_number">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <button class="btn btn-primary" type="submit">保存</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include file="Public/js"/>
+    <script>
+        $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+    </script>
+</body>
+</html>

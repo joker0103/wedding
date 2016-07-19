@@ -1,0 +1,40 @@
+<include file="Public/header" title="WEDDING后台登录"/>
+<body class="signin">
+    <div class="signinpanel">
+        <div class="row">
+            <div class="col-sm-7">
+                <div class="signin-info">
+                    <div class="logopanel m-b">
+                        <h1>欢迎：</h1>
+                    </div>
+                    <div class="m-b"></div>
+                    <h4>WEDDING后台系统</h4>
+                    <ul class="m-b">
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势一</li>
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势二</li>
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势三</li>
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势四</li>
+                        <li><i class="fa fa-arrow-circle-o-right m-r-xs"></i> 优势五</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-5">
+                <form method="post" action="{:U('check')}">
+                    <h4 class="no-margins">登录：</h4>
+                    <input type="text" name="name" class="form-control uname" placeholder="用户名" />
+                    <input type="password" name="password" class="form-control pword m-b" placeholder="密码" />
+                    <span class="help-block m-b-none"><img src="{:U('captcha')}" onclick="this.src='/index.php/Admin/Index/captcha/cap/'+Math.random();"></span>
+                    <input type="text" name="captcha" class="form-control captcha" placeholder="验证码"/>
+                    <span class="help-block m-b-none"><if condition="$Think.session.massage"><font color="red">{$Think.session.massage}</font></if></span>
+                    <button class="btn btn-success btn-block">登录</button>
+                </form>
+            </div>
+        </div>
+        <div class="signup-footer">
+            <div class="pull-left">
+                Copyright &copy; 2016 WEDDING文化股份有限公司 | 首页 >> <a href="http://www.weeding.com/">www.weeding.com</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,286 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<content>
+	<!-- general vars -->
+	<settings>
+	
+		<item name="copyright"><![CDATA[<font letterSpacing="0.000000">© 2016<br><a href="event:privacy,0">PRIVACY POLICY</a></font>]]></item>
+		
+		<item name="companyName1"><![CDATA[<font letterSpacing="0.000000">Emily</font>]]></item>
+		<item name="companyName2"><![CDATA[<font letterSpacing="0.000000">&</font>]]></item>
+		<item name="companyName3"><![CDATA[<font letterSpacing="0.000000">Michael</font>]]></item>
+		
+		<item name="companySlogan"><![CDATA[<font letterSpacing="0.000000">WEDDING PHOTO GALLERY</font>]]></item>
+		
+		<item name="fullScreTitle"><![CDATA[<a href="event:fullScren">FULLSCREEN</a>]]></item>
+		
+		<soundTxt><txt1><![CDATA[SOUND]]></txt1><txt2><![CDATA[SOUND]]></txt2></soundTxt>
+		
+		<mp3Url srcUrl1="38041-music.mp3"/>
+		
+		<logoPic1_X><![CDATA[0]]></logoPic1_X>
+		<logoPic1_Y><![CDATA[0]]></logoPic1_Y>
+		<logoPic2_X><![CDATA[0]]></logoPic2_X>
+		<logoPic2_Y><![CDATA[0]]></logoPic2_Y>
+		
+	</settings>
+	
+	
+	<map_xml >
+		<!-- 
+		To make Google Maps work in your own web pages, you should get your unique key to API Maps for your domain. See this for more information:
+		http://code.google.com/intl/en/apis/maps/signup.html
+		-->
+		<Google_Maps_API_Key><![CDATA[ABQIAAAAWCGzSMrk7YDL2KSdECDFthQAabpEaKdyq9wCwiv1FEVBK6ryGBTkEu1tNF-s0G-qzo70KO8qE3HaWw]]></Google_Maps_API_Key>
+		
+		<!--  Define the location where the map will open - latitude, longitude and zoom -->
+		 <map_center lat="40.706425" lon="-74.009491" zoom="15"/>
+		
+		<!--  Define your offices' locations  -->	  
+		  <location>
+			   <lat>40.713000</lat>
+			   <lon>-74.015000</lon>
+			   <name_tip>Office 1</name_tip>
+			   <title_tip><![CDATA[Office 1]]></title_tip>
+			   <content_tip><![CDATA[Office 1 Title]]></content_tip>
+		  </location>
+		  
+		  <location>
+			   <lat>40.705000</lat>
+			   <lon>-74.012000</lon>
+			   <name_tip>Office 2</name_tip>
+			   <title_tip><![CDATA[Office 2]]></title_tip>
+			   <content_tip><![CDATA[Office 2 Title]]></content_tip>
+		  </location>
+		  
+		  <location>
+			   <lat>40.710000</lat>
+			   <lon>-74.000000</lon>
+			   <name_tip>Office 3</name_tip>
+			   <title_tip><![CDATA[Office 3]]></title_tip>
+			   <content_tip><![CDATA[Office 3 Title]]></content_tip>
+		  </location>
+	 
+	 </map_xml>
+
+	<!-- menu -->
+
+
+	<menu>
+			<button><![CDATA[PHOTO ALBUM]]></button>
+			
+			<button><![CDATA[ABOUT US]]></button>
+
+			<button><![CDATA[OUR WEDDING]]></button>
+			
+			<button><![CDATA[LINKS]]></button>
+			
+	</menu>
+	
+
+	
+	<globalImages>
+				
+			   <image imageUrl="38041_picMap.jpg"/>
+			   <image imageUrl="38041_picBg.jpg"/>
+			   <image imageUrl="38041_logoPic1.png"/>
+			   <image imageUrl="38041_logoPic1.png"/>
+               
+	</globalImages>
+	
+
+	
+	<!-- pages -->
+	
+	<!-- URL images  linkURL="http://demolink.org/" linkPage = "1 "  - (1  - Num read More)	-->
+	
+		<pages>
+		
+			
+			<titlePage name="photo album">
+			
+				<gallery>
+			
+				<image imagesSmall="38041_gallery_small_01.jpg" imagesBig="38041_gallery_big_01.jpg"/>
+				<image imagesSmall="38041_gallery_small_02.jpg" imagesBig="38041_gallery_big_02.jpg"/>
+				<image imagesSmall="38041_gallery_small_03.jpg" imagesBig="38041_gallery_big_03.jpg"/>
+				<image imagesSmall="38041_gallery_small_04.jpg" imagesBig="38041_gallery_big_04.jpg"/>
+				<image imagesSmall="38041_gallery_small_05.jpg" imagesBig="38041_gallery_big_05.jpg"/>
+				<image imagesSmall="38041_gallery_small_06.jpg" imagesBig="38041_gallery_big_06.jpg"/>
+				
+				<image imagesSmall="38041_gallery_small_01.jpg" imagesBig="38041_gallery_big_01.jpg"/>
+				<image imagesSmall="38041_gallery_small_02.jpg" imagesBig="38041_gallery_big_02.jpg"/>
+				<image imagesSmall="38041_gallery_small_03.jpg" imagesBig="38041_gallery_big_03.jpg"/>
+				<image imagesSmall="38041_gallery_small_04.jpg" imagesBig="38041_gallery_big_04.jpg"/>
+				<image imagesSmall="38041_gallery_small_05.jpg" imagesBig="38041_gallery_big_05.jpg"/>
+				<image imagesSmall="38041_gallery_small_06.jpg" imagesBig="38041_gallery_big_06.jpg"/>
+				
+				
+				
+			    </gallery>
+				
+		
+</titlePage>
+		
+		
+			<titlePage name="about us">
+					
+				<imagesPage>
+						
+				</imagesPage>
+					
+			<texts>
+				
+				<pageText><![CDATA[<font letterSpacing="0.000000">Welcome!</font>]]></pageText>
+				
+				<pageText><![CDATA[<textformat leading="8"><font color="#7c7c7c"><b>KERTYFERATD SUAIASERAS LERTY DERATSETRA VDERADER NERTYADERA</b></font></textformat><br>lerty swrtadse nertyuveraleroda diorbi nunc odiovida atcursusnec sitet ereis ft laoret aliquam <br>leotsrseas keasesteruan jertyaser dertyias keruioade kasertasena daget, elementum veleleifend <br>elitenean auctor wisi ealiqu raolutpat jertase nerryuad lertyuads hertyde asidsr moaserta<br>kemrode ferastas Duis ac turpisnteger rutrum ante eu lacus.<br><br>lerty swrtadse nertyuveraleroda diorbi nunc odiovida atcursusnec sitet ereis ft laoret aliquam <br>leotsrseas keasesteruan jertyaser dertyias keruioade kasertasena daget, elementum veleleifend <br>elitenean auctor wisi ealiqu raolutpat jertase nerryuad lertyuads hertyde asidsr moaserta<br>kemrode ferastas Duis ac turpisnteger rutrum ante eu lacus.]]></pageText>
+				
+				<readMoreText linkPage="0"><![CDATA[<font letterSpacing="0.000000">MORE ABOUT US</font>]]></readMoreText>
+				
+				
+			</texts>
+			
+			
+			
+			
+		<pagePopup>
+			
+			<popup>
+					<item name="title"><![CDATA[<font letterSpacing="0.000000">Welcome!</font>]]></item>
+					<item name="linkText"><![CDATA[Anean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi, cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. nulla dui. fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem duis ultricies pharetra magna. donec accumsan malesuada orci. Donec sit amet eros, lorem ipsum dolor sit amet, consectetuer adipiscing elit, mauris fermentum dictum magna, sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel cursus eleifend, elit. Aenean auctor wisi et urna. aliquam erat volutpat, duis ac turpis. Integer rutrum ante eu lacus, mauris accumsan nulla vel diam, sed in lacus ut enim adipiscing aliquet. Nulla venenatis, in pede mi, aliquetit amet, euismod in, auctor. lorem ipsum dolor sit amet, consectetuer adipiscing elit. praesent vestibulum molestie lacus. aenean nonummy hendrerit mauris. phasellus porta. fusce suscipit varius mi. cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. nulla dui. fusce feugiat malesuada odio. morbi nunc odio, gravida at, cursus nec, luctus a, lorem. maecenas tristique orci ac sem. Duis ultricies pharetra magna, donec accumsan malesuada orci. Donec sit amet eros, lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna, sed laoreet aliquam leo, ut tellus dolor. Dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. aliquam erat volutpat, duis ac turpis, integer rutrum ante eu lacus.<br><br>Quisque nulla, vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh, etiam cursus leo vel metus, nulla facilisi, aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. donec porta diam e massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum, donec in velit vel ipsum auctor pulvinar, proin ullamcorper urna et felis. Vestibulum iaculis lacinia est, proin dictum elementum velit, fusce euismod consequat ante, lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. aliquam congue fermentum nisl. mauris accumsan nulla vel diam. sed in lacus ut enim adipiscing aliquet. nulla venenatis. in pede mi, aliquet sit amet, euismod in, auctor ut, ligula. aliquam dapibus tincidunt metus. praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante, donec sagittis euismod purus. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. <br><br>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. nulla dui. fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem, maecenas tristique orci ac sem. Duis ultricies pharetra magna, donec accumsan malesuada orci, donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna, sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel cursus eleifend, elit. aenean auctor wisi et urna. aliquam erat volutpat. duis ac turpis. integer rutrum ante eu lacus. mauris accumsan nulla vel diam. sed in lacus ut enim adipiscing aliquet. nulla venenatis. In pede mi, aliquetit amet, euismod in, auctor. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, praesent vestibulum molestie lacus. Aenean nonummy hendrerit mauris, phasellus porta, fusce suscipit varius mi. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus, nulla dui, fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem. Duis ultricies pharetra magna. donec accumsan malesuada orci.]]></item>
+			</popup>
+			
+		</pagePopup>
+		
+		
+</titlePage>
+
+
+
+
+         <titlePage name="our wedding">
+					
+				<imagesPage>
+					 
+				</imagesPage>
+					
+			<texts>
+				
+				<pageText><![CDATA[<font letterSpacing="0.000000">Our Wedding</font>]]></pageText>
+				
+				<pageText><![CDATA[<textformat leading="8"><font color="#7c7c7c"><b>EMILY</b></font></textformat><br>Lerty swrtadse nertyuveraleroda diorbi <br>nunc odiovida atcursusnec sitet ereis ft <br>laoret aliquam leotsrseas keasesteruan <br>jertyaser dertyias keruioade kasertasena <br>daget, elementum veleleifend elitenean ]]></pageText>
+				
+				<pageText><![CDATA[<textformat leading="8"><font color="#7c7c7c"><b>MICHAEL</b></font></textformat><br>Hertyuveraleroda diorbi nunc odiovida <br>atcursusnec sitet ereis ft laoret aliquam <br>leotsrseas keasesteruan jertyaser dertyias <br>keruioade kasertasena daget, elementum <br>veleleifend elitenean auctor wisi ealiqu ]]></pageText>
+				
+				<pageText><![CDATA[Anean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi, cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. nulla dui. fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem duis ultricies pharetra magna. donec accumsan malesuada orci. Donec sit amet eros, lorem ipsum dolor sit amet, consectetuer adipiscing elit, mauris fermentum dictum magna, sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel cursus eleifend, elit. Aenean auctor wisi et urna. aliquam erat volutpat, duis ac turpis. Integer rutrum ante eu lacus, mauris accumsan nulla vel diam, sed in lacus ut enim adipiscing aliquet. Nulla venenatis, in pede mi, aliquetit amet, euismod in, auctor. lorem ipsum dolor sit amet, consectetuer adipiscing elit. praesent vestibulum molestie.]]></pageText>
+				
+			</texts>
+			
+			
+			
+			
+		<pagePopup>
+		
+		    
+			
+		</pagePopup>
+		
+		
+</titlePage>
+
+		<titlePage name="links">
+					
+				<imagesPage>
+					 
+				</imagesPage>
+					
+			<texts>
+				
+				<pageText><![CDATA[<font letterSpacing="0.000000">Links</font>]]></pageText>
+				
+				<pageText><![CDATA[<font letterSpacing="0.000000"><b>LERTY SWRTADSE NE</b></font>]]></pageText>
+				
+				<pageText><![CDATA[<font letterSpacing="0.000000"><b>NERTYUVERALE</b></font>]]></pageText>
+				
+				<pageText><![CDATA[<font letterSpacing="0.000000"><b>RTADSE NERT YUVELOR</b></font>]]></pageText>
+				
+				<pageList1>
+				
+					<txt link="asfunction:link"><![CDATA[Fermentum nisl]]></txt>
+					<txt link="asfunction:link"><![CDATA[Mauris accumsan ]]></txt>
+					<txt link="asfunction:link"><![CDATA[Nulla vel diam]]></txt>
+					<txt link="asfunction:link"><![CDATA[Sed in lacus ut]]></txt>
+					
+					<txt link="asfunction:link"><![CDATA[Nulla vel diam]]></txt>
+					<txt link="asfunction:link"><![CDATA[Sed in lacus ut]]></txt>
+					<txt link="asfunction:link"><![CDATA[Enim adipiscing ]]></txt>
+					<txt link="asfunction:link"><![CDATA[Aliquet]]></txt>
+					
+						
+				</pageList1>
+				
+				<pageList2>
+				
+					<txt link="asfunction:link"><![CDATA[Nulla vel diam]]></txt>
+					<txt link="asfunction:link"><![CDATA[Sed in lacus ut]]></txt>
+					<txt link="asfunction:link"><![CDATA[Enim adipiscing ]]></txt>
+					<txt link="asfunction:link"><![CDATA[Aliquet]]></txt>
+					
+					<txt link="asfunction:link"><![CDATA[Fermentum nisl]]></txt>
+					<txt link="asfunction:link"><![CDATA[Mauris accumsan ]]></txt>
+					<txt link="asfunction:link"><![CDATA[Nulla vel diam]]></txt>
+					<txt link="asfunction:link"><![CDATA[Sed in lacus ut]]></txt>
+					
+						
+				</pageList2>
+				
+				<pageList3>
+				
+					<txt link="asfunction:link"><![CDATA[In pede mi]]></txt>
+					<txt link="asfunction:link"><![CDATA[Aliquet sit amet]]></txt>
+					<txt link="asfunction:link"><![CDATA[Euismod in]]></txt>
+					<txt link="asfunction:link"><![CDATA[Auctor ut, ligula]]></txt>
+					
+					<txt link="asfunction:link"><![CDATA[Nulla vel diam]]></txt>
+					<txt link="asfunction:link"><![CDATA[Sed in lacus ut]]></txt>
+					<txt link="asfunction:link"><![CDATA[Enim adipiscing ]]></txt>
+					<txt link="asfunction:link"><![CDATA[Aliquet]]></txt>
+					
+						
+				</pageList3>
+				
+			</texts>
+			
+			
+			
+			
+		<pagePopup>
+		
+		    
+			
+		</pagePopup>
+		
+		
+</titlePage>
+
+
+
+		
+			
+
+</pages>
+
+
+
+
+
+
+
+<!-- privacy policy -->
+		<section name="privacyPolicy">
+				<item name="pageTitle"><![CDATA[Privacy policy]]></item>
+				<item name="pageText"><![CDATA[Anean nonummy hendrerit mauris. Phasellus porta. Fusce suscipit varius mi, cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. nulla dui. fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem. Maecenas tristique orci ac sem duis ultricies pharetra magna. donec accumsan malesuada orci. Donec sit amet eros, lorem ipsum dolor sit amet, consectetuer adipiscing elit, mauris fermentum dictum magna, sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel cursus eleifend, elit. Aenean auctor wisi et urna. aliquam erat volutpat, duis ac turpis. Integer rutrum ante eu lacus, mauris accumsan nulla vel diam, sed in lacus ut enim adipiscing aliquet. Nulla venenatis, in pede mi, aliquetit amet, euismod in, auctor. lorem ipsum dolor sit amet, consectetuer adipiscing elit. praesent vestibulum molestie lacus. aenean nonummy hendrerit mauris. phasellus porta. fusce suscipit varius mi. cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. nulla dui. fusce feugiat malesuada odio. morbi nunc odio, gravida at, cursus nec, luctus a, lorem. maecenas tristique orci ac sem. Duis ultricies pharetra magna, donec accumsan malesuada orci. Donec sit amet eros, lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna, sed laoreet aliquam leo, ut tellus dolor. Dapibus eget, elementum vel, cursus eleifend, elit. Aenean auctor wisi et urna. aliquam erat volutpat, duis ac turpis, integer rutrum ante eu lacus.<br><br>Quisque nulla, vestibulum libero nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh, etiam cursus leo vel metus, nulla facilisi, aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit magna, hendrerit sit amet, tincidunt ac, viverra sed, nulla. donec porta diam e massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede. Donec eget tellus non erat lacinia fermentum, donec in velit vel ipsum auctor pulvinar, proin ullamcorper urna et felis. Vestibulum iaculis lacinia est, proin dictum elementum velit, fusce euismod consequat ante, lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque sed dolor. aliquam congue fermentum nisl. mauris accumsan nulla vel diam. sed in lacus ut enim adipiscing aliquet. nulla venenatis. in pede mi, aliquet sit amet, euismod in, auctor ut, ligula. aliquam dapibus tincidunt metus. praesent justo dolor, lobortis quis, lobortis dignissim, pulvinar ac, lorem. Vestibulum sed ante, donec sagittis euismod purus. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. <br><br>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. nulla dui. fusce feugiat malesuada odio. Morbi nunc odio, gravida at, cursus nec, luctus a, lorem, maecenas tristique orci ac sem. Duis ultricies pharetra magna, donec accumsan malesuada orci, donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Mauris fermentum dictum magna, sed laoreet aliquam leo.<br><br>E-mail: <a href="asfunction:link">info@demolink.org</a>]]></item>
+		
+		</section>
+<!-- privacy policy -->
+
+</content>
