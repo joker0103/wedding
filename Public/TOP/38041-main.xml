@@ -1,11 +1,11 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="BIG5"?>
 <content>
 	<!-- general vars -->
 	<settings>
 	
 		<item name="copyright"><![CDATA[<font letterSpacing="0.000000">© 2016<br><a href="event:privacy,0">PRIVACY POLICY</a></font>]]></item>
 		
-		<item name="companyName1"><![CDATA[<font letterSpacing="0.000000">Emily</font>]]></item>
+		<item name="companyName1"><![CDATA[<font letterSpacing="0.000000">爱</font>]]></item>
 		<item name="companyName2"><![CDATA[<font letterSpacing="0.000000">&</font>]]></item>
 		<item name="companyName3"><![CDATA[<font letterSpacing="0.000000">Michael</font>]]></item>
 		

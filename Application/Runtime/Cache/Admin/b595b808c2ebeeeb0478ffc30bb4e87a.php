@@ -16,15 +16,18 @@
     <link href="/Public/Admin/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
     <link href="/Public/Admin/css/animate.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/style.min862f.css?v=4.1.0" rel="stylesheet">
-    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
-    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
     <link href="/Public/Admin/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
     <link href="/Public/Admin/css/bootstrap.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/style.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/login.min.css" rel="stylesheet">
-</head>
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/plugins/webuploader/webuploader.css">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/css/demo/webuploader-demo.min.css">
+    <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
+    <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    </head>
 <body class="signin">
     <div class="signinpanel">
         <div class="row">

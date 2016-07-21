@@ -1,0 +1,111 @@
+<include file="Public/header" title="入职"/>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <form method="post" class="form-horizontal" enctype="multipart/form-data" action="{:U('added')}">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">用户名</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="name" maxlength="6">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">密码</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" name="password">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">性别</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="sex">
+                                        <option value="1">男</option>
+                                        <option value="2">女</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">年龄</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" name="age" maxlength="2">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">职位</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="position">
+                                        <volist name="position" id="vol">
+                                            <option value="{$vol.id}">
+                                                {$vol.position_name}
+                                            </option>
+                                        </volist>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">箴言</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="maxim" maxlength="32"></textarea>
+<!--                                    <input type="text" class="form-control" name="bridegroom_info" maxlength="100">-->
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">薪资</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" name="salary">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">联系方式</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" name="mobile_number">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">权限</label>
+                                <div class="col-sm-10">
+                                    <input type="number" class="form-control" name="authority" maxlength="1" value="0">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">状态</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="status">
+                                        <volist name="status" id="vol">
+                                            <option value="{$vol.id}" >
+                                                {$vol.status_name}
+                                            </option>
+                                        </volist>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <button class="btn btn-primary" type="submit">入职</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include file="Public/js"/>
+    <script>
+        laydate({elem:"#hello",event:"focus"});var start={elem:"#start",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){end.min=datas;end.start=datas}};var end={elem:"#end",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){start.max=datas}};laydate(start);laydate(end);
+    </script>
+</body>
+</html>

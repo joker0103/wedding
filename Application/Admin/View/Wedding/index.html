@@ -1,0 +1,92 @@
+<include file="Public/header" title="婚礼管理"/>
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>婚礼列表</h5>
+                    <div class="ibox-tools">
+                        <a  href="{:U('add')}" title="新增婚礼" target="_blank"><i class="glyphicon glyphicon-plus"></i></a>
+                        &emsp;&emsp;&emsp;
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>新娘姓名</th>
+                            <th>新郎姓名</th>
+                            <th>新娘信息</th>
+                            <th>新郎信息</th>
+                            <th>婚礼地址</th>
+                            <th>举办日期</th>
+                            <th>详细信息</th>
+                            <th>婚礼状态</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="info" id="vol">
+                            <tr>
+                                <td>{$vol.id}</td>
+                                <td>{$vol.bride}</td>
+                                <td>{$vol.bridegroom}</td>
+                                <td>{$vol.bride_info|mb_substr=0,10}</td>
+                                <td>{$vol.bridegroom_info|mb_substr=0,10}</td>
+                                <td>{$vol.address_name}</td>
+                                <td>{$vol.wedding_date|date='Y-m-d H:i:s', ###}</td>
+                                <td>{$vol.info|mb_substr=0,20}</td>
+                                <td>{$vol.status_name}</td>
+                                <td>
+                                    <span title="详细信息" class="look" data="{$vol.id}" ><i class="glyphicon glyphicon-search"></i></span>
+                                    &emsp;
+                                    <a  href="__CONTROLLER__/edit/id/{$vol.id}" title="编辑" target="_blank"><i class="glyphicon glyphicon-pencil"></i></a>
+                                    &emsp;
+                                    <a href="javascript:;" title="删除" onclick="ask('{$vol.id}')"><i class="glyphicon glyphicon-trash"></i></a>
+                                </td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public/js"/>
+<script>
+function ask(id) {
+    layer.confirm('确定删除吗？', {
+        btn: ['是','否'] //按钮
+    }, function(){
+      location.href = '__CONTROLLER__/del/id/'+id;
+    });
+}
+$('.look').on('click',function () {
+    var id = $(this).attr('data');
+    $.ajax({
+        url:'__CONTROLLER__/show',
+        data:{'id':id},
+        success:function (data) {
+            layer.open({
+                title:'详细信息',
+                type: 1,
+                skin: 'layui-layer-demo', //样式类名
+                closeBtn: 0, //不显示关闭按钮
+                shift: 2,
+                area: ['400px', '380px'],
+                shadeClose: true, //开启遮罩关闭
+                content: data
+            });
+        }
+    });
+});
+    $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"})});
+</script>
+
+</body>
+
+</html>

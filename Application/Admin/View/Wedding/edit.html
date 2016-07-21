@@ -1,0 +1,102 @@
+<include file="Public/header" title="编辑"/>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <form method="post" class="form-horizontal" enctype="multipart/form-data" action="{:U('edited')}">
+                            <input type="hidden" value="{$wedding.id}" name="id">
+                            <!--婚礼状态-->
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">婚礼状态</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="status">
+                                        <volist name="status" id="vol">
+                                            <option value="{$vol.id}" <if condition="$wedding['status'] eq $vol['id']"> selected </if>>
+                                                {$vol.status_name}
+                                            </option>
+                                        </volist>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <!--新人-->
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">新娘</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="bride" maxlength="6" value="{$wedding.bride}">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">新郎</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="bridegroom" maxlength="6" value="{$wedding.bridegroom}">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <!--新人信息-->
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">新娘信息</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="bride_info" maxlength="100">{$wedding.bride_info}</textarea>
+                                  <!--  <input type="text" class="form-control" name="bride_info" maxlength="100">-->
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">新郎信息</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="bridegroom_info" maxlength="100">{$wedding.bridegroom_info}</textarea>
+<!--                                    <input type="text" class="form-control" name="bridegroom_info" maxlength="100">-->
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <!--婚礼地址-->
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">婚礼地址</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="address">
+                                        <volist name="address" id="vol">
+                                            <option value="{$vol.id}" <if condition="$wedding['address'] eq $vol['id']"> selected </if>>
+                                                {$vol.address_name}
+                                            </option>
+                                        </volist>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <!--婚礼详细信息-->
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">婚礼详细信息</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="info">{$wedding.info}</textarea>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">婚礼举办时间：</label>
+                                <div class="col-sm-10">
+                                    <input name="wedding_date" class="form-control layer-date" placeholder="年-月-日 时:分:秒" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})" value="{$wedding.wedding_date|date='Y-m-d H:i:s', ###}">
+                                    <label class="laydate-icon"></label>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <button class="btn btn-primary" type="submit">保存</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include file="Public/js"/>
+    <script>
+        laydate({elem:"#hello",event:"focus"});var start={elem:"#start",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){end.min=datas;end.start=datas}};var end={elem:"#end",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){start.max=datas}};laydate(start);laydate(end);
+    </script>
+</body>
+</html>

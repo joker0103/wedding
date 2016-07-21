@@ -16,8 +16,6 @@
     <link href="/Public/Admin/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
     <link href="/Public/Admin/css/animate.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/style.min862f.css?v=4.1.0" rel="stylesheet">
-    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
-    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
     <link href="/Public/Admin/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
@@ -28,7 +26,8 @@
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/demo/webuploader-demo.min.css">
     <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
-</head>
+    <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
     <div id="wrapper">
         <!--左侧导航开始-->
@@ -51,11 +50,11 @@
                                 </span>
                             </a>
                             <ul class="dropdown-menu animated fadeInRight m-t-xs">
-                                <li><a class="J_menuItem" href="<?php echo U('Edit/avatar');?>">修改头像</a>
-                                </li>
-                                <li><a class="J_menuItem" href="<?php echo U('Edit/profile');?>">个人资料</a>
+                                <li><a class="J_menuItem" href="<?php echo U('Edit/avatar');?>">修改头像</a></li>
+                                <li><a class="J_menuItem" href="<?php echo U('Edit/profile');?>">修改密码</a></li>
+                                <li><a class="J_menuItem" href="<?php echo U('Edit/profile');?>">个人资料</a></li>
                                 <li class="divider"></li>
-                                <li><a href="<?php echo U('Index/logout');?>">退出</a>
+                                <li><a href="<?php echo U('Core/logout');?>">退出</a>
                                 </li>
                             </ul>
                         </div>
@@ -69,10 +68,15 @@
                         <a class="J_menuItem" href="<?php echo U('Blog/index');?>"><i class="fa fa-columns"></i> <span class="nav-label">BLOG</span></a>
                     </li>
                     <li>
-                            <a class="J_menuItem" href="form_basic.html"><i class="fa fa-edit"></i> <span class="nav-label">表单</span></a>
-                    </li>
-                    <li>
                         <a class="J_menuItem" href="<?php echo U('fresh');?>"><i class="fa fa fa-bar-chart-o"></i> <span class="nav-label">统计图表</span></a>
+                    </li>
+                    
+                    <li>
+                        <a href="#"><i class="fa fa-edit"></i> <span class="nav-label">管理</span><span class="fa arrow"></span></a>
+                        <ul class="nav nav-second-level">
+                            <li><a class="J_menuItem" href="<?php echo U('Wedding/index');?>">婚礼管理</a></li>
+                            <li><a class="J_menuItem" href="<?php echo U('User/index');?>">职员管理</a></li>
+                        </ul>
                     </li>
 
 <!--邮箱部分-->
@@ -232,7 +236,7 @@
             </div>
             <div class="footer">
     <div class="pull-right">
-        Copyright &copy; 2016 WEDDING文化股份有限公司 | 首页 >> <a href="http://www.weeding.com/">www.weeding.com</a>
+        Copyright &copy; 2016 WEDDING文化股份有限公司 | 首页 >> <a href="http://www.wedding.com" target="_blank">www.wedding.com</a>
     </div>
 </div>
         </div>
@@ -334,17 +338,16 @@
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="/Public/Admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/plugins/layer/layer.min.js"></script>
+<script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
 <script src="/Public/Admin/js/hplus.min.js?v=4.1.0"></script>
 <script src="/Public/Admin/js/contabs.min.js"></script>
 <script src="/Public/Admin/js/plugins/pace/pace.min.js"></script>
 <script src="/Public/Admin/js/content.min.js?v=1.0.0"></script>
-<script src="/Public/Admin/js/plugins/summernote/summernote.min.js"></script>
-<script src="/Public/Admin/js/plugins/summernote/summernote-zh-CN.js"></script>
 <script src="/Public/Admin/js/plugins/iCheck/icheck.min.js"></script>
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.js"></script>
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.spline.js"></script>
-<script src="/Public/Admin/js/plugins/flot/jquery.flot.resize.js"></script>
+<!--<script src="/Public/Admin/js/plugins/flot/jquery.flot.resize.js"></script>-->
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.pie.js"></script>
 <script src="/Public/Admin/js/plugins/peity/jquery.peity.min.js"></script>
 <script src="/Public/Admin/js/demo/peity-demo.min.js"></script>
@@ -354,6 +357,10 @@
 <script src="/Public/Admin/js/plugins/sparkline/jquery.sparkline.min.js"></script>
 <script src="/Public/Admin/js/demo/sparkline-demo.min.js"></script>
 <script src="/Public/Admin/js/plugins/dropzone/dropzone.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/umeditor/lang/zh-cn/zh-cn.js"></script>
+
 
 </body>
 </html>

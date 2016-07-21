@@ -14,7 +14,7 @@ class CommonController extends Controller
     public function _initialize()
     {
         $id = session('id');
-        $url =U('Index/index');
+        $url = U('Index/index');
         if (empty($id)) {
             echo "<script>top.location.href='$url'</script>";
             return;

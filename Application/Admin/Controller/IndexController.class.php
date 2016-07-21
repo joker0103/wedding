@@ -9,9 +9,8 @@ class IndexController extends Controller
     public function _initialize()
     {
         $id = session('id');
-  /*      $action = strtolower(ACTION_NAME);*/
         $url = U('Core/index');
-        if (empty($id)) {
+        if (!empty($id)) {
             echo "<script>top.location.href='$url';</script>";
             exit;
         }
@@ -20,13 +19,6 @@ class IndexController extends Controller
     {
         return $this->display();
     }
-
-    public function logout()
-    {
-        session(null);
-        return $this->display('index');
-    }
-
     //验证码
     public function captcha()
     {
@@ -67,9 +59,11 @@ class IndexController extends Controller
             session('maxim', $data['maxim']);
             session('authority', $data['authority']);
             session('mobile_number', $data['mobile_number']);
-            $data['last_date'] = time();
+            $data['last_time'] = time();
             $u->save($data);
-            return $this->success('登陆成功', U('Core/index'), 3);
+            $url = U('Core/index');
+            echo "<script>top.location.href='$url';</script>";
+            exit;
         } else {
             session('massage', '用户名或密码不正确');
             return $this->display('index');

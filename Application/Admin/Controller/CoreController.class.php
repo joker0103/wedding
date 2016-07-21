@@ -20,4 +20,13 @@ class CoreController extends CommonController
     {
         return $this->display();
     }
+
+    //退出
+    public function logout()
+    {
+        session(null);
+        $url = U('Index/index');
+        echo "<script>top.location.href='$url';</script>";
+        exit;
+    }
 }

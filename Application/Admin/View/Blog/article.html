@@ -1,0 +1,32 @@
+<include file="Public/header" title="{$info.bride} AND {$info.bridegroom}"/>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content  animated fadeInRight article">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1">
+                <div class="ibox">
+                    <div class="ibox-content">
+                        <div class="pull-right">
+                            <p>举办日期：{$info.wedding_date|date="Y-m-d H:i:s", ###}</p>
+                            <p>举办地址：{$info.address_name}</p>
+                            <p>新娘 & 新郎：{$info.bride} & {$info.bridegroom}</p>
+                        </div>
+                        <div class="text-center article-title">
+                            <h1>{$info.title}</h1>
+                            <hr>
+                            <h3>{$info.synopsis}</h3>
+                        </div>
+                        {$info.content}
+                        <hr>
+                        <div class="pull-right">
+                            <span>作者：{$info.name}</span>
+                            &emsp;
+                            <span>发布日期：{$info.send_date|date="Y-m-d H:i:d", ###}</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<include file="Public/js"/>
+</body>
+</html>

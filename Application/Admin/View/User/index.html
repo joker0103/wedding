@@ -1,0 +1,83 @@
+<include file="Public/header" title="职员管理"/>
+</head>
+<body class="gray-bg">
+<div class="wrapper wrapper-content animated fadeInRight">
+    <div class="row">
+        <div class="col-sm-12">
+            <div class="ibox float-e-margins">
+                <div class="ibox-title">
+                    <h5>婚礼列表</h5>
+                    <div class="ibox-tools">
+                        <a  href="{:U('add')}" title="新增职员" target="_blank"><i class="glyphicon glyphicon-plus"></i></a>
+                        &emsp;&emsp;&emsp;
+                    </div>
+                </div>
+                <div class="ibox-content">
+                    <table class="table">
+                        <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>头像</th>
+                            <th>箴言</th>
+                            <th>姓名</th>
+                            <th>性别</th>
+                            <th>年龄</th>
+                            <th>入职日期</th>
+                            <th>职位</th>
+                            <th>薪资</th>
+                            <th>联系方式</th>
+                            <th>状态</th>
+                            <th>登陆时间</th>
+                            <th>权限</th>
+                            <th>操作</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <volist name="info" id="vol">
+                            <tr>
+                                <td>{$vol.id}</td>
+                                <td>
+                                    <if condition="$vol['has_avatar'] eq 0">
+                                        <img src="__PUBLIC__/Admin/img/null.jpg" width="100">
+                                        <else/>
+                                        <img src="{$vol.avatar}" width="100">
+                                    </if>
+                                </td>
+                                <td>{$vol.maxim|mb_substr=0,10}</td>
+                                <td>{$vol.name}</td>
+                                <td><if condition="$vol['sex'] eq 1">男<else/>女</if></td>
+                                <td>{$vol.age}</td>
+                                <td>{$vol.join_time|date='Y-m-d H:i:s', ###}</td>
+                                <td>{$vol.position_name}</td>
+                                <td>{$vol.salary}</td>
+                                <td>{$vol.mobile_number}</td>
+                                <td>{$vol.status_name}</td>
+                                <td>{$vol.last_time|date='Y-m-d H:i:s', ###}</td>
+                                <td>{$vol.authority}</td>
+                                <td>
+                                    <a  href="__CONTROLLER__/edit/id/{$vol.id}" title="编辑" target="_blank"><i class="glyphicon glyphicon-pencil"></i></a>
+                                    &emsp;
+                                    <a href="javascript:;" title="删除" onclick="ask('{$vol.id}')"><i class="glyphicon glyphicon-trash"></i></a>
+                                </td>
+                            </tr>
+                        </volist>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<include file="Public/js"/>
+<script>
+function ask(id) {
+    layer.confirm('确定删除吗？', {
+        btn: ['是','否'] //按钮
+    }, function(){
+      location.href = '__CONTROLLER__/del/id/'+id;
+    });
+}
+    $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"})});
+</script>
+</body>
+</html>
