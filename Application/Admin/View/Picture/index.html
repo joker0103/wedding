@@ -1,0 +1,47 @@
+<include file="Public/header" title="相册"/>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            <volist name="wed" id="vol">
+                <div class="col-sm-4">
+                <div class="contact-box">
+                    <a href="__CONTROLLER__/pictures/id/{$vol.id}" target="_blank">
+                        <div class="col-sm-4">
+                            <div class="text-center">
+                                <if condition="$vol.count eq 0 ">
+                                    <img alt="image" class="img-circle m-t-xs img-responsive" src="__PUBLIC__/Admin/img/null.jpg">
+                                    <else/>
+                                <img alt="image" class="img-circle m-t-xs img-responsive" src="{$vol.photo}">
+                                </if>
+                                <div class="m-t-xs font-bold">     </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-8">
+                            <h3><strong>{$vol.bride}&{$vol.bridegroom}</strong></h3>
+                            <hr>
+                            <div class="m-t-xs font-bold">地址:{$vol.address_name}</div>
+                            <hr>
+                            <div class="m-t-xs font-bold">日期:{$vol.wedding_date|date="Y-m-d H:i:s", ###}</div>
+                            <hr>
+                            <div>照片数量：{$vol.count}</div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </a>
+                </div>
+            </div>
+            </volist>
+        </div>
+    </div>
+<include file="Public/js"/>
+    <script>
+        function ask(id) {
+            layer.confirm('确定删除吗？', {
+                btn: ['是','否'] //按钮
+            }, function(){
+                location.href = '__CONTROLLER__/del/id/'+id;
+            });
+        }
+        $(document).ready(function(){$(".contact-box").each(function(){animationHover(this,"pulse")})});
+    </script>
+</body>
+</html>

@@ -1,4 +1,36 @@
 <include file="Public/header" title="联系我们"/>
+<body>
+<!-- Header Starts Here -->
+<div class="header page-hed">
+	<div class="container">
+	<div class="logo p-log">
+		<a href="/"><img src="__PUBLIC__/Home/images/logo.png"></a>
+	</div>
+	</div>
+</div>
+<div class="navigation">
+	<span class="menu"></span>
+	<ul class="navig">
+		<li><a href="/">首页</a></li>
+		<li><a href="{:U('About/about')}">我们</a></li>
+		<li><a href="gallery.html">画廊</a></li>
+		<li><a href="blog.html">永恒</a></li>
+		<li><a href="/Public/TOP" target="_blank">TOP</a></li>
+		<li><a href="contact.html">商店</a></li>
+		<li><a href="contact.html">蜜月计划</a></li>
+		<li><a href="contact.html" class="active">联系我们</a></li>
+		<li><a href="contact.html">联系我们</a></li>
+	</ul>
+	<script>
+		$( "span.menu" ).click(function() {
+		  $( "ul.navig" ).slideToggle( "slow", function() {
+		    // Animation complete.
+		  });
+		});
+	</script>
+</div>
+<!-- Header Ends Here -->
+<!-- Page Starts Here -->
 <div class="content">
 	<div class="container">
 		<div class="gallery">
@@ -30,9 +62,6 @@
 		</div>
 	</div>
 </div>
-
-<!-- Page Ends Here -->
-<!-- Footer Part Starts Here -->
 <include file="Public/footer"/>
 </body>
 </html>

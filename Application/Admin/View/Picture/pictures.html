@@ -1,0 +1,62 @@
+<include file="Public/header" title="相册"/>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                        <!--图片显示-->
+                        <div class="ibox-content">
+                           <!-- {$p}-->
+<!--                            <script>
+                               var photo = {$p};
+                                var len = photo.length;
+                      for (var i = 0; i < len; ++i) {
+                                    var img = "<a class='fancybox' href='"+photo[i].file_path+"'><img alt='image' src='"+photo[i].file_path+"' /></a>&emsp;";
+                                    document.write(img);
+                                }
+                            </script>-->
+                            <!--图片上传-->
+                            <span id="img"></span>
+                             <form method="post" class="form-horizontal" enctype="multipart/form-data" action="{:U('upload')}">
+                                <div class="hr-line-dashed"></div>
+                                <div class="form-group">
+                                    <div class="col-sm-10">
+                                        <div id="queue"></div>
+                                        <input id="file_upload" name="file_upload" type="file" multiple="true">
+                                    </div>
+                                </div>
+                                <div class="hr-line-dashed"></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include file="Public/js"/>
+    <script>
+        $(function() {
+            function img(photo) {
+                var len = photo.length;
+                var img = '';
+                for (var i = 0; i < len; ++i) {
+                    img += "<a class='fancybox' href='"+photo[i].file_path+"'><img alt='image' src='"+photo[i].file_path+"' /></a>&emsp;";
+                }
+                $('#img').html(img);
+            }
+            img({$p});
+            $('#file_upload').uploadify({
+                'formData'     : {
+                    'timestamp' : "{$timestamp}",
+                    'token'     : "{$token}"
+                },
+                'swf'      : '__PUBLIC__/Admin/uploadify/uploadify.swf',
+                'uploader' : '__CONTROLLER__/upload',
+            });
+        });
+        //图片显示
+        $(document).ready(function(){$(".fancybox").fancybox({openEffect:"none",closeEffect:"none"})});
+    </script>
+</body>
+</html>

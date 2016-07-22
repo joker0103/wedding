@@ -1,4 +1,36 @@
-<include file="Public/header" title="未知地址"/>
+<include file="Public/header" title="详细信息"/>
+<body>
+<!-- Header Starts Here -->
+<div class="header page-hed">
+	<div class="container">
+	<div class="logo  p-log">
+		<a href="/"><img src="__PUBLIC__/Home/images/logo.png"></a>
+	</div>
+	</div>
+</div>
+<div class="navigation">
+	<span class="menu"></span>
+	<ul class="navig">
+		<li><a href="/" class="active">首页</a></li>
+		<li><a href="{:U('About/about')}">我们</a></li>
+		<li><a href="gallery.html">画廊</a></li>
+		<li><a href="blog.html">永恒</a></li>
+		<li><a href="/Public/TOP" target="_blank">TOP</a></li>
+		<li><a href="contact.html">商店</a></li>
+		<li><a href="contact.html">蜜月计划</a></li>
+		<li><a href="contact.html">联系我们</a></li>
+		<li><a href="contact.html">联系我们</a></li>
+	</ul>
+	<script>
+		$( "span.menu" ).click(function() {
+		  $( "ul.navig" ).slideToggle( "slow", function() {
+		    // Animation complete.
+		  });
+		});
+	</script>
+</div>
+<!-- Header Ends Here -->
+<!-- Page Starts Here -->
 <div class="content">
 	<div class="container">
 		<div class="gallery">
@@ -16,13 +48,13 @@
 				</ul>
 				<h4>Recent Post</h4>
 				<ul class="cat-list">
-					<li><a href="#"><img src="images/bl.jpg" alt="" />&nbsp;&nbsp;ut ultrices</a></li>
-					<li><a href="#"><img src="images/bl2.jpg" alt="" />&nbsp;&nbsp;Nullam id</a></li>
-					<li><a href="#"><img src="images/bl3.jpg" alt="" />&nbsp;&nbsp;scelerisque</a></li>
-					<li><a href="#"><img src="images/bl4.jpg" alt="" />&nbsp;&nbsp;Ut tincidunt</a></li>
-					<li><a href="#"><img src="images/bl.jpg" alt="" />&nbsp;&nbsp;Aliquam nc,</a></li>
-					<li><a href="#"><img src="images/bl4.jpg" alt="" />&nbsp;&nbsp;convalli ege</a></li>
-					<li><a href="#"> <img src="images/bl3.jpg" alt="" />&nbsp;&nbsp;et commodo</a></li>
+					<li><a href="#"><img src="__PUBLIC__/Home/images/bl.jpg" alt="" />&nbsp;&nbsp;ut ultrices</a></li>
+					<li><a href="#"><img src="__PUBLIC__/Home/images/bl2.jpg" alt="" />&nbsp;&nbsp;Nullam id</a></li>
+					<li><a href="#"><img src="__PUBLIC__/Home/images/bl3.jpg" alt="" />&nbsp;&nbsp;scelerisque</a></li>
+					<li><a href="#"><img src="__PUBLIC__/Home/images/bl4.jpg" alt="" />&nbsp;&nbsp;Ut tincidunt</a></li>
+					<li><a href="#"><img src="__PUBLIC__/Home/images/bl.jpg" alt="" />&nbsp;&nbsp;Aliquam nc,</a></li>
+					<li><a href="#"><img src="__PUBLIC__/Home/images/bl4.jpg" alt="" />&nbsp;&nbsp;convalli ege</a></li>
+					<li><a href="#"> <img src="__PUBLIC__/Home/images/bl3.jpg" alt="" />&nbsp;&nbsp;et commodo</a></li>
 				</ul>
 			</div>
 			<div class="blog-content">
@@ -31,7 +63,7 @@
 					<div class="post-details">
 						<p>Posted By <a href="#">Jackie</a> &nbsp;&nbsp; On <span>15 jan, 2015</span> &nbsp;&nbsp; Comments<span>(10)</span></p>
 					</div>
-					<img src="images/blog2.jpg" alt="" />
+					<img src="__PUBLIC__/Home/images/blog2.jpg" alt="" />
 					<p>Nunc laoreet leo in pellentesque venenatis. Mauris id porttitor mauris. Integer malesuada nulla sit amet elit maximus congue. Etiam nibh lorem,</p>
 					<p>volutpat nec velit ut, congue scelerisque tortor. Ut tincidunt malesuada tellus, eget ullamcorper mi. Phasellus et nisi nec lorem molestie fermentum nec eu dolor. Aenean suscipit posuere metus vel ultrices. Donec laoreet diam consequat libero pretium pulvinar.</p>
 					<p>volutpat nec velit ut, congue scelerisque tortor. Ut tincidunt malesuada tellus, eget ullamcorper mi. Phasellus et nisi nec lorem molestie fermentum nec eu dolor. Aenean suscipit posuere metus vel ultrices. Donec laoreet diam consequat libero pretium pulvinar.volutpat nec velit ut, congue scelerisque tortor. Ut tincidunt malesuada tellus, eget ullamcorper mi. Phasellus et nisi nec lorem molestie fermentum nec eu dolor. Aenean suscipit posuere metus vel ultrices. Donec laoreet diam consequat libero pretium pulvinar.volutpat nec velit ut, congue scelerisque tortor. Ut tincidunt malesuada tellus, eget ullamcorper mi. Phasellus et nisi nec lorem molestie fermentum nec eu dolor. Aenean suscipit posuere metus vel ultrices. Donec laoreet diam consequat libero pretium pulvinar.</p>
@@ -55,7 +87,6 @@
 		</div>
 	</div>
 </div>
-<!-- Page Ends Here -->
 <include file="Public/footer"/>
 </body>
 </html>

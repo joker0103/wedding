@@ -27,6 +27,8 @@
     <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
     <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
+    <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
     </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
     <div id="wrapper">
@@ -107,11 +109,11 @@
 
                     <!--相册部分-->
                     <li>
-                        <a href="#"><i class="fa fa-picture-o"></i> <span class="nav-label">相册</span><span class="fa arrow"></span></a>
+                        <a href="#"><i class="fa fa-picture-o"></i> <span class="nav-label">相册管理</span><span class="fa arrow"></span></a>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="basic_gallery.html">基本图库</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Picture/index');?>">相册</a>
                             </li>
-                            <li><a class="J_menuItem" href="carousel.html">图片切换</a>
+                            <li><a class="J_menuItem" href="carousel.html">TOP</a>
                             </li>
                             <li><a class="J_menuItem" href="blueimp.html">Blueimp相册</a>
                             </li>
@@ -360,6 +362,8 @@
 <script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.config.js"></script>
 <script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.min.js"></script>
 <script type="text/javascript" src="/Public/Admin/umeditor/lang/zh-cn/zh-cn.js"></script>
+<script src="/Public/Admin/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+<script src="/Public/Admin/js/plugins/fancybox/jquery.fancybox.js"></script>
 
 
 </body>

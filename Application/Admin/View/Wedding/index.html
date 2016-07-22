@@ -25,6 +25,7 @@
                             <th>举办日期</th>
                             <th>详细信息</th>
                             <th>婚礼状态</th>
+                            <th>是/否头条</th>
                             <th>操作</th>
                         </tr>
                         </thead>
@@ -40,10 +41,11 @@
                                 <td>{$vol.wedding_date|date='Y-m-d H:i:s', ###}</td>
                                 <td>{$vol.info|mb_substr=0,20}</td>
                                 <td>{$vol.status_name}</td>
+                                <td><if condition="$vol['top'] == 0 ">否<else/>是</if></td>
                                 <td>
                                     <span title="详细信息" class="look" data="{$vol.id}" ><i class="glyphicon glyphicon-search"></i></span>
                                     &emsp;
-                                    <a  href="__CONTROLLER__/edit/id/{$vol.id}" title="编辑" target="_blank"><i class="glyphicon glyphicon-pencil"></i></a>
+                                    <a  href="__CONTROLLER__/edit/id/{$vol.id}" title="编辑"><i class="glyphicon glyphicon-pencil"></i></a>
                                     &emsp;
                                     <a href="javascript:;" title="删除" onclick="ask('{$vol.id}')"><i class="glyphicon glyphicon-trash"></i></a>
                                 </td>

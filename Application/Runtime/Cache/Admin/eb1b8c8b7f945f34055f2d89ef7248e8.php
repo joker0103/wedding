@@ -27,6 +27,8 @@
     <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
     <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
+    <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
     </head>
 <body class="gray-bg">
     <div class="wrapper wrapper-content  animated fadeInRight article">
@@ -83,6 +85,8 @@
 <script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.config.js"></script>
 <script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.min.js"></script>
 <script type="text/javascript" src="/Public/Admin/umeditor/lang/zh-cn/zh-cn.js"></script>
+<script src="/Public/Admin/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+<script src="/Public/Admin/js/plugins/fancybox/jquery.fancybox.js"></script>
 
 
 </body>

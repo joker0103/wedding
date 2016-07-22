@@ -8,3 +8,51 @@ ERR: 非法操作:basic_gallery
 ERR: 1052:Column 'id' in where clause is ambiguous
  [ SQL语句 ] : SELECT wed_article . *,wed_wedding . *,wed_address . address_name,wed_user . name FROM `wed_article` left join wed_wedding on wed_article . wedding = wed_wedding . id left join wed_address on wed_wedding . address = wed_address . id left join wed_user on wed_article . author = wed_user . id  WHERE ( id =9 ) LIMIT 1  
 
+[ 2016-07-21T12:55:03+08:00 ] 127.0.0.1 /index.php/Admin/Core/basic_gallery.html
+ERR: 非法操作:basic_gallery
+
+[ 2016-07-21T13:04:08+08:00 ] 127.0.0.1 /index.php/Admin/Core/Picture.html
+ERR: 非法操作:Picture
+
+[ 2016-07-21T13:35:47+08:00 ] 127.0.0.1 /index.php/Admin/Picture/uploadify.swf?preventswfcaching=1469079347287
+ERR: 非法操作:uploadify.swf
+
+[ 2016-07-21T13:37:23+08:00 ] 127.0.0.1 /index.php/Admin/Picture/uploadify.swf?preventswfcaching=1469079443797
+ERR: 非法操作:uploadify.swf
+
+[ 2016-07-21T13:37:23+08:00 ] 127.0.0.1 /index.php/Admin/Picture/uploadify.swf?preventswfcaching=1469079443797
+ERR: 非法操作:uploadify.swf
+
+[ 2016-07-21T17:38:30+08:00 ] 127.0.0.1 /index.php/Admin/Picture/index.html
+ERR: 1054:Unknown column 'wed_wedding_status' in 'field list'
+ [ SQL语句 ] : SELECT wed_wedding . *,wed_address . address_name,`wed_wedding_status` FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . address_name left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  WHERE ( wed_wedding .status = 3 ) 
+
+[ 2016-07-21T17:50:48+08:00 ] 127.0.0.1 /index.php/Admin/Picture/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(*) count FROM `wed_wedding` left join wed_address on wed_wedding . address' at line 1
+ [ SQL语句 ] : SELECT wed_wedding . *,wed_address . address_name,wed_photo_store . count(*) count FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_photo_store on wed_photo_store . from_id = wed_wedding . id  WHERE ( wed_wedding .status = 3 ) 
+
+[ 2016-07-21T17:51:08+08:00 ] 127.0.0.1 /index.php/Admin/Picture/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(*) as count FROM `wed_wedding` left join wed_address on wed_wedding . addr' at line 1
+ [ SQL语句 ] : SELECT wed_wedding . *,wed_address . address_name,wed_photo_store . count(*) as count FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_photo_store on wed_photo_store . from_id = wed_wedding . id  WHERE ( wed_wedding .status = 3 ) 
+
+[ 2016-07-21T17:51:34+08:00 ] 127.0.0.1 /index.php/Admin/Picture/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'count(from_id) count FROM `wed_wedding` left join wed_address on wed_wedding . a' at line 1
+ [ SQL语句 ] : SELECT wed_wedding . *,wed_address . address_name,wed_photo_store . count(from_id) count FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_photo_store on wed_photo_store . from_id = wed_wedding . id  WHERE ( wed_wedding .status = 3 ) 
+
+[ 2016-07-21T18:04:15+08:00 ] 127.0.0.1 /index.php/Admin/Picture/index.html
+ERR: 1111:Invalid use of group function
+ [ SQL语句 ] : SELECT wed_wedding . *,wed_address . address_name,count(wed_photo_store . id) count,wed_photo_store . file_path FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_photo_store on wed_photo_store . from_id = wed_wedding . id  WHERE ( max(wed_photo_store . id) ) GROUP BY wed_wedding . id 
+
+[ 2016-07-21T18:04:49+08:00 ] 127.0.0.1 /index.php/Admin/Picture/index.html
+ERR: 1111:Invalid use of group function
+ [ SQL语句 ] : SELECT wed_wedding . *,wed_address . address_name,count(wed_photo_store . id) count,wed_photo_store . file_path FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_photo_store on wed_photo_store . from_id = wed_wedding . id  WHERE ( wed_photo_store . id = max(wed_photo_store . id) ) GROUP BY wed_wedding . id 
+
+[ 2016-07-21T19:03:42+08:00 ] 127.0.0.1 /index.php/Admin/Picture/pictures/id/1
+ERR: 非法操作:pictures
+
+[ 2016-07-21T19:34:42+08:00 ] 127.0.0.1 /index.php/Admin/Picture/pictures/id/3
+ERR: 模板不存在:./Application/Admin/View/Picture/pictures.html
+
+[ 2016-07-21T19:35:06+08:00 ] 127.0.0.1 /index.php/Admin/Picture/pictures/id/1
+ERR: 模板不存在:./Application/Admin/View/Picture/pictures.html
+
