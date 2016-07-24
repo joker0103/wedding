@@ -31,8 +31,10 @@ class PictureController extends CommonController
         $token = md5('unique_salt' . $timestamp);
         session('wedding_id', I('get.id'));
         $photo = M('Photo_store')->where('from_id = ' . session('wedding_id'))->select();
+        $wedding = M('Wedding')->where('id = ' . session('wedding_id'))->find();
         $p = json_encode($photo);
         $this->assign('timestamp', $timestamp);
+        $this->assign('wedding', $wedding);
         $this->assign('token', $token);
         $this->assign('p', $p);
         return $this->display();

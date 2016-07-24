@@ -1,0 +1,76 @@
+<include file="Public/header" title="永恒"/>
+<body>
+<!-- Header Starts Here -->
+<div class="header page-hed">
+	<div class="container">
+	<div class="logo  p-log">
+		<a href="/"><img src="__PUBLIC__/Home/images/logo.png"></a>
+	</div>
+	</div>
+</div>
+<div class="navigation">
+	<span class="menu"></span>
+	<ul class="navig">
+		<li><a href="/">首页</a></li>
+		<li><a href="{:U('About/about')}">我们</a></li>
+		<li><a href="{:U('Index/gallery')}">画廊</a></li>
+		<li><a href="{:U('Index/blog')}" class="active">永恒</a></li>
+		<li><a href="/Public/TOP" target="_blank">TOP</a></li>
+		<li><a href="contact.html">商店</a></li>
+		<li><a href="contact.html">蜜月计划</a></li>
+		<li><a href="contact.html">联系我们</a></li>
+		<li><a href="contact.html">联系我们</a></li>
+	</ul>
+	<script>
+		$( "span.menu" ).click(function() {
+		  $( "ul.navig" ).slideToggle( "slow", function() {
+		    // Animation complete.
+		  });
+		});
+	</script>
+</div>
+<!-- Header Ends Here -->
+<!-- Page Starts Here -->
+<div class="content">
+	<div class="container">
+		<div class="gallery">
+			<h3>最近大事记</h3>
+			<include file="Public/sidebar"/>
+			<div class="blog-content">
+				<script>
+					var article = {$article};
+					var len = article.length;
+					var content = '';
+					for (var i = 0; i < len; ++i) {
+						var timer = new Date(article[i].send_date * 1000).toLocaleString();
+						var info = article[i].content.substr(0, 1000);
+						content += '<div class="blog-post" style="background-color: #FCFCFC;padding:0 30px 0;"><p>&nbsp;</p><a href="__MODULE__/About/single/id/' +article[i].id+ '"><h4>' +article[i].title+ '</h4></a>';
+						content += '<div class="post-details"><p>发布者：<a href="javascript:;">' +article[i].name+ '</a> &nbsp;&nbsp; 发布时间： <span>' +timer+ '</span> &nbsp;&nbsp; 地址：<span>' +article[i].address_name+ '</span></p></div>';
+						content += '<p>' +article[i].synopsis+ '</p>';
+						content += info+ '<p>&nbsp;</p><p>&nbsp;</p></div>';
+					}
+					document.write(content);
+				</script>
+	<!--			<div class="pag-nations">
+					<ul class="p_n-list">
+						<li><a href="#">Prev</a></li>
+						<li><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">More</a></li>
+						<li><a href="#">19</a></li>
+						<li><a href="#">20</a></li>
+						<li><a href="#">Next</a></li>
+					</ul>
+				</div>-->
+				{$show}
+			</div>
+
+			<div class="clearfix"></div>
+
+		</div>
+	</div>
+</div>
+<include file="Public/footer"/>
+</body>
+</html>

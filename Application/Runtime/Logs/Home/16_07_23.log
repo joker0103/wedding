@@ -1,0 +1,19 @@
+[ 2016-07-23T15:47:00+08:00 ] 127.0.0.1 /index.php/Home/Index/About/single/id/15
+ERR: 非法操作:About
+
+[ 2016-07-23T15:48:49+08:00 ] 127.0.0.1 /index.php/Home/Index/About/single/id/15
+ERR: 非法操作:About
+
+[ 2016-07-23T15:48:58+08:00 ] 127.0.0.1 /index.php/Home/Index/About/single/id/15
+ERR: 非法操作:About
+
+[ 2016-07-23T15:59:48+08:00 ] 127.0.0.1 /index.php/Home/About/single/id/15
+ERR: 1052:Column 'id' in where clause is ambiguous
+ [ SQL语句 ] : SELECT wed_article . *,wed_user . name,wed_wedding . bride,wed_wedding . bridegroom,wed_address . address_name FROM `wed_article` left join wed_user on wed_article . author = wed_user . id left join wed_wedding on wed_article . wedding = wed_wedding . id left join wed_address on  wed_address . id= wed_wedding . address  WHERE ( id = 15 ) LIMIT 1  
+
+[ 2016-07-23T23:13:38+08:00 ] 127.0.0.1 /index.php/Home/Index/contact.html
+ERR: 非法操作:contact
+
+[ 2016-07-23T23:14:08+08:00 ] 127.0.0.1 /index.php/Home/Index/contact.html
+ERR: 非法操作:contact
+

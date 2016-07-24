@@ -137,7 +137,6 @@
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="/Public/Admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/plugins/layer/layer.min.js"></script>
-<script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
 <script src="/Public/Admin/js/hplus.min.js?v=4.1.0"></script>
 <script src="/Public/Admin/js/contabs.min.js"></script>
 <script src="/Public/Admin/js/plugins/pace/pace.min.js"></script>
@@ -163,6 +162,7 @@
 <script src="/Public/Admin/js/plugins/fancybox/jquery.fancybox.js"></script>
 
 
+    <script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
     <script>
         laydate({elem:"#hello",event:"focus"});var start={elem:"#start",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){end.min=datas;end.start=datas}};var end={elem:"#end",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){start.max=datas}};laydate(start);laydate(end);
     </script>

@@ -63,7 +63,6 @@
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="/Public/Admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/plugins/layer/layer.min.js"></script>
-<script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
 <script src="/Public/Admin/js/hplus.min.js?v=4.1.0"></script>
 <script src="/Public/Admin/js/contabs.min.js"></script>
 <script src="/Public/Admin/js/plugins/pace/pace.min.js"></script>

@@ -70,7 +70,7 @@
                         <a class="J_menuItem" href="<?php echo U('Blog/index');?>"><i class="fa fa-columns"></i> <span class="nav-label">BLOG</span></a>
                     </li>
                     <li>
-                        <a class="J_menuItem" href="<?php echo U('fresh');?>"><i class="fa fa fa-bar-chart-o"></i> <span class="nav-label">统计图表</span></a>
+                        <a class="J_menuItem" href="<?php echo U('Ourhistory/index');?>"><i class="fa fa fa-bar-chart-o"></i> <span class="nav-label">公司文化</span></a>
                     </li>
                     
                     <li>
@@ -340,7 +340,6 @@
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="/Public/Admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/plugins/layer/layer.min.js"></script>
-<script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
 <script src="/Public/Admin/js/hplus.min.js?v=4.1.0"></script>
 <script src="/Public/Admin/js/contabs.min.js"></script>
 <script src="/Public/Admin/js/plugins/pace/pace.min.js"></script>

@@ -38,9 +38,9 @@
                     <a href="/index.php/Admin/Picture/pictures/id/<?php echo ($vol["id"]); ?>" target="_blank">
                         <div class="col-sm-4">
                             <div class="text-center">
-                                <?php if($vol["count"] == 0 ): ?><img alt="image" class="img-circle m-t-xs img-responsive" src="/Public/Admin/img/null.jpg">
+                                <?php if($vol["count"] == 0 ): ?><img alt="image" class="img-circle m-t-xs img-responsive" src="/Public/Admin/img/null.jpg"  style="width: 138px;height: 136px;">
                                     <?php else: ?>
-                                <img alt="image" class="img-circle m-t-xs img-responsive" src="<?php echo ($vol["photo"]); ?>"><?php endif; ?>
+                                <img alt="image" class="img-circle m-t-xs img-responsive" src="<?php echo ($vol["photo"]); ?>" style="width: 138px;height: 136px;"><?php endif; ?>
                                 <div class="m-t-xs font-bold">     </div>
                             </div>
                         </div>
@@ -64,7 +64,6 @@
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="/Public/Admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/plugins/layer/layer.min.js"></script>
-<script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
 <script src="/Public/Admin/js/hplus.min.js?v=4.1.0"></script>
 <script src="/Public/Admin/js/contabs.min.js"></script>
 <script src="/Public/Admin/js/plugins/pace/pace.min.js"></script>

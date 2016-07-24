@@ -9,7 +9,7 @@ namespace Home\Controller;
 
 use Think\Controller;
 
-class PublicController extends Controller
+class PublicController extends CommonController
 {
     public function header()
     {
@@ -17,6 +17,11 @@ class PublicController extends Controller
     }
 
     public function footer()
+    {
+        return $this->display();
+    }
+
+    public function sidebar()
     {
         return $this->display();
     }

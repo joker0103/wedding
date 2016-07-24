@@ -16,8 +16,6 @@
     <link href="/Public/Admin/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
     <link href="/Public/Admin/css/animate.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/style.min862f.css?v=4.1.0" rel="stylesheet">
-    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
-    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
     <link href="/Public/Admin/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
@@ -28,6 +26,9 @@
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/demo/webuploader-demo.min.css">
     <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
+    <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
+    <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
     </head>
 <body class="gray-bg">
     <div class="wrapper wrapper-content">
@@ -42,6 +43,17 @@
                                 <div class="col-sm-10">
                                     <select class="form-control m-b" name="status">
                                         <?php if(is_array($status)): $i = 0; $__LIST__ = $status;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><option value="<?php echo ($vol["id"]); ?>"><?php echo ($vol["status_name"]); ?></option><?php endforeach; endif; else: echo "" ;endif; ?>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <!--是否头条-->
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">是/否头条</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="top">
+                                        <option value="0">否</option>
+                                        <option value="1">是</option>
                                     </select>
                                 </div>
                             </div>
@@ -66,7 +78,6 @@
                                 <label class="col-sm-2 control-label">新娘信息</label>
                                 <div class="col-sm-10">
                                     <textarea class="form-control" name="bride_info" maxlength="100"></textarea>
-                                  <!--  <input type="text" class="form-control" name="bride_info" maxlength="100">-->
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
@@ -120,18 +131,15 @@
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="/Public/Admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/plugins/layer/layer.min.js"></script>
-<script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
 <script src="/Public/Admin/js/hplus.min.js?v=4.1.0"></script>
 <script src="/Public/Admin/js/contabs.min.js"></script>
 <script src="/Public/Admin/js/plugins/pace/pace.min.js"></script>
 <script src="/Public/Admin/js/content.min.js?v=1.0.0"></script>
-<script src="/Public/Admin/js/plugins/summernote/summernote.min.js"></script>
-<script src="/Public/Admin/js/plugins/summernote/summernote-zh-CN.js"></script>
 <script src="/Public/Admin/js/plugins/iCheck/icheck.min.js"></script>
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.js"></script>
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.spline.js"></script>
-<script src="/Public/Admin/js/plugins/flot/jquery.flot.resize.js"></script>
+<!--<script src="/Public/Admin/js/plugins/flot/jquery.flot.resize.js"></script>-->
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.pie.js"></script>
 <script src="/Public/Admin/js/plugins/peity/jquery.peity.min.js"></script>
 <script src="/Public/Admin/js/demo/peity-demo.min.js"></script>
@@ -141,8 +149,14 @@
 <script src="/Public/Admin/js/plugins/sparkline/jquery.sparkline.min.js"></script>
 <script src="/Public/Admin/js/demo/sparkline-demo.min.js"></script>
 <script src="/Public/Admin/js/plugins/dropzone/dropzone.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/umeditor/lang/zh-cn/zh-cn.js"></script>
+<script src="/Public/Admin/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+<script src="/Public/Admin/js/plugins/fancybox/jquery.fancybox.js"></script>
 
 
+    <script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
     <script>
         laydate({elem:"#hello",event:"focus"});var start={elem:"#start",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){end.min=datas;end.start=datas}};var end={elem:"#end",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){start.max=datas}};laydate(start);laydate(end);
     </script>

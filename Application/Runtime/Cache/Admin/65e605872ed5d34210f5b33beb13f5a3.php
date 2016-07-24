@@ -27,6 +27,8 @@
     <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
     <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
+    <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
     </head>
 </head>
 <body class="gray-bg">
@@ -98,7 +100,6 @@
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="/Public/Admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/plugins/layer/layer.min.js"></script>
-<script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
 <script src="/Public/Admin/js/hplus.min.js?v=4.1.0"></script>
 <script src="/Public/Admin/js/contabs.min.js"></script>
 <script src="/Public/Admin/js/plugins/pace/pace.min.js"></script>
@@ -120,6 +121,8 @@
 <script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.config.js"></script>
 <script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.min.js"></script>
 <script type="text/javascript" src="/Public/Admin/umeditor/lang/zh-cn/zh-cn.js"></script>
+<script src="/Public/Admin/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+<script src="/Public/Admin/js/plugins/fancybox/jquery.fancybox.js"></script>
 
 
 <script>

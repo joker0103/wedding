@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <title>相册</title>
+    <title><?php echo ($wedding["bride"]); ?> AND <?php echo ($wedding["bridegroom"]); ?></title>
     <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
     <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
     <!--[if lt IE 9]>
@@ -52,9 +52,12 @@
                              <form method="post" class="form-horizontal" enctype="multipart/form-data" action="<?php echo U('upload');?>">
                                 <div class="hr-line-dashed"></div>
                                 <div class="form-group">
-                                    <div class="col-sm-10">
+                                    <div class="col-sm-1">
                                         <div id="queue"></div>
                                         <input id="file_upload" name="file_upload" type="file" multiple="true">
+                                    </div>
+                                    <div class="col-sm-1">
+                                        <input type="button" value="图片管理" class="btn-rounded" style="width: 120px;height:32px;font-weight: bold;" onclick="location.href='/index.php/Admin/Picture/'">
                                     </div>
                                 </div>
                                 <div class="hr-line-dashed"></div>
@@ -70,7 +73,6 @@
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="/Public/Admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
 <script src="/Public/Admin/js/plugins/layer/layer.min.js"></script>
-<script src="/Public/Admin/js/plugins/layer/laydate/laydate.js"></script>
 <script src="/Public/Admin/js/hplus.min.js?v=4.1.0"></script>
 <script src="/Public/Admin/js/contabs.min.js"></script>
 <script src="/Public/Admin/js/plugins/pace/pace.min.js"></script>
@@ -102,7 +104,7 @@
                 var len = photo.length;
                 var img = '';
                 for (var i = 0; i < len; ++i) {
-                    img += "<a class='fancybox' href='"+photo[i].file_path+"'><img alt='image' src='"+photo[i].file_path+"' /></a>&emsp;";
+                    img += "<a class='fancybox' href='"+photo[i].file_path+"'><img alt='image' src='"+photo[i].file_path+"' style='width: 388px;height: 220px;'/></a>&emsp;";
                 }
                 $('#img').html(img);
             }
@@ -113,7 +115,7 @@
                     'token'     : "<?php echo ($token); ?>"
                 },
                 'swf'      : '/Public/Admin/uploadify/uploadify.swf',
-                'uploader' : '/index.php/Admin/Picture/upload',
+                'uploader' : '/index.php/Admin/Picture/upload'
             });
         });
         //图片显示

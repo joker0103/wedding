@@ -11,3 +11,28 @@ ERR: 非法操作:index
 ERR: 1146:Table 'wedding.wed_photo' doesn't exist
  [ SQL语句 ] : SHOW COLUMNS FROM `wed_photo`
 
+[ 2016-07-22T19:27:26+08:00 ] 127.0.0.1 /index.php/Home/About/gallery.html
+ERR: 非法操作:gallery
+
+[ 2016-07-22T19:30:10+08:00 ] 127.0.0.1 /index.php/Home/Index/contact.html
+ERR: 非法操作:contact
+
+[ 2016-07-22T19:30:10+08:00 ] 127.0.0.1 /index.php/Home/Index/contact.html
+ERR: 非法操作:contact
+
+[ 2016-07-22T19:31:00+08:00 ] 127.0.0.1 /index.php/Home/Index/single.html
+ERR: 非法操作:single
+
+[ 2016-07-22T20:12:04+08:00 ] 127.0.0.1 /index.php/Home/Index/gallery.html
+ERR: 1052:Column 'id' in order clause is ambiguous
+ [ SQL语句 ] : SELECT wed_photo_store . file_path,wed_wedding . bride,wed_wedding . bridegroom,wed_wedding . info FROM `wed_photo_store` left join wed_wedding on wed_photo_store . from_id = wed_wedding . id  ORDER BY id desc LIMIT 0,12  
+
+[ 2016-07-22T20:14:37+08:00 ] 127.0.0.1 /index.php/Home/Index/gallery.html
+ERR: Think\Controller:assgin方法不存在！
+
+[ 2016-07-22T21:46:51+08:00 ] 127.0.0.1 /index.php/Home/Index/contact.html
+ERR: 非法操作:contact
+
+[ 2016-07-22T21:56:48+08:00 ] 127.0.0.1 /index.php/Home/Index/single.html
+ERR: 非法操作:single
+
