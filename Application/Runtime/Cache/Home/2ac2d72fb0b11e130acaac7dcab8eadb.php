@@ -27,14 +27,13 @@
     <span class="menu"></span>
     <ul class="navig">
         <li><a href="/">首页</a></li>
-        <li><a href="<?php echo U('About/about');?>">我们</a></li>
+        <li><a href="<?php echo U('Our/about');?>">我们</a></li>
         <li><a href="<?php echo U('Index/gallery');?>" class="active">画廊</a></li>
         <li><a href="<?php echo U('Index/blog');?>">永恒</a></li>
         <li><a href="/Public/TOP" target="_blank">TOP</a></li>
-        <li><a href="contact.html">商店</a></li>
-        <li><a href="contact.html">蜜月计划</a></li>
-        <li><a href="contact.html">联系我们</a></li>
-        <li><a href="contact.html">联系我们</a></li>
+        <li><a href="javascript:;">商店</a></li>
+        <li><a href="javascript:;">蜜月计划</a></li>
+        <li><a href="<?php echo U('Our/our');?>">联系我们</a></li>
     </ul>
 	<script>
 		$( "span.menu" ).click(function() {

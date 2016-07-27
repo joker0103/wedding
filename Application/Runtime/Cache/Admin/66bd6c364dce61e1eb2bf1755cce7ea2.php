@@ -67,7 +67,7 @@
                                     <td>
                                         <span title="记录信息" class="look" data="<?php echo ($vo["id"]); ?>" which="history"><i class="glyphicon glyphicon-search"></i></span>
                                         &emsp;
-                                        <a  href="/index.php/Admin/Ourhistory/historyEdit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="glyphicon glyphicon-pencil"></i></a>
+                                        <a  href="/index.php/Admin/Ourhistory/Edit/edit/1/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="glyphicon glyphicon-pencil"></i></a>
                                         &emsp;
                                         <a href="javascript:;" title="删除" onclick="ask('<?php echo ($vo["id"]); ?>', 'history')"><i class="glyphicon glyphicon-trash"></i></a>
                                     </td>
@@ -115,7 +115,7 @@
                                         &emsp;
                                         <span title="简介" class="look" data="<?php echo ($vo["id"]); ?>" which="tenet"><i class="glyphicon glyphicon-flag"></i></span>
                                         &emsp;
-                                        <a  href="/index.php/Admin/Ourhistory/synopsisEdit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="glyphicon glyphicon-pencil"></i></a>
+                                        <a  href="/index.php/Admin/Ourhistory/Edit/edit/2/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="glyphicon glyphicon-pencil"></i></a>
                                         &emsp;
                                         <a href="javascript:;" title="删除" onclick="ask('<?php echo ($vo["id"]); ?>', 'synopsis')"><i class="glyphicon glyphicon-trash"></i></a>
                                     </td>
@@ -150,7 +150,7 @@
                                 <th>姓名</th>
                                 <th>简介</th>
                                 <th>照片</th>
-                                <th>状态</th>
+                                <th>上榜</th>
                                 <th>操作</th>
                             </tr>
                             </thead>
@@ -164,7 +164,7 @@
                                     <td>
                                         <span title="个人简介" class="look" data="<?php echo ($vo["id"]); ?>" which="personal"><i class="glyphicon glyphicon-search"></i></span>
                                         &emsp;
-                                        <a  href="/index.php/Admin/Ourhistory/personalEdit/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="glyphicon glyphicon-pencil"></i></a>
+                                        <a  href="/index.php/Admin/Ourhistory/Edit/edit/3/id/<?php echo ($vo["id"]); ?>" title="编辑"><i class="glyphicon glyphicon-pencil"></i></a>
                                         &emsp;
                                         <a href="javascript:;" title="删除" onclick="ask('<?php echo ($vo["id"]); ?>', 'personal')"><i class="glyphicon glyphicon-trash"></i></a>
                                     </td>

@@ -40,6 +40,15 @@
     <include file="Public/js"/>
     <script>
         $(function() {
+           // var upload = '';
+            $('#file_upload').uploadify({
+                'swf'      : '__PUBLIC__/Admin/uploadify/uploadify.swf',
+                'uploader' : '__CONTROLLER__/upload',
+                'onUploadSuccess' : function (file, data, response) {
+                    var images = eval(data);
+                    img(images);
+                }
+            });
             function img(photo) {
                 var len = photo.length;
                 var img = '';
@@ -49,14 +58,6 @@
                 $('#img').html(img);
             }
             img({$p});
-            $('#file_upload').uploadify({
-                'formData'     : {
-                    'timestamp' : "{$timestamp}",
-                    'token'     : "{$token}"
-                },
-                'swf'      : '__PUBLIC__/Admin/uploadify/uploadify.swf',
-                'uploader' : '__CONTROLLER__/upload'
-            });
         });
         //图片显示
         $(document).ready(function(){$(".fancybox").fancybox({openEffect:"none",closeEffect:"none"})});

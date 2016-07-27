@@ -9,10 +9,23 @@ namespace Home\Controller;
 
 use Think\Controller;
 
-class AboutController extends CommonController
+class OurController extends CommonController
 {
     public function about()
     {
+        $history = json_encode(M('Ourhistory')->order('id desc')->select());
+        $synopsis = M('Oursynopsis')->order('id desc')->find();
+        $synopsis['tenet'] = htmlspecialchars_decode($synopsis['tenet']);
+        $personal = M('Personal')->field('wed_personal . *, wed_user . name')
+            ->join('left join wed_user on wed_personal . uid = wed_user . id')
+            ->where('wed_personal . status = 1')
+            ->limit(0,8)
+            ->select();
+        $personal = json_encode($personal);
+        //dump($history);exit;
+        $this->assign('personal', $personal);
+        $this->assign('history', $history);
+        $this->assign('synopsis', $synopsis);
         return $this->display();
     }
 
@@ -36,6 +49,12 @@ class AboutController extends CommonController
         //输出部分
         $this->assign('article', $article);
         $this->assign('title', $title);
+        return $this->display();
+    }
+
+    //联系我们
+    public function our()
+    {
         return $this->display();
     }
 }

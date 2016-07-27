@@ -12,14 +12,13 @@
 	<span class="menu"></span>
 	<ul class="navig">
 		<li><a href="/">首页</a></li>
-		<li><a href="{:U('About/about')}" class="active">我们</a></li>
+		<li><a href="{:U('Our/about')}" class="active">我们</a></li>
 		<li><a href="{:U('Index/gallery')}">画廊</a></li>
 		<li><a href="{:U('Index/blog')}">永恒</a></li>
 		<li><a href="/Public/TOP" target="_blank">TOP</a></li>
-		<li><a href="contact.html">商店</a></li>
-		<li><a href="contact.html">蜜月计划</a></li>
-		<li><a href="contact.html">联系我们</a></li>
-		<li><a href="contact.html">联系我们</a></li>
+		<li><a href="javascript:;">商店</a></li>
+		<li><a href="javascript:;">蜜月计划</a></li>
+		<li><a href="{:U('Our/our')}">联系我们</a></li>
 	</ul>
 	<script>
 		$( "span.menu" ).click(function() {
@@ -35,9 +34,8 @@
 	<div class="container">
 			<div class="col-md-4 about-col">
 				<h3>我们的文化</h3>
-				<img src="__PUBLIC__/Home/images/abt.jpg" alt="">
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using '</p>
-				<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using '</p>
+				<img src="{$synopsis.synopsis_photo}" alt="">
+				{$synopsis.synopsis}
 			</div>
 			<div class="col-md-5 about-col">
 				<h3>成长&幸福的记录</h3>
@@ -45,32 +43,15 @@
 					<li><span>2004</span>
 						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
 					</li>
-					<li><span>2005</span>
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
-					</li>
-					<li><span>2006</span>
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
-					</li>
-					<li><span>2007</span>
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
-					</li>
-					<li><span>2004</span>
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
-					</li>
-					<li><span>2004</span>
-						<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using </p>
-					</li>
+
 				</ul>
 			</div>
 			<div class="col-md-3 about-col">
 				<h3>我们的宗旨</h3>
-				<p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use </p>
-				<img src="__PUBLIC__/Home/images/abt1.jpg" alt="">
-				<p>Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable</p>
+				{$synopsis.tenet}
 			</div>
 			<div class="clearfix"></div>
 			<div class="ideas">
-				<h2>名人榜</h2>
 				<div class="col-md-3 ideas-col">
 					<img src="__PUBLIC__/Home/images/pic3.jpg" alt="">
 					<h3>Donec finibus et liberovel imperdiet.</h3>
@@ -96,5 +77,26 @@
 	</div>
 </div>
 <include file="Public/footer"/>
+<script>
+	//记录
+	var Chistory = {$history};
+	var Hlen = Chistory.length;
+	var Hcontent = '';
+	for (var i = 0; i < Hlen; ++i) {
+		var timer = new Date(Chistory[i].time * 1000).toLocaleDateString().substr(0, 4);
+		Hcontent += '<li><span>' +timer+ '</span><p>' +Chistory[i].history+ '</p></li>';
+	}
+	$('.history').html(Hcontent);
+	//名人榜
+	var personal = {$personal};
+	console.log(personal);
+	var Plen = personal.length;
+	var Pcontent = '';
+	for (var j = 0; j < Plen; ++j) {
+		Pcontent += '<h2>OUR名人榜</h2>';
+		Pcontent += '<div class="col-md-3 ideas-col"><img src="' +personal[j].photo+ '"><h3>' +personal[j].name+ '</h3><p>' +personal[j].personal_synopsis+ '</p></div>';
+	}
+	$('.ideas').html(Pcontent);
+</script>
 </body>
 </html>

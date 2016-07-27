@@ -27,15 +27,15 @@ class PictureController extends CommonController
     public function pictures()
     {
         //uploadify的token验证
-        $timestamp = time();
-        $token = md5('unique_salt' . $timestamp);
+        //$timestamp = time();
+        //$token = md5('unique_salt' . $timestamp);
         session('wedding_id', I('get.id'));
         $photo = M('Photo_store')->where('from_id = ' . session('wedding_id'))->select();
         $wedding = M('Wedding')->where('id = ' . session('wedding_id'))->find();
         $p = json_encode($photo);
-        $this->assign('timestamp', $timestamp);
+        //$this->assign('timestamp', $timestamp);
         $this->assign('wedding', $wedding);
-        $this->assign('token', $token);
+        //$this->assign('token', $token);
         $this->assign('p', $p);
         return $this->display();
     }
@@ -59,27 +59,6 @@ class PictureController extends CommonController
             $p->add($add);
         }
         $photo = M('Photo_store')->where('from_id = ' . session('wedding_id'))->select();
-        echo $p = json_encode($photo);
-
-/*        $targetFolder = UPLOAD_PATH; // Relative to the root
-
-        $verifyToken = md5('unique_salt' . $_POST['timestamp']);
-
-        if (!empty($_FILES) && $_POST['token'] == $verifyToken) {
-            $tempFile = $_FILES['Filedata']['tmp_name'];
-            $targetPath = $_SERVER['DOCUMENT_ROOT'] . $targetFolder;
-            $targetFile = rtrim($targetPath,'/') . '/' . $_FILES['Filedata']['name'];
-
-            // Validate the file type
-            $fileTypes = array('jpg','jpeg','gif','png'); // File extensions
-            $fileParts = pathinfo($_FILES['Filedata']['name']);
-
-            if (in_array($fileParts['extension'],$fileTypes)) {
-                move_uploaded_file($tempFile,$targetFile);
-
-            } else {
-                echo 'Invalid file type.';
-            }
-        }*/
+        return $this->ajaxReturn($photo);
     }
 }

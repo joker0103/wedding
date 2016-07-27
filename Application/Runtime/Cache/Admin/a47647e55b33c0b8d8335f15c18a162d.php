@@ -100,6 +100,15 @@
 
     <script>
         $(function() {
+           // var upload = '';
+            $('#file_upload').uploadify({
+                'swf'      : '/Public/Admin/uploadify/uploadify.swf',
+                'uploader' : '/index.php/Admin/Picture/upload',
+                'onUploadSuccess' : function (file, data, response) {
+                    var images = eval(data);
+                    img(images);
+                }
+            });
             function img(photo) {
                 var len = photo.length;
                 var img = '';
@@ -109,14 +118,6 @@
                 $('#img').html(img);
             }
             img(<?php echo ($p); ?>);
-            $('#file_upload').uploadify({
-                'formData'     : {
-                    'timestamp' : "<?php echo ($timestamp); ?>",
-                    'token'     : "<?php echo ($token); ?>"
-                },
-                'swf'      : '/Public/Admin/uploadify/uploadify.swf',
-                'uploader' : '/index.php/Admin/Picture/upload'
-            });
         });
         //图片显示
         $(document).ready(function(){$(".fancybox").fancybox({openEffect:"none",closeEffect:"none"})});

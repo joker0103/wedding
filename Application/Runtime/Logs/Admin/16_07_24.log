@@ -1,0 +1,18 @@
+[ 2016-07-24T13:38:48+08:00 ] 127.0.0.1 /index.php/Admin/Index/blog.html
+ERR: 非法操作:blog
+
+[ 2016-07-24T18:11:36+08:00 ] 127.0.0.1 /index.php/Admin/Ourhistory/tenetShow?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001465s ]
+ERR: 非法操作:tenetShow
+
+[ 2016-07-24T18:11:48+08:00 ] 127.0.0.1 /index.php/Admin/Ourhistory/tenetShow?id=1
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000684s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001269s ]
+ERR: 非法操作:tenetShow
+
+[ 2016-07-24T19:57:52+08:00 ] 127.0.0.1 /index.php/Admin/Ourhistory/index.php/Admin/Ourhistory/Edit/edit/2/id/1
+ERR: 非法操作:index.php
+

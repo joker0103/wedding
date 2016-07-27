@@ -5,15 +5,16 @@
             <div class="col-sm-12">
                 <div class="ibox float-e-margins">
                     <div class="ibox-content">
-                        <form method="post" class="form-horizontal" enctype="multipart/form-data" action="{:U('added')}">
-                            <switch name="type">
+                        <form method="post" class="form-horizontal" enctype="multipart/form-data" action="{:U('edited')}">
+                            <input type="hidden" name="id" value="{$id}">
+                            <switch name="edit">
                                 <case value="1">
-                                    <input type="hidden" name="type" value="1">
+                                    <input type="hidden" name="edit" value="1">
                                     <!--日期-->
                                     <div class="form-group">
                                         <label class="col-sm-2 control-label">时间：</label>
                                         <div class="col-sm-10">
-                                            <input name="time" class="form-control layer-date" placeholder="年-月-日 时:分:秒" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
+                                            <input name="time" class="form-control layer-date" value="{$history.time|date='Y-m-d H:i:s', ###}" placeholder="年-月-日 时:分:秒" onclick="laydate({istime: true, format: 'YYYY-MM-DD hh:mm:ss'})">
                                             <label class="laydate-icon"></label>
                                         </div>
                                     </div>
@@ -22,26 +23,29 @@
                                     <div class="form-group">
                                         <label class="col-sm-2 control-label">历程描述</label>
                                         <div class="col-sm-10">
-                                            <textarea class="form-control" name="history"></textarea>
+                                            <textarea class="form-control" name="history">{$history.history}</textarea>
                                         </div>
                                     </div>
                                     <div class="hr-line-dashed"></div>
                                 </case>
 
                                 <case value="2">
-                                    <input type="hidden" name="type" value="2">
+                                    <input type="hidden" name="edit" value="2">
                                     <!--简介-->
                                     <div class="form-group">
                                         <label class="col-sm-2 control-label">公司简介</label>
                                             <div class="col-sm-10">
-                                                <textarea class="form-control" name="synopsis"></textarea>
+                                                <textarea class="form-control" name="synopsis">{$synopsis.synopsis}</textarea>
                                             </div>
                                     </div>
                                     <div class="hr-line-dashed"></div>
                                     <div class="form-group">
                                         <label class="col-sm-2 control-label">简介宣传照</label>
                                         <div class="col-sm-10">
+                                            <img src="{$synopsis.synopsis_photo}" style="width: 200px;height: 200px;">
                                             <input type="file" name="synopsis_photo" class="form-control">
+                                            <p>&nbsp;</p>
+                                            <p style="color: grey;">不修改则使用默认图片</p>
                                         </div>
                                     </div>
                                     <div class="hr-line-dashed"></div>
@@ -50,6 +54,7 @@
                                         <label class="col-sm-2 control-label">宗旨</label>
                                         <div class="col-sm-10">
                                             <script type="text/plain" id="myEditor" style="width:1000px;height:240px;" name="tenet">
+                                                {$synopsis.tenet}
                                             </script>
                                         </div>
                                     </div>
@@ -57,14 +62,14 @@
                                 </case>
 
                                 <default/>
-                                <input type="hidden" name="type" value="3">
+                                <input type="hidden" name="edit" value="3">
                                 <!--选择职员-->
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">选择职员</label>
                                     <div class="col-sm-10">
                                         <select class="form-control m-b" name="uid">
                                             <volist name="user" id="vo">
-                                                <option value="{$vo.id}">{$vo.name}</option>
+                                                <option value="{$vo.id}" <if condition="$vo['id'] eq $personal['uid'] "> selected</if> >{$vo.name}</option>
                                             </volist>
                                         </select>
                                     </div>
@@ -74,7 +79,7 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">职员简介</label>
                                     <div class="col-sm-10">
-                                        <textarea class="form-control" name="personal_synopsis"></textarea>
+                                        <textarea class="form-control" name="personal_synopsis">{$personal.personal_synopsis}</textarea>
                                     </div>
                                 </div>
                                 <div class="hr-line-dashed"></div>
@@ -82,7 +87,10 @@
                                 <div class="form-group">
                                     <label class="col-sm-2 control-label">职员照片</label>
                                     <div class="col-sm-10">
-                                        <input type="file" class="form-control" name="photo">
+                                        <img src="{$personal.photo}" style="width: 200px;height: 200px;">
+                                        <input type="file" class="form-control" name="photo" value="{$personal.photo}">
+                                        <p>&nbsp;</p>
+                                        <p style="color: grey;">不修改则使用默认图片</p>
                                     </div>
                                 </div>
                                 <div class="hr-line-dashed"></div>
@@ -92,7 +100,7 @@
                                 <div class="col-sm-10">
                                     <select class="form-control m-b" name="status">
                                         <option value="0">否</option>
-                                        <option value="1">是</option>
+                                        <option value="1" <if condition="$personal['status'] eq 1 "> selected </if> >是</option>
                                     </select>
                                 </div>
                             </div>
@@ -100,7 +108,7 @@
                             </switch>
                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-2">
-                                    <button class="btn btn-primary" type="submit">添加</button>
+                                    <button class="btn btn-primary" type="submit">保存</button>
                                 </div>
                             </div>
                         </form>
@@ -110,12 +118,12 @@
         </div>
     </div>
     <include file="Public/js"/>
-    <if condition="$type eq 1 ">
+    <if condition="$edit eq 1 ">
     <script src="__PUBLIC__/Admin/js/plugins/layer/laydate/laydate.js"></script>
     <script>
         laydate({elem:"#hello",event:"focus"});var start={elem:"#start",format:"YYYY-MM-DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){end.min=datas;end.start=datas}};var end={elem:"#end",format:"YYYY-MM-DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){start.max=datas}};laydate(start);laydate(end);
     </script>
-        <elseif condition="$type eq 2"/>
+        <elseif condition="$edit eq 2"/>
         <script>
             var um = UM.getEditor('myEditor');
         </script>
