@@ -35,7 +35,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class="J_menuItem" href="{:U('fresh')}"><i class="fa fa-home"></i> <span class="nav-label">主页</span></a>
+                        <a class="J_menuItem" href="{:U('Our/index')}"><i class="fa fa-home"></i> <span class="nav-label">家地址</span></a>
                     </li>
                     <li>
                         <a class="J_menuItem" href="{:U('Blog/index')}"><i class="fa fa-columns"></i> <span class="nav-label">BLOG</span></a>
@@ -54,13 +54,13 @@
 
 <!--邮箱部分-->
                     <li>
-                        <a href="mailbox.html"><i class="fa fa-envelope"></i> <span class="nav-label">信箱 </span><span class="label label-warning pull-right">16</span></a>
+                        <a href="mailbox.html"><i class="fa fa-envelope"></i>
+                            <span class="nav-label">信箱</span><span class="label label-warning pull-right">16</span>
+                        </a>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="mailbox.html">收件箱</a>
+                            <li><a class="J_menuItem" href="{:U('Mail/mailbox')}">收件箱</a>
                             </li>
-                            <li><a class="J_menuItem" href="mail_detail.html">查看邮件</a>
-                            </li>
-                            <li><a class="J_menuItem" href="mail_compose.html">写信</a>
+                            <li><a class="J_menuItem" href="{:U('Mail/mail_compose')}">写信</a>
                             </li>
                         </ul>
                     </li>
@@ -101,7 +101,7 @@
                     <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
                     </div>
                     <ul class="nav navbar-top-links navbar-right">
-                        <li class="dropdown">
+           <!--             <li class="dropdown">
                             <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                                 <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
                             </a>
@@ -142,7 +142,7 @@
                                     </div>
                                 </li>
                             </ul>
-                        </li>
+                        </li>-->
                         <li class="dropdown">
                             <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                                 <i class="fa fa-bell"></i> <span class="label label-primary">8</span>

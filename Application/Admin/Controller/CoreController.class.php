@@ -21,6 +21,12 @@ class CoreController extends CommonController
         return $this->display();
     }
 
+    //图表
+    public function graph()
+    {
+        return $this->display();
+    }
+
     //退出
     public function logout()
     {

@@ -55,6 +55,23 @@ class OurController extends CommonController
     //联系我们
     public function our()
     {
+        //dump($_SERVER);exit;
+        $Caddress = M('Company_address')->order('id desc')->find();
+        //dump($Caddress);exit;
+        $this->assign('Caddress', $Caddress);
         return $this->display();
+    }
+
+    //customer信息
+    public function massage()
+    {
+        $post = I('post.');
+        $post['is_customer'] = 1;
+        $post['c_ip'] = sprintf('%u', ip2long($_SERVER['REMOTE_ADDR']));
+        if (M('Customer_massage')->add($post)){
+            return $this->success('发送成功，我们会在一小时内联系您，请保持通讯畅通！', U('our'), 5);
+        } else {
+            return $this->error('抱歉，出错了，发送失败', U('our'));
+        }
     }
 }

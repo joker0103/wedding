@@ -68,3 +68,744 @@ INFO: [ app_end ] --START--
 INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001115s ]
 INFO: [ app_end ] --END-- [ RunTime:0.001167s ]
 
+[ 2016-07-27T17:43:53+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.085930s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023661s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015470s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015565s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.194517s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.194677s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.021103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.021176s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001588s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001648s ]
+
+[ 2016-07-27T17:43:53+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.085878s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023674s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023792s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010140s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010209s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000912s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000961s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001065s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001118s ]
+
+[ 2016-07-27T17:46:01+08:00 ] 127.0.0.1 /index.php/Home/Our/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000802s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001273s ]
+SQL: SHOW COLUMNS FROM `wed_ourhistory` [ RunTime:0.4293s ]
+SQL: SELECT * FROM `wed_ourhistory` ORDER BY id desc  [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `wed_oursynopsis` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `wed_oursynopsis` ORDER BY id desc LIMIT 1   [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `wed_personal` [ RunTime:0.0099s ]
+SQL: SELECT wed_personal . *,wed_user . name FROM `wed_personal` left join wed_user on wed_personal . uid = wed_user . id  WHERE ( wed_personal . status = 1 ) LIMIT 0,8   [ RunTime:0.2203s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000098s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029535s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001411s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001578s ]
+
+[ 2016-07-27T17:46:27+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000723s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001085s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001148s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000125s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011975s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012066s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001139s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001192s ]
+
+[ 2016-07-27T17:47:57+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001147s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000902s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000955s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001091s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001145s ]
+
+[ 2016-07-27T18:57:46+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000746s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001115s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001176s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0046s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) AS tp_max FROM `wed_company_address` LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT MAX(*) AS tp_max FROM `wed_company_address` LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) AS tp_max FROM `wed_company_address` LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT MAX(*) AS tp_max FROM `wed_company_address` LIMIT 1  
+
+[ 2016-07-27T18:58:20+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000905s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001078s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0038s ]
+SQL: SELECT MAX(id) AS tp_max FROM `wed_company_address` LIMIT 1   [ RunTime:0.0815s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000329s ]
+NOTIC: [2] Illegal string offset 'address' D:\wedding\Application\Runtime\Cache\Home\a411d9ac5977774a028e463749025f5b.php 第 53 行.
+NOTIC: [2] Illegal string offset 'line' D:\wedding\Application\Runtime\Cache\Home\a411d9ac5977774a028e463749025f5b.php 第 54 行.
+NOTIC: [2] Illegal string offset 'email' D:\wedding\Application\Runtime\Cache\Home\a411d9ac5977774a028e463749025f5b.php 第 55 行.
+NOTIC: [2] Illegal string offset 'email' D:\wedding\Application\Runtime\Cache\Home\a411d9ac5977774a028e463749025f5b.php 第 55 行.
+NOTIC: [2] Illegal string offset 'telephone_number' D:\wedding\Application\Runtime\Cache\Home\a411d9ac5977774a028e463749025f5b.php 第 56 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036989s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001929s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002040s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002516s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002637s ]
+
+[ 2016-07-27T18:59:00+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000769s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0045s ]
+SQL: SELECT MAX(id) AS tp_max FROM `wed_company_address` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-27T18:59:13+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001056s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0037s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) AS tp_max FROM `wed_company_address` LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT MAX(*) AS tp_max FROM `wed_company_address` LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '*) AS tp_max FROM `wed_company_address` LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT MAX(*) AS tp_max FROM `wed_company_address` LIMIT 1  
+
+[ 2016-07-27T18:59:37+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000700s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001105s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0036s ]
+SQL: SELECT MAX(wed_company_address . id ) AS tp_max FROM `wed_company_address` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-27T18:59:56+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000670s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001066s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001130s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0035s ]
+SQL: SELECT MAX(id) AS tp_max FROM `wed_company_address` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2016-07-27T19:03:09+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000645s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2016-07-27T19:03:18+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000693s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001088s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001156s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010427s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010504s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000808s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000856s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001095s ]
+
+[ 2016-07-27T19:04:21+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000708s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001060s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001121s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000127s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009902s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009979s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001112s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001164s ]
+
+[ 2016-07-27T19:04:57+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001160s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000123s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001524s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001851s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001957s ]
+
+[ 2016-07-27T19:05:48+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000064s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009766s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009843s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000815s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001053s ]
+
+[ 2016-07-27T19:06:02+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000657s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000995s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000063s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000121s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010717s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010828s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000772s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000826s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001045s ]
+
+[ 2016-07-27T19:06:34+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000672s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001130s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001201s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0038s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000067s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010128s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010206s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000818s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000866s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001102s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001152s ]
+
+[ 2016-07-27T19:23:44+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.153204s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.023842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.023938s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.9942s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0215s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.021462s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.021551s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.363111s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.363196s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.032223s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.032296s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010572s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010645s ]
+
+[ 2016-07-27T19:33:27+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.024859s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.018384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.018583s ]
+
+[ 2016-07-27T19:42:40+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000696s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.5134s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0173s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.015121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.015286s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.396622s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.396799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.029821s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.029918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001914s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001989s ]
+
+[ 2016-07-27T19:43:01+08:00 ] 127.0.0.1 /index.php/Home/Our/massage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000724s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001254s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001427s ]
+
+[ 2016-07-27T19:43:42+08:00 ] 127.0.0.1 /index.php/Home/Our/massage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001258s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001101s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001165s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001024s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001082s ]
+
+[ 2016-07-27T19:49:58+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001026s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001094s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000126s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010258s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000793s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001023s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001073s ]
+
+[ 2016-07-27T19:52:18+08:00 ] 127.0.0.1 /index.php/Home/Our/massage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000736s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001209s ]
+SQL: SHOW COLUMNS FROM `wed_customer_massage` [ RunTime:0.2564s ]
+SQL: INSERT INTO `wed_customer_massage` (`c_name`,`c_email`,`c_title`,`c_content`,`c_ip`) VALUES ('杨云龙','ys.go.xlv.gmail.com','发生了什么','i am just looking at','2130706433') [ RunTime:0.1642s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002923s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003168s ]
+
+[ 2016-07-27T19:52:18+08:00 ] 127.0.0.1 /index.php/Home/our/our
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000986s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001616s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010056s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010117s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000884s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000932s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000973s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001024s ]
+
+[ 2016-07-27T19:56:29+08:00 ] 127.0.0.1 /index.php/Home/Our/massage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000690s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001102s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001174s ]
+SQL: SHOW COLUMNS FROM `wed_customer_massage` [ RunTime:0.0038s ]
+SQL: INSERT INTO `wed_customer_massage` (`c_name`,`c_email`,`c_title`,`c_content`,`c_ip`) VALUES ('杨帅','ys.go.xlv.gmail.com','发生了什么','啊发发   d\'fa\'f\'da\'s\'fa\'f的发放大使发放','2130706433') [ RunTime:0.0620s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023183s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023261s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000845s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000897s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001110s ]
+
+[ 2016-07-27T19:56:35+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000795s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001531s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009844s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000843s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001043s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2016-07-27T20:20:27+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000731s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001185s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001249s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000137s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011369s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000993s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001100s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2016-07-27T20:20:39+08:00 ] 127.0.0.1 /index.php/Home/Our/massage.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000729s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001074s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `wed_customer_massage` [ RunTime:0.0042s ]
+SQL: INSERT INTO `wed_customer_massage` (`c_name`,`c_email`,`c_title`,`c_content`,`is_customer`,`c_ip`) VALUES ('啊发放','啊发士大夫啊',' 阿飞a',' 阿发发放的太阳和企鹅','1','2130706433') [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008038s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008112s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000918s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001176s ]
+
+[ 2016-07-27T20:20:44+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000968s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001308s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001383s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009760s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009821s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000839s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000891s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001125s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001180s ]
+
+[ 2016-07-27T20:33:18+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001749s ]
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0043s ]
+SQL: SELECT wed_wedding . *,wed_photo_store . file_path FROM `wed_wedding` left join wed_photo_store on wed_photo_store . from_id = wed_wedding . id  WHERE ( wed_wedding . top = 1 ) LIMIT 1   [ RunTime:0.0675s ]
+SQL: SHOW COLUMNS FROM `wed_photo_store` [ RunTime:0.0063s ]
+SQL: SELECT wed_photo_store . *,wed_wedding . bride,wed_wedding . bridegroom,wed_wedding . info,wed_wedding . wedding_date,wed_address . address_name FROM `wed_photo_store` left join wed_wedding on wed_photo_store . from_id = wed_wedding . id left join wed_address on wed_address . id = wed_wedding .address  ORDER BY id desc LIMIT 0,16   [ RunTime:0.0181s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000142s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.068141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.068252s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000910s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000962s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001145s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001209s ]
+
+[ 2016-07-27T20:34:57+08:00 ] 127.0.0.1 /index.php/Home/Our/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000775s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001045s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001104s ]
+SQL: SHOW COLUMNS FROM `wed_ourhistory` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `wed_ourhistory` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `wed_oursynopsis` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `wed_oursynopsis` ORDER BY id desc LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `wed_personal` [ RunTime:0.0036s ]
+SQL: SELECT wed_personal . *,wed_user . name FROM `wed_personal` left join wed_user on wed_personal . uid = wed_user . id  WHERE ( wed_personal . status = 1 ) LIMIT 0,8   [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000088s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000904s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001136s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001185s ]
+
+[ 2016-07-27T21:42:05+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.045659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.007202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.007282s ]
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.3242s ]
+SQL: SELECT wed_wedding . *,wed_photo_store . file_path FROM `wed_wedding` left join wed_photo_store on wed_photo_store . from_id = wed_wedding . id  WHERE ( wed_wedding . top = 1 ) LIMIT 1   [ RunTime:0.0714s ]
+SQL: SHOW COLUMNS FROM `wed_photo_store` [ RunTime:0.0028s ]
+SQL: SELECT wed_photo_store . *,wed_wedding . bride,wed_wedding . bridegroom,wed_wedding . info,wed_wedding . wedding_date,wed_address . address_name FROM `wed_photo_store` left join wed_wedding on wed_photo_store . from_id = wed_wedding . id left join wed_address on wed_address . id = wed_wedding .address  ORDER BY id desc LIMIT 0,16   [ RunTime:0.0829s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.057013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.057093s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.239033s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.239113s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.038493s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.038559s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001210s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001271s ]
+
+[ 2016-07-27T21:42:13+08:00 ] 127.0.0.1 /index.php/Home/Our/about.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000580s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000887s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000979s ]
+SQL: SHOW COLUMNS FROM `wed_ourhistory` [ RunTime:0.0334s ]
+SQL: SELECT * FROM `wed_ourhistory` ORDER BY id desc  [ RunTime:0.0424s ]
+SQL: SHOW COLUMNS FROM `wed_oursynopsis` [ RunTime:0.0277s ]
+SQL: SELECT * FROM `wed_oursynopsis` ORDER BY id desc LIMIT 1   [ RunTime:0.0414s ]
+SQL: SHOW COLUMNS FROM `wed_personal` [ RunTime:0.0233s ]
+SQL: SELECT wed_personal . *,wed_user . name FROM `wed_personal` left join wed_user on wed_personal . uid = wed_user . id  WHERE ( wed_personal . status = 1 ) LIMIT 0,8   [ RunTime:0.0334s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000154s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049713s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049774s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000520s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-07-27T21:42:15+08:00 ] 127.0.0.1 /index.php/Home/Index/gallery.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000764s ]
+SQL: SHOW COLUMNS FROM `wed_photo_store` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wed_photo_store` LIMIT 1   [ RunTime:0.0762s ]
+SQL: SELECT wed_photo_store . file_path,wed_wedding . bride,wed_wedding . bridegroom,wed_wedding . info FROM `wed_photo_store` left join wed_wedding on wed_photo_store . from_id = wed_wedding . id  ORDER BY wed_photo_store . id desc LIMIT 0,12   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000071s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000129s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029614s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000551s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2016-07-27T21:42:30+08:00 ] 127.0.0.1 /index.php/Home/Index/blog.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000557s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000703s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `wed_article` [ RunTime:0.0213s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `wed_article` LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT wed_article . *,wed_user . name,wed_wedding . bride,wed_wedding . bridegroom,wed_address . address_name FROM `wed_article` left join wed_user on wed_article . author = wed_user . id left join wed_wedding on wed_article . wedding = wed_wedding . id left join wed_address on  wed_address . id= wed_wedding . address  ORDER BY wed_article . id desc LIMIT 0,3   [ RunTime:0.0006s ]
+SQL: SELECT wed_article . title,wed_article . id FROM `wed_article` LIMIT 0,8   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000091s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000190s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.042335s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.042508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000870s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000933s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001208s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001307s ]
+
+[ 2016-07-27T21:42:45+08:00 ] 127.0.0.1 /index.php/Home/Our/our.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000683s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000738s ]
+SQL: SHOW COLUMNS FROM `wed_company_address` [ RunTime:0.0863s ]
+SQL: SELECT * FROM `wed_company_address` ORDER BY id desc LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000130s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022217s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000484s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000532s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000738s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000790s ]
+

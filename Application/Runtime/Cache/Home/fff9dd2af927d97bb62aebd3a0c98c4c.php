@@ -31,8 +31,8 @@
 		<li><a href="<?php echo U('Index/gallery');?>">画廊</a></li>
 		<li><a href="<?php echo U('Index/blog');?>" class="active">永恒</a></li>
 		<li><a href="/Public/TOP" target="_blank">TOP</a></li>
-		<li><a href="javascript:;">商店</a></li>
-		<li><a href="javascript:;">蜜月计划</a></li>
+		<li><a href="<?php echo U('WeddingStore/index');?>">商店</a></li>
+		<li><a href="<?php echo U('Traveling/index');?>">蜜月计划</a></li>
 		<li><a href="<?php echo U('Our/our');?>">联系我们</a></li>
 	</ul>
 	<script>

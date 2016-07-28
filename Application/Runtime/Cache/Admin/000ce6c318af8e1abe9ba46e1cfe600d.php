@@ -29,6 +29,8 @@
     <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
     <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
+<!--    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">-->
     </head>
 <body class="fixed-sidebar full-height-layout gray-bg" style="overflow:hidden">
     <div id="wrapper">
@@ -64,7 +66,7 @@
                         </div>
                     </li>
                     <li>
-                        <a class="J_menuItem" href="<?php echo U('fresh');?>"><i class="fa fa-home"></i> <span class="nav-label">主页</span></a>
+                        <a class="J_menuItem" href="<?php echo U('Our/index');?>"><i class="fa fa-home"></i> <span class="nav-label">家地址</span></a>
                     </li>
                     <li>
                         <a class="J_menuItem" href="<?php echo U('Blog/index');?>"><i class="fa fa-columns"></i> <span class="nav-label">BLOG</span></a>
@@ -83,13 +85,13 @@
 
 <!--邮箱部分-->
                     <li>
-                        <a href="mailbox.html"><i class="fa fa-envelope"></i> <span class="nav-label">信箱 </span><span class="label label-warning pull-right">16</span></a>
+                        <a href="mailbox.html"><i class="fa fa-envelope"></i>
+                            <span class="nav-label">信箱</span><span class="label label-warning pull-right">16</span>
+                        </a>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="mailbox.html">收件箱</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Mail/mailbox');?>">收件箱</a>
                             </li>
-                            <li><a class="J_menuItem" href="mail_detail.html">查看邮件</a>
-                            </li>
-                            <li><a class="J_menuItem" href="mail_compose.html">写信</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Mail/mail_compose');?>">写信</a>
                             </li>
                         </ul>
                     </li>
@@ -130,7 +132,7 @@
                     <div class="navbar-header"><a class="navbar-minimalize minimalize-styl-2 btn btn-primary " href="#"><i class="fa fa-bars"></i> </a>
                     </div>
                     <ul class="nav navbar-top-links navbar-right">
-                        <li class="dropdown">
+           <!--             <li class="dropdown">
                             <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                                 <i class="fa fa-envelope"></i> <span class="label label-warning">16</span>
                             </a>
@@ -171,7 +173,7 @@
                                     </div>
                                 </li>
                             </ul>
-                        </li>
+                        </li>-->
                         <li class="dropdown">
                             <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
                                 <i class="fa fa-bell"></i> <span class="label label-primary">8</span>

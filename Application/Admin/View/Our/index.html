@@ -1,0 +1,68 @@
+<include file="Public/header" title="公司地址及路线"/>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content animated fadeInRight">
+        <div class="row">
+            {/*地址路线信息*/}
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-title">
+                        <h5>公司地址及路线</h5>
+                        <div class="ibox-tools">
+                            <a class="collapse-link">
+                                <i class="fa fa-chevron-up"></i>
+                            </a>
+                        </div>
+                        <div class="ibox-tools">
+                        <a  href="__CONTROLLER__/add" title="新增路线"><i class="glyphicon glyphicon-plus"></i></a>
+                        &emsp;
+                    </div>
+                    </div>
+                    {/*内容部分*/}
+                    <div class="ibox-content">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>地址</th>
+                                    <th>线路</th>
+                                    <th>Email</th>
+                                    <th>联系电话</th>
+                                    <th>操作</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            <volist name="info" id="vo">
+                                <tr>
+                                    <td>{$vo.id}</td>
+                                    <td title="{$vo.address}">{$vo.address|mb_substr=0,30}</td>
+                                    <td title="{$vo.line}">{$vo.line|mb_substr=0,30}</td>
+                                    <td>{$vo.email}</td>
+                                    <td>{$vo.telephone_number}</td>
+                                    <td>
+                                        <a  href="__CONTROLLER__/edit/id/{$vo.id}" title="编辑"><i class="glyphicon glyphicon-pencil"></i></a>
+                                        &emsp;
+                                        <a href="javascript:;" title="删除" onclick="ask('{$vo.id}')"><i class="glyphicon glyphicon-trash"></i></a>
+                                    </td>
+                                </tr>
+                            </volist>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include file="Public/js"/>
+    <script>
+        function ask(id, which) {
+            layer.confirm('确定删除吗？', {
+                btn: ['是','否'] //按钮
+            }, function(){
+                location.href = '__CONTROLLER__/' +which+ 'Del/id/'+id;
+            });
+        }
+        $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"})});
+    </script>
+    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
+</body>
+</html>

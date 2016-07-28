@@ -30,8 +30,8 @@
 		<li><a href="<?php echo U('Index/gallery');?>">画廊</a></li>
 		<li><a href="<?php echo U('Index/blog');?>">永恒</a></li>
 		<li><a href="/Public/TOP" target="_blank">TOP</a></li>
-		<li><a href="javascript:;">商店</a></li>
-		<li><a href="javascript:;">蜜月计划</a></li>
+		<li><a href="<?php echo U('WeddingStore/index');?>">商店</a></li>
+		<li><a href="<?php echo U('Traveling/index');?>">蜜月计划</a></li>
 		<li><a href="<?php echo U('Our/our');?>" class="active">联系我们</a></li>
 	</ul>
 	<script>
@@ -42,8 +42,6 @@
 		});
 	</script>
 </div>
-<!-- Header Ends Here -->
-<!-- Page Starts Here -->
 <div class="content">
 	<div class="container">
 		<div class="gallery">
@@ -51,27 +49,30 @@
 			<div class="map">
 				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1510409.9441035846!2d43.3713615!3d42.3207845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440cd7e64f626b%3A0x4f907964122d4ac2!2sGeorgia!5e0!3m2!1sen!2sin!4v1419301288570"  frameborder="0" style="border:0"></iframe>
 				<div class="address">
-					<h4>Address Here</h4>
-					<p>Nulla sollicitudin nulla nibh, non dapibus ex ornare eu. Duis convallis at orci at eleifend. Etiam sodales ante at erat fermentum</p>
-					<p>arius ut at mi. Nullam in blandit ante. Quisque molestie diam </p>
-					<p><a href="mailto:example@email.com">123example@email.com</a></p>
-					<p>+101 0000 888 888</p>
+					<h4>我们的地址：</h4>
+					<p><?php echo ($Caddress["address"]); ?></p>
+					<h4>来程路线：</h4>
+					<p><?php echo ($Caddress["line"]); ?></p>
+					<p>Email：<a href="mailto:<?php echo ($Caddress["email"]); ?>"><?php echo ($Caddress["email"]); ?></a></p>
+					<p>联系电话：<?php echo ($Caddress["telephone_number"]); ?></p>
 				</div>
 				<div class="clearfix"></div>
 			</div>
-						<div class="contact-box">
+			<form method="post" action="<?php echo U('Our/massage');?>">
+			<div class="contact-box">
 				<div class="text">
-					<input type="text" placeholder="姓名" required="">
-					<input type="text" placeholder="电子邮件地址" required="">
-					<input type="text" placeholder="标题" required="">
+					<input type="text" placeholder="姓名" required="" name="c_name">
+					<input type="text" placeholder="电子邮件地址" required="" name="c_email">
+					<input type="text" placeholder="标题" required="" name="c_title">
 				</div>
 				<div class="text">
-					<textarea placeholder="信息内容" required=""></textarea>
+					<textarea placeholder="信息内容" required="" name="c_content"></textarea>
 				</div>
 				<div class="text">
 					<input type="submit" value="发送"/>
 				</div>
 			</div>
+			</form>
 		</div>
 	</div>
 </div>
