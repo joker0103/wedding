@@ -1,33 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="284f8b28-f3f2-435e-a102-3ec545803ed1" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/Controller/MailController.class.php" afterPath="$PROJECT_DIR$/Application/Admin/Controller/MailController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Mail/mail_compose.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Mail/mail_compose.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Admin/View/Picture/pictures.html" afterPath="$PROJECT_DIR$/Application/Admin/View/Picture/pictures.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/OurController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/OurController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/Controller/TravelingController.class.php" afterPath="$PROJECT_DIR$/Application/Home/Controller/TravelingController.class.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Traveling/about.html" afterPath="$PROJECT_DIR$/Application/Home/View/Traveling/about.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Traveling/contact.html" afterPath="$PROJECT_DIR$/Application/Home/View/Traveling/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Traveling/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/Traveling/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Traveling/plans.html" afterPath="$PROJECT_DIR$/Application/Home/View/Traveling/plans.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/Traveling/services.html" afterPath="$PROJECT_DIR$/Application/Home/View/Traveling/services.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/WeddingStore/account.html" afterPath="$PROJECT_DIR$/Application/Home/View/WeddingStore/account.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/WeddingStore/checkout.html" afterPath="$PROJECT_DIR$/Application/Home/View/WeddingStore/checkout.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/WeddingStore/contact.html" afterPath="$PROJECT_DIR$/Application/Home/View/WeddingStore/contact.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/WeddingStore/index.html" afterPath="$PROJECT_DIR$/Application/Home/View/WeddingStore/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/WeddingStore/login.html" afterPath="$PROJECT_DIR$/Application/Home/View/WeddingStore/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/WeddingStore/product.html" afterPath="$PROJECT_DIR$/Application/Home/View/WeddingStore/product.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/WeddingStore/single.html" afterPath="$PROJECT_DIR$/Application/Home/View/WeddingStore/single.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Home/View/WeddingStore/typo.html" afterPath="$PROJECT_DIR$/Application/Home/View/WeddingStore/typo.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/b595b808c2ebeeeb0478ffc30bb4e87a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/d54847b90245d3bf7e15a1672d8b6a83.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Admin/d54847b90245d3bf7e15a1672d8b6a83.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/29236bb79c1745993b121aa7023c350a.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/29236bb79c1745993b121aa7023c350a.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Cache/Home/c57c8b30264d9f3d6e44fec52071e665.php" afterPath="$PROJECT_DIR$/Application/Runtime/Cache/Home/c57c8b30264d9f3d6e44fec52071e665.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Common/16_07_28.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Common/16_07_28.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_07_28.log" afterPath="$PROJECT_DIR$/Application/Runtime/Logs/Home/16_07_28.log" />
-    </list>
+    <list default="true" id="284f8b28-f3f2-435e-a102-3ec545803ed1" name="Default" comment="" />
     <ignored path="wedding.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -545,7 +519,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/Application/Runtime/Cache/Admin/65e605872ed5d34210f5b33beb13f5a3.php</url>
-          <line>71</line>
+          <line>73</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
