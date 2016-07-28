@@ -9,6 +9,12 @@ namespace Home\Controller;
 
 class TravelingController extends CommonController
 {
+    //公共部分
+    public function footer()
+    {
+        return $this->display();
+    }
+    
     public function index()
     {
         return $this->display();

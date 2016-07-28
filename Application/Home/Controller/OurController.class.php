@@ -67,6 +67,7 @@ class OurController extends CommonController
     {
         $post = I('post.');
         $post['is_customer'] = 1;
+        $post['send_date'] = time();
         $post['c_ip'] = sprintf('%u', ip2long($_SERVER['REMOTE_ADDR']));
         if (M('Customer_massage')->add($post)){
             return $this->success('发送成功，我们会在一小时内联系您，请保持通讯畅通！', U('our'), 5);

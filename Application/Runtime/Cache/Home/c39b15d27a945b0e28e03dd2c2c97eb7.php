@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 	<head>
 		<title>About</title>
-		<link href="__PUBLIC__/Home/css/traveling_style.css" rel="stylesheet" type="text/css"  media="all" />	</head>
+		<link href="/Public/Home/css/traveling_style.css" rel="stylesheet" type="text/css"  media="all" />	</head>
 	<body>
 		<!---start-wrap---->
 			<!---start-header---->
@@ -9,7 +9,7 @@
 				<div class="wrap">
 				<!---start-logo---->
 				<div class="logo">
-					<a href="index.html"><img src="__PUBLIC__/Home/images/traveling.png" title="logo" /></a>
+					<a href="index.html"><img src="/Public/Home/images/traveling.png" title="logo" /></a>
 				</div>
 				<!---End-logo---->
 				<!---start-top-nav---->
@@ -51,17 +51,17 @@
 					<div class="clear"> </div>
 					<div class="specials-grids">
 						<div class="special-grid">
-							<img src="__PUBLIC__/Home/images/grids-img1.jpg" title="image-name" />
+							<img src="/Public/Home/images/grids-img1.jpg" title="image-name" />
 							<a href="#">Latest Plans</a>
 							<p>Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. Quisque erat metus facilisis non feu,aliquam hendrerit quam. Donec ut lectus vel dolor adipiscing tincnt.</p>
 						</div>
 						<div class="special-grid">
-							<img src="__PUBLIC__/Home/images/grids-img2.jpg" title="image-name" />
+							<img src="/Public/Home/images/grids-img2.jpg" title="image-name" />
 							<a href="#">Pre Plans</a>
 							<p>Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. Quisque erat metus facilisis non feu,aliquam hendrerit quam. Donec ut lectus vel dolor adipiscing tincnt.</p>
 						</div>
 						<div class="special-grid spe-grid">
-							<img src="__PUBLIC__/Home/images/grids-img3.jpg" title="image-name" />
+							<img src="/Public/Home/images/grids-img3.jpg" title="image-name" />
 							<a href="#">Free Plans</a>
 							<p>Lorem ipsum dolor sit amet consectetur adiing elit. In volutpat luctus eros ac placerat. Quisque erat metus facilisis non feu,aliquam hendrerit quam. Donec ut lectus vel dolor adipiscing tincnt.</p>
 						</div>
@@ -123,4 +123,3 @@
 			</div>
 		</div>
 		<inclide file="Traveling/footer"/>
-

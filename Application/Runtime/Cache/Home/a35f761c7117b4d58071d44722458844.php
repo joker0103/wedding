@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 	<head>
 		<title>Contact</title>
-		<link href="__PUBLIC__/Home/css/traveling_style.css" rel="stylesheet" type="text/css"  media="all" />	</head>
+		<link href="/Public/Home/css/traveling_style.css" rel="stylesheet" type="text/css"  media="all" />	</head>
 	<body>
 		<!---start-wrap---->
 			<!---start-header---->
@@ -9,7 +9,7 @@
 				<div class="wrap">
 				<!---start-logo---->
 				<div class="logo">
-					<a href="index.html"><img src="__PUBLIC__/Home/images/traveling.png" title="logo" /></a>
+					<a href="index.html"><img src="/Public/Home/images/traveling.png" title="logo" /></a>
 				</div>
 				<!---End-logo---->
 				<!---start-top-nav---->
@@ -55,7 +55,7 @@
 				<div class="col span_2_of_3">
 				  <div class="contact-form">
 				  	<h3>Contact Us</h3>
-					    <form method="post" action="__PUBLIC__/Home/contact-post.html">
+					    <form method="post" action="/Public/Home/contact-post.html">
 					    	<div>
 						    	<span><label>NAME</label></span>
 						    	<span><input name="userName" type="text" class="textbox"></span>
@@ -126,4 +126,3 @@
 			</div>
 		</div>
 		<inclide file="Traveling/footer"/>
-

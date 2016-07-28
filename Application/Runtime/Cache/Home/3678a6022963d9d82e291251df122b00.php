@@ -1,7 +1,7 @@
-<!DOCTYPE HTML>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE HTML>
 	<head>
 		<title>plans</title>
-		<link href="__PUBLIC__/Home/css/traveling_style.css" rel="stylesheet" type="text/css"  media="all" />	</head>
+		<link href="/Public/Home/css/traveling_style.css" rel="stylesheet" type="text/css"  media="all" />	</head>
 	<body>
 		<!---start-wrap---->
 			<!---start-header---->
@@ -9,7 +9,7 @@
 				<div class="wrap">
 				<!---start-logo---->
 				<div class="logo">
-					<a href="index.html"><img src="__PUBLIC__/Home/images/traveling.png" title="logo" /></a>
+					<a href="index.html"><img src="/Public/Home/images/traveling.png" title="logo" /></a>
 				</div>
 				<!---End-logo---->
 				<!---start-top-nav---->

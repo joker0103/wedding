@@ -7,16 +7,6 @@
                     <div class="ibox-content">
                         <!--图片显示-->
                         <div class="ibox-content">
-                           <!-- {$p}-->
-<!--                            <script>
-                               var photo = {$p};
-                                var len = photo.length;
-                      for (var i = 0; i < len; ++i) {
-                                    var img = "<a class='fancybox' href='"+photo[i].file_path+"'><img alt='image' src='"+photo[i].file_path+"' /></a>&emsp;";
-                                    document.write(img);
-                                }
-                            </script>-->
-                            <!--图片上传-->
                             <span id="img"></span>
                              <form method="post" class="form-horizontal" enctype="multipart/form-data" action="{:U('upload')}">
                                 <div class="hr-line-dashed"></div>
@@ -40,7 +30,6 @@
     <include file="Public/js"/>
     <script>
         $(function() {
-           // var upload = '';
             $('#file_upload').uploadify({
                 'swf'      : '__PUBLIC__/Admin/uploadify/uploadify.swf',
                 'uploader' : '__CONTROLLER__/upload',

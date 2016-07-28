@@ -1,4 +1,149 @@
-<include file="WeddingStore/header" title="婚礼商店"/>
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+<head>
+    <title>婚礼商店</title>
+    <link href="/Public/Home/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/Public/Home/js/jquery.min.js"></script>
+    <!-- Custom Theme files -->
+    <!--theme-style-->
+    <link href="/Public/Home/css/store_style.css" rel="stylesheet" type="text/css" media="all" />
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Wedding Store Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- start menu -->
+    <script src="/Public/Home/js/simpleCart.min.js"> </script>
+    <!-- start menu -->
+    <link href="/Public/Home/css/memenu.css" rel="stylesheet" type="text/css" media="all" />
+    <script type="text/javascript" src="/Public/Home/js/memenu.js"></script>
+    <script>$(document).ready(function(){$(".memenu").memenu();});</script>
+    <!-- /start menu -->
+</head>
+<body>
+<!--header-->
+<div class="top_bg">
+    <div class="container">
+        <div class="header_top-sec">
+            <div class="top_right">
+                <ul>
+                    <li><a href="#">help</a></li>|
+                    <li><a href="contact.html">Contact</a></li>|
+                    <li><a href="login.html">Track Order</a></li>
+                </ul>
+            </div>
+            <div class="top_left">
+                <ul>
+                    <li class="top_link">Email:<a href="mailto:info@example.com">mail@example.com</a></li>|
+                    <li class="top_link"><a href="login.html">My Account</a></li>
+                </ul>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+    </div>
+</div>
+<div class="header-top">
+    <div class="header-bottom">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html"><h1>Wedding Store</h1></a>
+            </div>
+            <div class="top-nav">
+                <ul class="memenu skyblue"><li class="active"><a href="index.html">Home</a></li>
+                    <li class="grid"><a href="#">Wedding</a>
+                        <div class="mepanel">
+                            <div class="row">
+                                <div class="col1 me-one">
+                                    <h4>Shop</h4>
+                                    <ul>
+                                        <li><a href="product.html">New Arrivals</a></li>
+                                        <li><a href="product.html">Men</a></li>
+                                        <li><a href="product.html">Women</a></li>
+                                        <li><a href="product.html">Accessories</a></li>
+                                        <li><a href="product.html">Kids</a></li>
+                                        <li><a href="product.html">login</a></li>
+                                        <li><a href="product.html">Brands</a></li>
+                                        <li><a href="product.html">My Shopping Bag</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col1 me-one">
+                                    <h4>Style Zone</h4>
+                                    <ul>
+                                        <li><a href="product.html">Men</a></li>
+                                        <li><a href="product.html">Women</a></li>
+                                        <li><a href="product.html">Brands</a></li>
+                                        <li><a href="product.html">Kids</a></li>
+                                        <li><a href="product.html">Accessories</a></li>
+                                        <li><a href="product.html">Style Videos</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col1 me-one">
+                                    <h4>Popular Brands</h4>
+                                    <ul>
+                                        <li><a href="product.html">Levis</a></li>
+                                        <li><a href="product.html">Persol</a></li>
+                                        <li><a href="product.html">Nike</a></li>
+                                        <li><a href="product.html">Edwin</a></li>
+                                        <li><a href="product.html">New Balance</a></li>
+                                        <li><a href="product.html">Jack & Jones</a></li>
+                                        <li><a href="product.html">Paul Smith</a></li>
+                                        <li><a href="product.html">Ray-Ban</a></li>
+                                        <li><a href="product.html">Wood Wood</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="grid"><a href="#">Bride Style</a>
+                        <div class="mepanel">
+                            <div class="row">
+                                <div class="col1 me-one">
+                                    <h4>Shop</h4>
+                                    <ul>
+                                        <li><a href="product.html">New Arrivals</a></li>
+                                        <li><a href="product.html">Men</a></li>
+                                        <li><a href="product.html">Women</a></li>
+                                        <li><a href="product.html">Accessories</a></li>
+                                        <li><a href="product.html">Kids</a></li>
+                                        <li><a href="product.html">login</a></li>
+                                        <li><a href="product.html">Brands</a></li>
+                                        <li><a href="product.html">My Shopping Bag</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col1 me-one">
+                                    <h4>Style Zone</h4>
+                                    <ul>
+                                        <li><a href="product.html">Men</a></li>
+                                        <li><a href="product.html">Women</a></li>
+                                        <li><a href="product.html">Brands</a></li>
+                                        <li><a href="product.html">Kids</a></li>
+                                        <li><a href="product.html">Accessories</a></li>
+                                        <li><a href="product.html">Style Videos</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col1 me-one">
+                                    <h4>Popular Brands</h4>
+                                    <ul>
+                                        <li><a href="product.html">Levis</a></li>
+                                        <li><a href="product.html">Persol</a></li>
+                                        <li><a href="product.html">Nike</a></li>
+                                        <li><a href="product.html">Edwin</a></li>
+                                        <li><a href="product.html">New Balance</a></li>
+                                        <li><a href="product.html">Jack & Jones</a></li>
+                                        <li><a href="product.html">Paul Smith</a></li>
+                                        <li><a href="product.html">Ray-Ban</a></li>
+                                        <li><a href="product.html">Wood Wood</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="grid"><a href="typo.html">Typo</a></li>
+                    <li class="grid"><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="clearfix"> </div>
+            </div>
 			 <div class="cart box_1">
 				 <a href="checkout.html">
 					<h3> <div class="total">
@@ -27,7 +172,7 @@
 					 <a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p1.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p1.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -49,7 +194,7 @@
 					 <a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p2.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p2.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -71,7 +216,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p3.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p3.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -93,7 +238,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p4.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p4.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -115,7 +260,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p5.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p5.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -137,7 +282,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p6.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p6.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -158,7 +303,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p7.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p7.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -179,7 +324,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p8.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p8.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -200,7 +345,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p9.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p9.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -221,7 +366,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p10.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p10.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -242,7 +387,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p11.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p11.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -263,7 +408,7 @@
 					<a href="single.html"><div class="product-grid love-grid">
 						<div class="more-product"><span> </span></div>						
 						<div class="product-img b-link-stripe b-animate-go  thickbox">
-							<img src="__PUBLIC__/Home/images/p12.jpg" class="img-responsive" alt=""/>
+							<img src="/Public/Home/images/p12.jpg" class="img-responsive" alt=""/>
 							<div class="b-wrapper">
 							<h4 class="b-animate b-from-left  b-delay03">							
 							<button class="btns"><span class="glyphicon glyphicon-zoom-in" aria-hidden="true"></span>Quick View</button>
@@ -289,7 +434,7 @@
 						 <div class="tab1">
 							 <ul class="place">								
 								 <li class="sort">Fashion</li>
-								 <li class="by"><img src="__PUBLIC__/Home/images/do.png" alt=""></li>
+								 <li class="by"><img src="/Public/Home/images/do.png" alt=""></li>
 									<div class="clearfix"> </div>
 							  </ul>
 							 <div class="single-bottom">						
@@ -303,7 +448,7 @@
 						  <div class="tab2">
 							 <ul class="place">								
 								 <li class="sort">Women Ethnic Wear</li>
-								 <li class="by"><img src="__PUBLIC__/Home/images/do.png" alt=""></li>
+								 <li class="by"><img src="/Public/Home/images/do.png" alt=""></li>
 									<div class="clearfix"> </div>
 							  </ul>
 							 <div class="single-bottom">						
@@ -314,7 +459,7 @@
 						  <div class="tab3">
 							 <ul class="place">								
 								 <li class="sort">Personal Care</li>
-								 <li class="by"><img src="__PUBLIC__/Home/images/do.png" alt=""></li>
+								 <li class="by"><img src="/Public/Home/images/do.png" alt=""></li>
 									<div class="clearfix"> </div>
 							  </ul>
 							 <div class="single-bottom">						
@@ -324,7 +469,7 @@
 						  <div class="tab4">
 							 <ul class="place">								
 								 <li class="sort">Jewellery</li>
-								 <li class="by"><img src="__PUBLIC__/Home/images/do.png" alt=""></li>
+								 <li class="by"><img src="/Public/Home/images/do.png" alt=""></li>
 									<div class="clearfix"> </div>
 							  </ul>
 							 <div class="single-bottom">						
@@ -336,7 +481,7 @@
 						  <div class="tab5">
 							 <ul class="place">								
 								 <li class="sort">Specials</li>
-								 <li class="by"><img src="__PUBLIC__/Home/images/do.png" alt=""></li>
+								 <li class="by"><img src="/Public/Home/images/do.png" alt=""></li>
 									<div class="clearfix"> </div>
 							  </ul>
 							 <div class="single-bottom">						
@@ -419,8 +564,8 @@
 						  </ul>
 				   </section>
 				   <!---->
-					 <script type="text/javascript" src="__PUBLIC__/Home/js/jquery-ui.min.js"></script>
-					 <link rel="stylesheet" type="text/css" href="__PUBLIC__/Home/css/jquery-ui.css">
+					 <script type="text/javascript" src="/Public/Home/js/jquery-ui.min.js"></script>
+					 <link rel="stylesheet" type="text/css" href="/Public/Home/css/jquery-ui.css">
 					<script type='text/javascript'>//<![CDATA[ 
 					$(window).load(function(){
 					 $( "#slider-range" ).slider({

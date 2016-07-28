@@ -177,11 +177,4 @@
 			</div>
 			</div>
 		</div>
-		<!---End-footer---->
-		<div class="clear"> </div>
-		<div class="copy-right">
-			<p>Copyright &copy; 2014.Company name All rights reserved.<a target="_blank" href="http://www.freemoban.com/">www.freemoban.com</a></p>
-		</div>
-	
-</body>
-</html>
+<inclide file="Traveling/footer"/>
