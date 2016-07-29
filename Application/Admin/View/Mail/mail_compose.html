@@ -9,14 +9,14 @@
                             <h5>文件夹</h5>
                             <ul class="folder-list m-b-md" style="padding: 0">
                                 <li>
-                                    <a href="__CONTROLLER__/mailbox/type/got"> <i class="fa fa-inbox "></i> 收件箱 <span class="label label-warning pull-right">16</span>
+                                    <a href="__CONTROLLER__/index/type/got"> <i class="fa fa-inbox"></i> 收件箱 <span class="label label-warning pull-right">{$new}</span>
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="__CONTROLLER__/mailbox/type/sent"> <i class="fa fa-envelope-o"></i> 发件箱</a>
+                                    <a href="__CONTROLLER__/index/type/sent"> <i class="fa fa-envelope-o"></i> 发件箱</a>
                                 </li>
                                 <li>
-                                    <a href="__CONTROLLER__/mailbox/type/threw"> <i class="fa fa-trash-o"></i> 垃圾箱</a>
+                                    <a href="__CONTROLLER__/index/type/threw"> <i class="fa fa-trash-o"></i> 垃圾箱</a>
                                 </li>
                             </ul>
                         </div>
@@ -26,23 +26,24 @@
             <div class="col-sm-9 animated fadeInRight">
                 <div class="mail-box-header">
                     <div class="pull-right tooltip-demo">
-                        <a href="__CONTROLLER__/mailbox/type/got" class="btn btn-danger btn-sm" title="放弃"><i class="fa fa-times"></i> 放弃</a>
+                        <a href="__CONTROLLER__/index/type/got" class="btn btn-danger btn-sm" title="放弃"><i class="fa fa-times"></i> 放弃</a>
                     </div>
                     <h2>写信</h2>
                 </div>
                 <div class="mail-box">
                     <div class="mail-body">
-                        <form class="form-horizontal" method="post" action="{:U('send')}">
+                        <form class="form-horizontal" method="post" action="{:U('send')}" enctype="multipart/form-data">
+                            <input type="hidden" name="from_id" value="{$Think.session.id}">
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">发送到：</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="to_name">
                                 </div>
                             </div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">主题：</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control">
+                                    <input type="text" class="form-control" name="c_title">
                                 </div>
                             </div>
                             <div class="form-group">
@@ -52,10 +53,15 @@
                                     <input id="file_upload" name="file_upload" type="file" multiple="true">
                                 </div>
                             </div>
+                            <table>
+                                <tr id="img">
+
+                                </tr>
+                            </table>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">内容：</label>
                                 <div class="col-sm-10">
-                                    <script type="text/plain" id="myEditor" style="width:1000px;height:240px;" name="content">
+                                    <script type="text/plain" id="myEditor" style="width:1000px;height:240px;" name="c_content">
                                     </script>
                                 </div>
                             </div>
@@ -73,15 +79,15 @@
     </div>
 <include file="Public/js"/>
     <script>
-
         $(function() {
+            var img = '';
             $('#file_upload').uploadify({
                 'swf'      : '__PUBLIC__/Admin/uploadify/uploadify.swf',
                 'uploader' : '__CONTROLLER__/upload',
                 'buttonText' : '添加附件',
                 'onUploadSuccess' : function (file, data, response) {
-                    var images = eval(data);
-                    img(images);
+                    img += '<td style="width: 100px;height: 100px;padding-right: 10px;"><img src="' + data + '" style="width: 100px;height: 100px;"><td/>';
+                    $('#img').html(img);
                 }
             });
             var um = UM.getEditor('myEditor');

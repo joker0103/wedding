@@ -29,6 +29,8 @@
     <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
     <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
+<!--    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">-->
     </head>
 <body class="gray-bg">
     <div class="wrapper wrapper-content">
@@ -38,16 +40,6 @@
                     <div class="ibox-content">
                         <!--图片显示-->
                         <div class="ibox-content">
-                           <!-- <?php echo ($p); ?>-->
-<!--                            <script>
-                               var photo = <?php echo ($p); ?>;
-                                var len = photo.length;
-                      for (var i = 0; i < len; ++i) {
-                                    var img = "<a class='fancybox' href='"+photo[i].file_path+"'><img alt='image' src='"+photo[i].file_path+"' /></a>&emsp;";
-                                    document.write(img);
-                                }
-                            </script>-->
-                            <!--图片上传-->
                             <span id="img"></span>
                              <form method="post" class="form-horizontal" enctype="multipart/form-data" action="<?php echo U('upload');?>">
                                 <div class="hr-line-dashed"></div>
@@ -100,7 +92,6 @@
 
     <script>
         $(function() {
-           // var upload = '';
             $('#file_upload').uploadify({
                 'swf'      : '/Public/Admin/uploadify/uploadify.swf',
                 'uploader' : '/index.php/Admin/Picture/upload',

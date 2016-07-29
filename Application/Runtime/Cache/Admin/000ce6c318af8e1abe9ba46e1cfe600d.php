@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
-    <meta http-equiv="Cache-Control" content="no-siteapp" />
+<!--    <meta http-equiv="Cache-Control" content="no-siteapp" />-->
     <title>WEDDING后台主页</title>
     <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
     <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
@@ -86,10 +86,10 @@
 <!--邮箱部分-->
                     <li>
                         <a href="mailbox.html"><i class="fa fa-envelope"></i>
-                            <span class="nav-label">信箱</span><span class="label label-warning pull-right">16</span>
+                            <span class="nav-label">信箱</span><span class="label label-warning pull-right" id="mailCount"><?php echo ($new); ?></span>
                         </a>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="<?php echo U('Mail/mailbox');?>">收件箱</a>
+                            <li><a class="J_menuItem" href="<?php echo U('Mail/index');?>">收件箱</a>
                             </li>
                             <li><a class="J_menuItem" href="<?php echo U('Mail/mail_compose');?>">写信</a>
                             </li>
@@ -277,3 +277,15 @@
 
 </body>
 </html>
+<script>
+    function mailCount() {
+        $.get("<?php echo U('Mail/mailCount');?>", function (data) {
+           //console.log(data);
+            $('#mailCount').html(data);
+        });
+
+    }
+    $(function () {
+        setInterval('mailCount()', 3000);
+    });
+</script>

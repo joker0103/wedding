@@ -29,6 +29,8 @@
     <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
     <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
+<!--    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">-->
     </head>
 <body class="gray-bg">
     <div class="wrapper wrapper-content animated fadeInRight">

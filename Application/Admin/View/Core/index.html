@@ -55,10 +55,10 @@
 <!--邮箱部分-->
                     <li>
                         <a href="mailbox.html"><i class="fa fa-envelope"></i>
-                            <span class="nav-label">信箱</span><span class="label label-warning pull-right">16</span>
+                            <span class="nav-label">信箱</span><span class="label label-warning pull-right" id="mailCount">{$new}</span>
                         </a>
                         <ul class="nav nav-second-level">
-                            <li><a class="J_menuItem" href="{:U('Mail/mailbox')}">收件箱</a>
+                            <li><a class="J_menuItem" href="{:U('Mail/index')}">收件箱</a>
                             </li>
                             <li><a class="J_menuItem" href="{:U('Mail/mail_compose')}">写信</a>
                             </li>
@@ -213,3 +213,15 @@
     <include file="Public/js"/>
 </body>
 </html>
+<script>
+    function mailCount() {
+        $.get("{:U('Mail/mailCount')}", function (data) {
+           //console.log(data);
+            $('#mailCount').html(data);
+        });
+
+    }
+    $(function () {
+        setInterval('mailCount()', 3000);
+    });
+</script>

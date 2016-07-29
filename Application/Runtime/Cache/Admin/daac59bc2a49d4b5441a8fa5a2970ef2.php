@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
 <!--    <meta http-equiv="Cache-Control" content="no-siteapp" />-->
-    <title>写信</title>
+    <title>收件箱</title>
     <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
     <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
     <!--[if lt IE 9]>
@@ -42,7 +42,7 @@
                             <h5>文件夹</h5>
                             <ul class="folder-list m-b-md" style="padding: 0">
                                 <li>
-                                    <a href="/index.php/Admin/Mail/index/type/got"> <i class="fa fa-inbox"></i> 收件箱 <span class="label label-warning pull-right"><?php echo ($new); ?></span>
+                                    <a href="/index.php/Admin/Mail/index/type/got"> <i class="fa fa-inbox "></i> 收件箱 <span class="label label-warning pull-right"><?php echo ($new); ?></span>
                                     </a>
                                 </li>
                                 <li>
@@ -52,60 +52,56 @@
                                     <a href="/index.php/Admin/Mail/index/type/threw"> <i class="fa fa-trash-o"></i> 垃圾箱</a>
                                 </li>
                             </ul>
+                            <a class="btn btn-block btn-primary compose-mail" href="<?php echo U('mail_compose');?>">写信</a>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="col-sm-9 animated fadeInRight">
                 <div class="mail-box-header">
-                    <div class="pull-right tooltip-demo">
-                        <a href="/index.php/Admin/Mail/index/type/got" class="btn btn-danger btn-sm" title="放弃"><i class="fa fa-times"></i> 放弃</a>
+                    <h2><?php echo ($choose); ?></h2>
+                    <div class="mail-tools tooltip-demo m-t-md">
+                        <button class="btn btn-white btn-sm" title="标为已读" id="readed"><i class="fa fa-eye"></i></button>
+                        <button class="btn btn-white btn-sm" title="删除" id="btndel"><i class="fa fa-trash-o"></i></button>
                     </div>
-                    <h2>写信</h2>
                 </div>
                 <div class="mail-box">
-                    <div class="mail-body">
-                        <form class="form-horizontal" method="post" action="<?php echo U('send');?>" enctype="multipart/form-data">
-                            <input type="hidden" name="from_id" value="<?php echo (session('id')); ?>">
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">发送到：</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="to_name">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">主题：</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" name="c_title">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">添加附件：</label>
-                                <div class="col-sm-10">
-                                    <div id="queue"></div>
-                                    <input id="file_upload" name="file_upload" type="file" multiple="true">
-                                </div>
-                            </div>
-                            <table>
-                                <tr id="img">
 
-                                </tr>
-                            </table>
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">内容：</label>
-                                <div class="col-sm-10">
-                                    <script type="text/plain" id="myEditor" style="width:1000px;height:240px;" name="c_content">
-                                    </script>
-                                </div>
-                            </div>
-                            <div class="hr-line-dashed"></div>
-                            <div class="form-group">
-                                <div class="col-sm-4 col-sm-offset-2">
-                                    <button class="btn btn-primary" type="submit"><i class="fa fa-reply"></i>&emsp;发送</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
+                    <table class="table table-hover table-mail">
+                        <tbody>
+                        <!--顾客来信-->
+                        <?php if(is_array($customer)): $i = 0; $__LIST__ = $customer;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($vo['status'] == 0 ): ?><tr class="unread">
+                                    <?php else: ?>
+                                <tr class="read"><?php endif; ?>
+                            <td class="check-mail">
+                                <input type="checkbox" class="i-checks" value="<?php echo ($vo["id"]); ?>">
+                            </td>
+                            <td class="mail-ontact"><a href="/index.php/Admin/Mail/mail_detail/id/<?php echo ($vo["id"]); ?>/type/1">重要信息</a>
+                                <span class="label label-danger pull-right">顾客</span>
+                                <?php if($vo['status'] == 0 ): ?><span class="label label-warning pull-right">未读</span><?php endif; ?>
+                            </td>
+                            <td class="mail-subject"><a href="/index.php/Admin/Mail/mail_detail/id/<?php echo ($vo["id"]); ?>/type/1"><?php echo ($vo["c_title"]); ?></a>
+                            </td>
+                            <td class=""></td>
+                            <td class="text-right mail-date"><?php echo (date("Y-m-d H:i:s", $vo["send_date"])); ?></td>
+                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                        <!--站内信-->
+                        <?php if(is_array($massage)): $i = 0; $__LIST__ = $massage;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i; if($vo['status'] == 0 ): ?><tr class="unread">
+                                <?php else: ?>
+                                <tr class="read"><?php endif; ?>
+                                    <td class="check-mail">
+                                        <input type="checkbox" class="i-checks" value="<?php echo ($vo["id"]); ?>">
+                                    </td>
+                                    <td class="mail-ontact"><a href="/index.php/Admin/Mail/mail_detail/id/<?php echo ($vo["id"]); ?>/type/2"><?php echo ($vo["name"]); ?></a>
+                                        <?php if($vo['status'] == 0 ): ?><span class="label label-warning pull-right">未读</span><?php endif; ?>
+                                    </td>
+                                    <td class="mail-subject"><a href="/index.php/Admin/Mail/mail_detail/id/<?php echo ($vo["id"]); ?>/type/2"><?php echo ($vo["c_title"]); ?></a>
+                                    </td>
+                                    <td class=""></td>
+                                    <td class="text-right mail-date"><?php echo (date("Y-m-d H:i:s", $vo["send_date"])); ?></td>
+                                </tr><?php endforeach; endif; else: echo "" ;endif; ?>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
@@ -140,21 +136,22 @@
 <script src="/Public/Admin/js/plugins/fancybox/jquery.fancybox.js"></script>
 
 
+    <?php switch($_SESSION['theMail']): case "1": ?><script>var url = '/index.php/Admin/Mail/Del/ids/';</script><?php break;?>
+        <?php case "2": ?><script>var url = '/index.php/Admin/Mail/myDel/ids/';</script><?php break;?>
+        <?php case "3": ?><script>var url = '/index.php/Admin/Mail/realDel/ids/';</script><?php break; endswitch;?>
     <script>
-        $(function() {
-            var img = '';
-            $('#file_upload').uploadify({
-                'swf'      : '/Public/Admin/uploadify/uploadify.swf',
-                'uploader' : '/index.php/Admin/Mail/upload',
-                'buttonText' : '添加附件',
-                'onUploadSuccess' : function (file, data, response) {
-                    img += '<td style="width: 100px;height: 100px;padding-right: 10px;"><img src="' + data + '" style="width: 100px;height: 100px;"><td/>';
-                    $('#img').html(img);
+        $(function () {
+            $('#btndel').on('click', function () {
+                var id = $(':checkbox:checked');
+                var ids = '';
+                for (var i = 0; i < id.length ; ++i) {
+                  ids += id[i].value + ',';
                 }
+                ids = ids.substring(0, ids.length - 1);
+                location.href = url + ids;
             });
-            var um = UM.getEditor('myEditor');
-            $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"})});
         });
+        $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"})});
     </script>
 </body>
 </html>

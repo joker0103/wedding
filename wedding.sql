@@ -1,16 +1,16 @@
 /*
 Navicat MySQL Data Transfer
 
-Source Server         : OA
+Source Server         : wedding
 Source Server Version : 50505
-Source Host           : 127.0.0.1:3306
+Source Host           : localhost:3306
 Source Database       : wedding
 
 Target Server Type    : MYSQL
 Target Server Version : 50505
 File Encoding         : 65001
 
-Date: 2016-07-28 17:01:18
+Date: 2016-07-29 17:36:11
 */
 
 SET FOREIGN_KEY_CHECKS=0;
@@ -102,12 +102,27 @@ CREATE TABLE `wed_customer_massage` (
   `c_ip` int(11) NOT NULL,
   `send_date` int(11) NOT NULL DEFAULT '0',
   `status` tinyint(4) NOT NULL DEFAULT '0',
-  PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+  `my_status` tinyint(4) NOT NULL DEFAULT '0',
+  `real_del` tinyint(4) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`),
+  KEY `is_customer` (`is_customer`),
+  KEY `status` (`status`)
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of wed_customer_massage
 -- ----------------------------
+INSERT INTO `wed_customer_massage` VALUES ('1', '伍华志', '3', '0', '1', '', '', 'test', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;特啊刚刚a大哥 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;', '2130706433', '0', '2', '1', '0');
+INSERT INTO `wed_customer_massage` VALUES ('2', '李民梦', '3', '0', '1', '', '', '二恶', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;阿飞啊阿飞阿飞 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;', '2130706433', '1469712648', '0', '2', '0');
+INSERT INTO `wed_customer_massage` VALUES ('3', 'ys', '6', '0', '1', '', '', 'fwtga', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;wqtqtw &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;', '2130706433', '1469758910', '2', '0', '1');
+INSERT INTO `wed_customer_massage` VALUES ('4', 'ys', '6', '0', '1', '', '', 'hello', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; af fwqrqwrfsaf &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;', '2130706433', '1469759863', '1', '0', '0');
+INSERT INTO `wed_customer_massage` VALUES ('5', '三余无梦生', '6', '0', '1', '', '', 'hello', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;啊大发发发发 &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;', '2130706433', '1469760275', '0', '0', '0');
+INSERT INTO `wed_customer_massage` VALUES ('6', '伍华志', '3', '0', '1', '', '', '啊方法', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 阿飞 阿凡达fa &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;', '2130706433', '1469765782', '2', '2', '0');
+INSERT INTO `wed_customer_massage` VALUES ('7', '', null, '1', '0', 'afas a', 'fafaf a', 'afa faf', 'afa af', '2130706433', '1469774931', '1', '0', '0');
+INSERT INTO `wed_customer_massage` VALUES ('8', 'ys', '6', '0', '1', '', '', 'saf a', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; af afa &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;', '2130706433', '1469780035', '1', '0', '0');
+INSERT INTO `wed_customer_massage` VALUES ('9', 'gdfsfga g', '6', '0', '1', '', '', 'agfsdg ', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;g sdfgfd gerggf &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;', '2130706433', '1469781576', '0', '0', '0');
+INSERT INTO `wed_customer_massage` VALUES ('10', 'ys', '6', '0', '0', '', '', '', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/p&gt;', '2130706433', '1469781672', '1', '0', '0');
+INSERT INTO `wed_customer_massage` VALUES ('11', 'ys', '6', '0', '0', '', '', 'saf asf', '&lt;p&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; afd asdf &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/p&gt;', '2130706433', '1469781683', '1', '0', '0');
 
 -- ----------------------------
 -- Table structure for wed_numberone
@@ -191,7 +206,7 @@ CREATE TABLE `wed_photo_store` (
   `file_path` varchar(64) NOT NULL,
   `from_id` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=47 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=48 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of wed_photo_store
@@ -241,6 +256,7 @@ INSERT INTO `wed_photo_store` VALUES ('43', '3', '/Public/Admin/Uploads/2016-07-
 INSERT INTO `wed_photo_store` VALUES ('44', '3', '/Public/Admin/Uploads/2016-07-27/57984bfc2c429.jpg', '7');
 INSERT INTO `wed_photo_store` VALUES ('45', '3', '/Public/Admin/Uploads/2016-07-27/57984c1b7b521.jpg', '6');
 INSERT INTO `wed_photo_store` VALUES ('46', '3', '/Public/Admin/Uploads/2016-07-27/57984c2090933.jpg', '6');
+INSERT INTO `wed_photo_store` VALUES ('47', '3', '/Public/Admin/Uploads/2016-07-28/5799e959a6ef7.jpg', '7');
 
 -- ----------------------------
 -- Table structure for wed_send_file
@@ -252,11 +268,29 @@ CREATE TABLE `wed_send_file` (
   `file_path` varchar(64) NOT NULL,
   `from_massage` int(11) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=19 DEFAULT CHARSET=utf8;
 
 -- ----------------------------
 -- Records of wed_send_file
 -- ----------------------------
+INSERT INTO `wed_send_file` VALUES ('1', '2016-07-28', '/Public/Admin/Uploads/2016-07-28/20140504185433_dKk8S.jpg', '1');
+INSERT INTO `wed_send_file` VALUES ('2', '2016-07-28', '/Public/Admin/Uploads/2016-07-28/5523787e99071.jpg', '1');
+INSERT INTO `wed_send_file` VALUES ('3', '2016-07-28', '/Public/Admin/Uploads/2016-07-28/20140504185433_dKk8S.jpg', '1');
+INSERT INTO `wed_send_file` VALUES ('4', '2016-07-28', '/Public/Admin/Uploads/2016-07-28/20140504185433_dKk8S.jpg', '1');
+INSERT INTO `wed_send_file` VALUES ('5', '2016-07-28', '/Public/Admin/Uploads/2016-07-28/5523787e99071.jpg', '1');
+INSERT INTO `wed_send_file` VALUES ('6', '2016-07-28', '/Public/Admin/Uploads/2016-07-28/20140504185433_dKk8S.jpg', '2');
+INSERT INTO `wed_send_file` VALUES ('7', '2016-07-28', '/Public/Admin/Uploads/2016-07-28/5523787e99071.jpg', '2');
+INSERT INTO `wed_send_file` VALUES ('8', '2016-07-28', '/Public/Admin/Uploads/2016-07-28/20131212161300_itMUA.jpg', '2');
+INSERT INTO `wed_send_file` VALUES ('9', '2016-07-29', '/Public/Admin/Uploads/2016-07-29/20131212161300_itMUA.jpg', '3');
+INSERT INTO `wed_send_file` VALUES ('10', '2016-07-29', '/Public/Admin/Uploads/2016-07-29/5523787e99071.jpg', '3');
+INSERT INTO `wed_send_file` VALUES ('11', '2016-07-29', '/Public/Admin/Uploads/2016-07-29/20150424041750.jpg', '3');
+INSERT INTO `wed_send_file` VALUES ('12', '2016-07-29', '/Public/Admin/Uploads/2016-07-29/20131212161300_itMUA.jpg', '4');
+INSERT INTO `wed_send_file` VALUES ('13', '2016-07-29', '/Public/Admin/Uploads/2016-07-29/20131212161300_itMUA.jpg', '5');
+INSERT INTO `wed_send_file` VALUES ('14', '20131212161300_itMUA', '/Public/Admin/Uploads/2016-07-29/20131212161300_itMUA.jpg', '6');
+INSERT INTO `wed_send_file` VALUES ('15', '5523787e99071.jpg', '/Public/Admin/Uploads/2016-07-29/5523787e99071.jpg', '6');
+INSERT INTO `wed_send_file` VALUES ('16', '20140504185433_dKk8S', '/Public/Admin/Uploads/2016-07-29/20140504185433_dKk8S.jpg', '8');
+INSERT INTO `wed_send_file` VALUES ('17', '5523787e99071.jpg', '/Public/Admin/Uploads/2016-07-29/5523787e99071.jpg', '8');
+INSERT INTO `wed_send_file` VALUES ('18', '20150424041750.jpg', '/Public/Admin/Uploads/2016-07-29/20150424041750.jpg', '9');
 
 -- ----------------------------
 -- Table structure for wed_user
@@ -284,10 +318,10 @@ CREATE TABLE `wed_user` (
 -- ----------------------------
 -- Records of wed_user
 -- ----------------------------
-INSERT INTO `wed_user` VALUES ('3', 'ys', '81dc9bdb52d04dc20036dbd8313ed055', '1', '19', '0', '1469683890', '/Public/Admin/Uploads/2016-07-19/578e1d3c4b709.jpg', '1', '1', '天天好心情', '0.00', '18745729547', '2', '3');
+INSERT INTO `wed_user` VALUES ('3', 'ys', '81dc9bdb52d04dc20036dbd8313ed055', '1', '19', '0', '1469779267', '/Public/Admin/Uploads/2016-07-19/578e1d3c4b709.jpg', '1', '1', '天天好心情', '0.00', '18745729547', '2', '3');
 INSERT INTO `wed_user` VALUES ('4', '三余无梦生', '81dc9bdb52d04dc20036dbd8313ed055', '1', '28', '1469014691', '0', '无', '0', '3', '非吾晓天下，才高而已；非吾纵古今，时赋而已；非吾睨九州，宏观而已', '10000.00', '18234717786', '0', '3');
 INSERT INTO `wed_user` VALUES ('5', '李民梦', '09e2c0eab4e2ef27af2dec0e5fe17c23', '1', '22', '1469696294', '0', '无', '0', '4', 'wrweqtrte', '100000.00', '3423542', '2', '2');
-INSERT INTO `wed_user` VALUES ('6', '伍华志', '2c828f88626eb808544afaf1d8c954ad', '1', '43', '1469696334', '0', '无', '0', '5', '242', '1000000.00', '242', '2', '2');
+INSERT INTO `wed_user` VALUES ('6', '伍华志', '2c828f88626eb808544afaf1d8c954ad', '1', '43', '1469696334', '1469780012', '无', '0', '5', '242', '1000000.00', '242', '2', '2');
 
 -- ----------------------------
 -- Table structure for wed_user_position
