@@ -150,6 +150,16 @@
                 ids = ids.substring(0, ids.length - 1);
                 location.href = url + ids;
             });
+
+            $('#readed').on('click', function () {
+                var id = $(':checkbox:checked');
+                var ids = '';
+                for (var i = 0; i < id.length ; ++i) {
+                    ids += id[i].value + ',';
+                }
+                ids = ids.substring(0, ids.length - 1);
+                location.href = '/index.php/Admin/Mail/readed/ids/' + ids;
+            });
         });
         $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"})});
     </script>

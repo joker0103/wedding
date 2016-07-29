@@ -21,6 +21,9 @@ class CoreController extends CommonController
 
     public function fresh()
     {
+        $name = session('name');
+        $new = M('Customer_massage')->where("wed_customer_massage . to_name = '{$name}' and wed_customer_massage . status = 0 and real_del = 0")->count();
+        $this->assign('new', $new);
         return $this->display();
     }
 

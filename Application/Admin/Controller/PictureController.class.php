@@ -44,7 +44,9 @@ class PictureController extends CommonController
     public function upload()
     {
         $config = [
-            'rootPath'=>WORK_PATH . UPLOAD_PATH,
+            //'rootPath'=>WORK_PATH . UPLOAD_PATH,
+            'rootPath'=>'/../self/images/',
+            //'rootPath'=>'127.0.0.1/'
             'exts'    =>['jpg','jpeg','gif','png'],
         ];
         $upload = new Upload($config);
@@ -52,7 +54,8 @@ class PictureController extends CommonController
         if ($info) {
             $add = [
                 'author_id'=>session('id'),
-                'file_path'=>UPLOAD_PATH . $info['Filedata']['savepath'] . $info['Filedata']['savename'],
+                //'file_path'=>UPLOAD_PATH . $info['Filedata']['savepath'] . $info['Filedata']['savename'],
+                'file_path'=>'http://www.self.com/images/' . $info['Filedata']['savepath'] . $info['Filedata']['savename'],
                 'from_id'=>session('wedding_id'),
             ];
             $p = M('Photo_store');
