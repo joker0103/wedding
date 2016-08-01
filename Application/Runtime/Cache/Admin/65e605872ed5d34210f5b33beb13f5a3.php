@@ -41,7 +41,7 @@
                 <div class="ibox-title">
                     <h5>婚礼列表</h5>
                     <div class="ibox-tools">
-                        <a  href="<?php echo U('add');?>" title="新增职员" target="_blank"><i class="glyphicon glyphicon-plus"></i></a>
+                        <a  href="<?php echo U('add');?>" title="新增职员" ><i class="glyphicon glyphicon-plus"></i></a>
                         &emsp;&emsp;&emsp;
                     </div>
                 </div>
@@ -73,7 +73,7 @@
                                         <?php else: ?>
                                         <img src="<?php echo ($vol["avatar"]); ?>" width="100"><?php endif; ?>
                                 </td>
-                                <td><?php echo (mb_substr($vol["maxim"],0,10)); ?></td>
+                                <td><?php echo (msubstr($vol["maxim"],0,10)); ?></td>
                                 <td><?php echo ($vol["name"]); ?></td>
                                 <td><?php if($vol['sex'] == 1): ?>男<?php else: ?>女<?php endif; ?></td>
                                 <td><?php echo ($vol["age"]); ?></td>

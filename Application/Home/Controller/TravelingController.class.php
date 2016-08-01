@@ -6,7 +6,6 @@
  * Time: 0:00
  */
 namespace Home\Controller;
-
 class TravelingController extends CommonController
 {
     //公共部分

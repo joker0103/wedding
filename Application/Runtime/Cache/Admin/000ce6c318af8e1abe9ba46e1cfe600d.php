@@ -80,6 +80,7 @@
                         <ul class="nav nav-second-level">
                             <li><a class="J_menuItem" href="<?php echo U('Wedding/index');?>">婚礼管理</a></li>
                             <li><a class="J_menuItem" href="<?php echo U('User/index');?>">职员管理</a></li>
+                            <li><a class="J_menuItem" href="<?php echo U('Product/index');?>">商品管理</a></li>
                         </ul>
                     </li>
 

@@ -30,7 +30,6 @@
 		<li><a href="<?php echo U('Our/about');?>">我们</a></li>
 		<li><a href="<?php echo U('Index/gallery');?>">画廊</a></li>
 		<li><a href="<?php echo U('Index/blog');?>">永恒</a></li>
-		<li><a href="/Public/TOP" target="_blank">TOP</a></li>
 		<li><a href="<?php echo U('WeddingStore/index');?>">商店</a></li>
 		<li><a href="<?php echo U('Traveling/index');?>">蜜月计划</a></li>
 		<li><a href="<?php echo U('Our/our');?>">联系我们</a></li>
@@ -51,7 +50,7 @@
 		<div class="col-md-6 content-col col_2">
 			<h2>最美殿堂</h2>
 			<p><?php echo ($wedding["bride"]); ?> & <?php echo ($wedding["bridegroom"]); ?></p>
-			<p><?php echo (mb_substr($wedding["info"],0,100)); ?></p>
+			<p><?php echo (msubstr($wedding["info"],0,100)); ?></p>
 		</div>
 		<div class="clearfix"></div>
 		<div class="ideas">
@@ -60,7 +59,7 @@
 					<img src="<?php echo ($vol["file_path"]); ?>" title="婚礼地址:<?php echo ($vol["address_name"]); ?>" width="260" height="160">
 					<h3><?php echo ($vol["bride"]); ?> & <?php echo ($vol["bridegroom"]); ?></h3>
 					<p style="color: grey;font-size: 12px;">婚礼地址:<?php echo ($vol["address_name"]); ?></p>
-					<p><?php echo (mb_substr($vol["info"],0,20)); ?>...</p>
+					<p><?php echo (msubstr($vol["info"],0,10)); ?></p>
 				</div><?php endforeach; endif; else: echo "" ;endif; ?>
 			<div class="clearfix"></div>
 		</div>

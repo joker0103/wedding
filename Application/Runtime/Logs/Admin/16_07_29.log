@@ -1,0 +1,3028 @@
+[ 2016-07-29T21:06:18+08:00 ] 127.0.0.1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant session - assumed 'session' E:\wedding\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 61 行.
+NOTIC: [8] Undefined variable: Think E:\wedding\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 61 行.
+NOTIC: [8] Use of undefined constant massage - assumed 'massage' E:\wedding\Application\Runtime\Cache\Admin\b595b808c2ebeeeb0478ffc30bb4e87a.php 第 61 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:06:18+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:06:35+08:00 ] 127.0.0.1 /index.php/Admin/Index/captcha/cap/0.21323510965383474
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:06:44+08:00 ] 127.0.0.1 /index.php/Admin/Index/check.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0780s ]
+SQL: SELECT * FROM `wed_user` WHERE `name` = '伍华志' AND `password` = '2c828f88626eb808544afaf1d8c954ad' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wed_user_position` [ RunTime:0.2184s ]
+SQL: SELECT * FROM `wed_user_position` WHERE ( id = 5 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `wed_user` SET `name`='伍华志',`password`='2c828f88626eb808544afaf1d8c954ad',`sex`='1',`age`='43',`join_time`='1469696334',`last_time`='1469797604',`avatar`='无',`has_avatar`='0',`position`='5',`maxim`='总有些人为理想活着',`salary`='1000000',`mobile_number`='8208208820',`authority`='2',`status`='2' WHERE `id` = 6 [ RunTime:0.1560s ]
+
+[ 2016-07-29T21:06:45+08:00 ] 127.0.0.1 /index.php/Admin/Core/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:06:45+08:00 ] 127.0.0.1 /index.php/Admin/Core/fresh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.046800s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.046800s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:07:21+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0070s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0280s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:07:45+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0070s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0150s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.036002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.036002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:08:26+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:09:47+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T21:09:50+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0070s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:11:17+08:00 ] 127.0.0.1 /index.php/Admin/Core/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: has_avatar E:\wedding\Application\Runtime\Cache\Admin\000ce6c318af8e1abe9ba46e1cfe600d.php 第 46 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.088005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-29T21:11:17+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T21:11:38+08:00 ] 127.0.0.1 /index.php/Admin/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:11:38+08:00 ] 127.0.0.1 /index.php/Admin/Core/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2016-07-29T21:11:38+08:00 ] 127.0.0.1 /index.php/Admin/Core/fresh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:11:42+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0690s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.032002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:13:18+08:00 ] 127.0.0.1 /index.php/Admin/Core/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:13:18+08:00 ] 127.0.0.1 /index.php/Admin/Core/fresh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.045002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.045002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:13:28+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:22:08+08:00 ] 127.0.0.1 /index.php/Admin/Core/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:22:08+08:00 ] 127.0.0.1 /index.php/Admin/Core/fresh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-29T21:22:12+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0610s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0040s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:23:05+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T21:23:31+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:23:52+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:24:26+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0070s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:26:03+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0156s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:26:51+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:27:07+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:27:30+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0070s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:27:35+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0070s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant bride_info - assumed 'bride_info' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Array to string conversion E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:27:56+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0070s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:29:42+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0070s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:30:20+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0060s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 70 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 71 行.
+NOTIC: [8] Use of undefined constant utf - assumed 'utf' E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+NOTIC: [2] mb_substr(): Unknown encoding &quot;-8&quot; E:\wedding\Application\Runtime\Cache\Admin\83237fec2a350c64c306483f0fd384d8.php 第 74 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:30:41+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:31:13+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0070s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T21:33:16+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0000s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015600s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015600s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:33:55+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0090s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:34:09+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:34:58+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0070s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:36:30+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0000s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031200s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.031200s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T21:43:11+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user_status` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wed_user_status`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wed_user_position` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wed_user_position`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:43:17+08:00 ] 127.0.0.1 /index.php/Admin/User/added.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\wedding\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wedding\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `wed_user` (`name`,`password`,`sex`,`age`,`position`,`maxim`,`salary`,`mobile_number`,`authority`,`status`,`join_time`) VALUES ('','d41d8cd98f00b204e9800998ecf8427e','1','0','1','','0','','0','1','1469799797') [ RunTime:0.3540s ]
+
+[ 2016-07-29T21:43:18+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0070s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T21:44:51+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0070s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T21:45:05+08:00 ] 127.0.0.1 /index.php/Admin/User/del/id/7
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+SQL: DELETE FROM `wed_user` WHERE ( id=7 ) [ RunTime:0.0940s ]
+
+[ 2016-07-29T21:45:05+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0070s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:45:25+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T21:45:42+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:45:53+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0070s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:46:20+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0070s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T21:46:22+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-29T21:47:27+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0090s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T21:47:29+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user_status` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wed_user_status`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wed_user_position` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wed_user_position`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:18:50+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0090s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-29T22:21:23+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user_status` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wed_user_status`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wed_user_position` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wed_user_position`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-29T22:21:55+08:00 ] 127.0.0.1 /index.php/Admin/Mail/mail_compose.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T22:22:05+08:00 ] 127.0.0.1 /index.php/Admin/Picture/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0090s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,count(wed_photo_store . id) count,wed_photo_store . file_path photo FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_photo_store on wed_photo_store . from_id = wed_wedding . id  WHERE ( wed_wedding .status = 3 ) GROUP BY wed_wedding . id ORDER BY id desc  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.035002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-29T22:22:11+08:00 ] 127.0.0.1 /index.php/Admin/Picture/pictures/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `wed_photo_store` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wed_photo_store` WHERE ( from_id = 6 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wed_wedding` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:22:18+08:00 ] 127.0.0.1 /index.php/Admin/Picture/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0070s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,count(wed_photo_store . id) count,wed_photo_store . file_path photo FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_photo_store on wed_photo_store . from_id = wed_wedding . id  WHERE ( wed_wedding .status = 3 ) GROUP BY wed_wedding . id ORDER BY id desc  [ RunTime:0.0110s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:22:20+08:00 ] 127.0.0.1 /index.php/Admin/Picture/pictures/id/6
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_photo_store` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `wed_photo_store` WHERE ( from_id = 6 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wed_wedding` WHERE ( id = 6 ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T22:23:00+08:00 ] 127.0.0.1 /index.php/Admin/Core/blueimp.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:blueimp
+
+[ 2016-07-29T22:23:01+08:00 ] 127.0.0.1 /index.php/Admin/Core/carousel.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+ERR: 非法操作:carousel
+
+[ 2016-07-29T22:23:10+08:00 ] 127.0.0.1 /index.php/Admin/Ourhistory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_ourhistory` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `wed_ourhistory` ORDER BY id desc  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wed_oursynopsis` [ RunTime:0.0210s ]
+SQL: SELECT * FROM `wed_oursynopsis` ORDER BY id desc  [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `wed_personal` [ RunTime:0.0200s ]
+SQL: SELECT wed_personal . *,wed_user . name FROM `wed_personal` left join wed_user on wed_personal . uid = wed_user . id  ORDER BY wed_personal . id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.048003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T22:23:49+08:00 ] 127.0.0.1 /index.php/Admin/Ourhistory/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_ourhistory` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wed_ourhistory` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wed_oursynopsis` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wed_oursynopsis` ORDER BY id desc  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wed_personal` [ RunTime:0.0070s ]
+SQL: SELECT wed_personal . *,wed_user . name FROM `wed_personal` left join wed_user on wed_personal . uid = wed_user . id  ORDER BY wed_personal . id desc  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T22:30:16+08:00 ] 127.0.0.1 /index.php/Admin/Core/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:30:17+08:00 ] 127.0.0.1 /index.php/Admin/Core/fresh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:30:20+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:31:11+08:00 ] 127.0.0.1 /index.php/Admin/Core/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:31:12+08:00 ] 127.0.0.1 /index.php/Admin/Core/fresh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:31:15+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:31:47+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:31:50+08:00 ] 127.0.0.1 /index.php/Admin/Core/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:31:50+08:00 ] 127.0.0.1 /index.php/Admin/Core/fresh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:31:53+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:32:20+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: position E:\wedding\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 77 行.
+NOTIC: [8] Undefined variable: status E:\wedding\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 117 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T22:34:28+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:35:52+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: position E:\wedding\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 77 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T22:36:52+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:36:54+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: position E:\wedding\Application\Runtime\Cache\Admin\8b641081e7ea680aaaea87475742484f.php 第 70 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:38:32+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:38:33+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T22:38:35+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:40:52+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user_status` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wed_user_status`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `wed_user_position` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wed_user_position`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:41:03+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T22:42:10+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0020s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T23:00:44+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:05:14+08:00 ] 127.0.0.1 /index.php/Admin/User/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user` [ RunTime:0.0080s ]
+SQL: SELECT wed_user . *,wed_user_position . position_name,wed_user_status . status_name FROM `wed_user` left join wed_user_position on wed_user . position = wed_user_position . id left join wed_user_status on wed_user .status = wed_user_status . id  ORDER BY id desc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:05:17+08:00 ] 127.0.0.1 /index.php/Admin/User/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_user_status` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wed_user_status`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `wed_user_position` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `wed_user_position`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:06:03+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:06:05+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:06:57+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:07:53+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:08:01+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 64 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T23:08:04+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:08:17+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:24:15+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:24:23+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:24:38+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant WORKINGPATH - assumed 'WORKINGPATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant UPLOADPATH - assumed 'UPLOADPATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 21 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:25:11+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:25:13+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:25:18+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WORKINGPATH - assumed 'WORKINGPATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant UPLOADPATH - assumed 'UPLOADPATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:26:33+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-29T23:26:35+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003000s ]
+
+[ 2016-07-29T23:26:40+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WORKINGPATH - assumed 'WORKINGPATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 22 行.
+NOTIC: [8] Use of undefined constant UPLOADPATH - assumed 'UPLOADPATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:27:30+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:27:44+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:27:49+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+NOTIC: [8] Use of undefined constant WORKING_PATH - assumed 'WORKING_PATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:28:44+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:28:46+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:28:51+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WORKING_PATH - assumed 'WORKING_PATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:29:50+08:00 ] 127.0.0.1 /index.php/Admin/Wedding/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Admin\Controller\WeddingController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') E:\wedding\Application\Admin\Controller\WeddingController.class.php 第 11 行.
+SQL: SHOW COLUMNS FROM `wed_wedding` [ RunTime:0.0080s ]
+SQL: SELECT wed_wedding . *,wed_address . address_name,wed_wedding_status . status_name FROM `wed_wedding` left join wed_address on wed_wedding . address = wed_address . id left join wed_wedding_status on wed_wedding . status = wed_wedding_status . id  ORDER BY id desc  [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-07-29T23:29:55+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-29T23:29:57+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:30:01+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WORKING_PATH - assumed 'WORKING_PATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:30:10+08:00 ] 127.0.0.1 /index.php/Admin/Core/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.027001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-07-29T23:30:10+08:00 ] 127.0.0.1 /index.php/Admin/Core/fresh.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:30:16+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:30:22+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:30:26+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WORKING_PATH - assumed 'WORKING_PATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 22 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:31:24+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:31:26+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:31:31+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WORKING_PATH - assumed 'WORKING_PATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant WORKING_PATH - assumed 'WORKING_PATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:31:58+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:32:04+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:32:09+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WORKING_PATH - assumed 'WORKING_PATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant WORKING_PATH - assumed 'WORKING_PATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 23 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:33:32+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:33:35+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:33:41+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant WORKING_PATH - assumed 'WORKING_PATH' E:\wedding\Application\Admin\Controller\ProductController.class.php 第 21 行.
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wedding\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:35:35+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:35:37+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010000s ]
+
+[ 2016-07-29T23:35:39+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.033002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:35:42+08:00 ] 127.0.0.1 /index.php/Admin/Product/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:40:24+08:00 ] 127.0.0.1 /index.php/Admin/Product/addOk.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given E:\wedding\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: SHOW COLUMNS FROM `wed_product` [ RunTime:0.0080s ]
+NOTIC: [8] Undefined index: validate E:\wedding\ThinkPHP\Library\Think\Model.class.php 第 1185 行.
+NOTIC: [8] Undefined index: auto E:\wedding\ThinkPHP\Library\Think\Model.class.php 第 1128 行.
+SQL: INSERT INTO `wed_product` (`name`,`type`,`price`,`discount`,`introduce`,`addtime`,`file_name`,`file_path`) VALUES ('精品项链','1','12000','8.8','南非钻石，你值得拥有','1469806824','579b78e83af25.jpg','E:/wedding/Public/Admin/Uploads/579b78e83af25.jpg') [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:40:27+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: info E:\wedding\Application\Runtime\Cache\Admin\34e4b095905075aaede5ee9039415509.php 第 65 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:55:59+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_product` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `wed_product`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:55:59+08:00 ] 127.0.0.1 /index.php/Admin/Product/Public/Admin/Uploads/2016-07-29/579b78e83af25.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:56:35+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `wed_product` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wed_product`  [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2016-07-29T23:56:36+08:00 ] 127.0.0.1 /index.php/Admin/Product/Public/Admin/Uploads/2016-07-29/579b78e83af25.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-07-29T23:56:42+08:00 ] 127.0.0.1 /index.php/Admin/Product/Public/Admin/Uploads/2016-07-29/579b78e83af25.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T23:56:43+08:00 ] 127.0.0.1 /index.php/Admin/Product/Public/Admin/Uploads/2016-07-29/579b78e83af25.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T23:56:44+08:00 ] 127.0.0.1 /index.php/Admin/Product/Public/Admin/Uploads/2016-07-29/579b78e83af25.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-07-29T23:58:24+08:00 ] 127.0.0.1 /index.php/Admin/Product/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `wed_product` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `wed_product`  [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+

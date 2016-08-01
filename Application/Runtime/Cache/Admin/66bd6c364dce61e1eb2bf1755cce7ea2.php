@@ -29,6 +29,8 @@
     <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
     <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
+<!--    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">-->
     </head>
 <body class="gray-bg">
     <div class="wrapper wrapper-content animated fadeInRight">
@@ -63,7 +65,7 @@
                             <?php if(is_array($history)): $i = 0; $__LIST__ = $history;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                     <td><?php echo ($vo["id"]); ?></td>
                                     <td><?php echo (date('Y-m-d H:i:s', $vo["time"])); ?></td>
-                                    <td><?php echo (mb_substr($vo["history"],0,20)); ?></td>
+                                    <td><?php echo (msubstr($vo["history"],0,20)); ?></td>
                                     <td>
                                         <span title="记录信息" class="look" data="<?php echo ($vo["id"]); ?>" which="history"><i class="glyphicon glyphicon-search"></i></span>
                                         &emsp;
@@ -237,6 +239,5 @@
         });
         $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
     </script>
-    <script type="text/javascript" src="http://tajs.qq.com/stats?sId=9051096" charset="UTF-8"></script>
 </body>
 </html>

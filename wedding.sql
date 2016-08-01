@@ -16,8 +16,8 @@ Date: 2016-07-28 17:01:18
 SET FOREIGN_KEY_CHECKS=0;
 
 -- ----------------------------
--- Table structure for wed_address
 -- ----------------------------
+-- Table structure for wed_address
 DROP TABLE IF EXISTS `wed_address`;
 CREATE TABLE `wed_address` (
   `id` tinyint(4) NOT NULL AUTO_INCREMENT,
@@ -374,3 +374,15 @@ INSERT INTO `wed_wedding_status` VALUES ('1', '预约');
 INSERT INTO `wed_wedding_status` VALUES ('2', '进行');
 INSERT INTO `wed_wedding_status` VALUES ('3', '结束');
 INSERT INTO `wed_wedding_status` VALUES ('4', '已取消');
+
+-- 商品表
+create table `wed_product` (
+  id int not null auto_increment primary key,
+  name varchar(20) not null default '',
+  price mediumint not null default 0,
+  discount float(3,2) not null ,
+  introduce varchar(50) not null default '',
+  file_path varchar(100) not null default '', 
+  file_name varchar(50) not null default '',
+  type tinyint(3) not null default 0
+)ENGINE=MyISAM DEFAULT CHARSET=utf8;

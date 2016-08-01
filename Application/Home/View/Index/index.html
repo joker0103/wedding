@@ -15,7 +15,6 @@
 		<li><a href="{:U('Our/about')}">我们</a></li>
 		<li><a href="{:U('Index/gallery')}">画廊</a></li>
 		<li><a href="{:U('Index/blog')}">永恒</a></li>
-		<li><a href="/Public/TOP" target="_blank">TOP</a></li>
 		<li><a href="{:U('WeddingStore/index')}">商店</a></li>
 		<li><a href="{:U('Traveling/index')}">蜜月计划</a></li>
 		<li><a href="{:U('Our/our')}">联系我们</a></li>
@@ -36,7 +35,7 @@
 		<div class="col-md-6 content-col col_2">
 			<h2>最美殿堂</h2>
 			<p>{$wedding.bride} & {$wedding.bridegroom}</p>
-			<p>{$wedding.info|mb_substr=0,100}</p>
+			<p>{$wedding.info|msubstr=0,100}</p>
 		</div>
 		<div class="clearfix"></div>
 		<div class="ideas">
@@ -46,7 +45,7 @@
 					<img src="{$vol.file_path}" title="婚礼地址:{$vol.address_name}" width="260" height="160">
 					<h3>{$vol.bride} & {$vol.bridegroom}</h3>
 					<p style="color: grey;font-size: 12px;">婚礼地址:{$vol.address_name}</p>
-					<p>{$vol.info|mb_substr=0,20}...</p>
+					<p>{$vol.info|msubstr=0,10}</p>
 				</div>
 			</volist>
 			<div class="clearfix"></div>

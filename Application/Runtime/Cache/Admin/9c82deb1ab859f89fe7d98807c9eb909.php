@@ -16,8 +16,6 @@
     <link href="/Public/Admin/css/font-awesome.min93e3.css?v=4.4.0" rel="stylesheet">
     <link href="/Public/Admin/css/animate.min.css" rel="stylesheet">
     <link href="/Public/Admin/css/style.min862f.css?v=4.1.0" rel="stylesheet">
-    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
-    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/iCheck/custom.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/morris/morris-0.4.3.min.css" rel="stylesheet">
     <link href="/Public/Admin/js/plugins/gritter/jquery.gritter.css" rel="stylesheet">
@@ -26,8 +24,14 @@
     <link href="/Public/Admin/css/login.min.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/plugins/webuploader/webuploader.css">
     <link rel="stylesheet" type="text/css" href="/Public/Admin/css/demo/webuploader-demo.min.css">
-
-</head>
+    <link href="/Public/Admin/css/plugins/dropzone/basic.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/dropzone/dropzone.css" rel="stylesheet">
+    <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
+    <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
+<!--    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">-->
+    </head>
 <body class="gray-bg">
     <div class="wrapper wrapper-content animated fadeInRight">
         <div class="row">
@@ -81,13 +85,11 @@
 <script src="/Public/Admin/js/contabs.min.js"></script>
 <script src="/Public/Admin/js/plugins/pace/pace.min.js"></script>
 <script src="/Public/Admin/js/content.min.js?v=1.0.0"></script>
-<script src="/Public/Admin/js/plugins/summernote/summernote.min.js"></script>
-<script src="/Public/Admin/js/plugins/summernote/summernote-zh-CN.js"></script>
 <script src="/Public/Admin/js/plugins/iCheck/icheck.min.js"></script>
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.js"></script>
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.tooltip.min.js"></script>
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.spline.js"></script>
-<script src="/Public/Admin/js/plugins/flot/jquery.flot.resize.js"></script>
+<!--<script src="/Public/Admin/js/plugins/flot/jquery.flot.resize.js"></script>-->
 <script src="/Public/Admin/js/plugins/flot/jquery.flot.pie.js"></script>
 <script src="/Public/Admin/js/plugins/peity/jquery.peity.min.js"></script>
 <script src="/Public/Admin/js/demo/peity-demo.min.js"></script>
@@ -96,6 +98,13 @@
 <script src="/Public/Admin/js/plugins/easypiechart/jquery.easypiechart.js"></script>
 <script src="/Public/Admin/js/plugins/sparkline/jquery.sparkline.min.js"></script>
 <script src="/Public/Admin/js/demo/sparkline-demo.min.js"></script>
+<script src="/Public/Admin/js/plugins/dropzone/dropzone.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.config.js"></script>
+<script type="text/javascript" charset="utf-8" src="/Public/Admin/umeditor/umeditor.min.js"></script>
+<script type="text/javascript" src="/Public/Admin/umeditor/lang/zh-cn/zh-cn.js"></script>
+<script src="/Public/Admin/uploadify/jquery.uploadify.min.js" type="text/javascript"></script>
+<script src="/Public/Admin/js/plugins/fancybox/jquery.fancybox.js"></script>
+
 
     <script>
         $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});

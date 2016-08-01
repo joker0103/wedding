@@ -29,6 +29,8 @@
     <link href="/Public/Admin/umeditor/themes/default/css/umeditor.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="/Public/Admin/uploadify/uploadify.css">
     <link href="/Public/Admin/js/plugins/fancybox/jquery.fancybox.css" rel="stylesheet">
+<!--    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
+    <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">-->
     </head>
 </head>
 <body class="gray-bg">
@@ -65,11 +67,11 @@
                                 <td><?php echo ($vol["id"]); ?></td>
                                 <td><?php echo ($vol["bride"]); ?></td>
                                 <td><?php echo ($vol["bridegroom"]); ?></td>
-                                <td><?php echo (mb_substr($vol["bride_info"],0,10)); ?></td>
-                                <td><?php echo (mb_substr($vol["bridegroom_info"],0,10)); ?></td>
+                                <td><?php echo (msubstr($vol["bride_info"],0,5)); ?></td>
+                                <td><?php echo (msubstr($vol["bridegroom_info"],0,5)); ?></td>
                                 <td><?php echo ($vol["address_name"]); ?></td>
                                 <td><?php echo (date('Y-m-d H:i:s', $vol["wedding_date"])); ?></td>
-                                <td><?php echo (mb_substr($vol["info"],0,20)); ?></td>
+                                <td><?php echo (msubstr($vol["info"],0,5)); ?></td>
                                 <td><?php echo ($vol["status_name"]); ?></td>
                                 <td><?php if($vol['top'] == 0 ): ?>否<?php else: ?>是<?php endif; ?></td>
                                 <td>
