@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <title>个人资料</title>
+    <title>入职</title>
     <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
     <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
     <!--[if lt IE 9]>
@@ -33,41 +33,63 @@
     <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">-->
     </head>
 <body class="gray-bg">
-    <div class="wrapper wrapper-content animated fadeInRight">
+    <div class="wrapper wrapper-content">
         <div class="row">
             <div class="col-sm-12">
                 <div class="ibox float-e-margins">
                     <div class="ibox-content">
-                        <form method="post" class="form-horizontal" action="<?php echo U('Edit/saveProfile');?>">
-                            <!--id-->
-                            <input type="hidden" name="id" value="<?php echo (session('id')); ?>">
-                            <!--姓名-->
+                    <a href="<?php echo U('index');?>"><<<返回</a>
+                        <form method="post" class="form-horizontal" enctype="multipart/form-data" action="<?php echo U('updateOk');?>">
                             <div class="form-group">
-                                <label class="col-sm-2 control-label">姓名</label>
+                                <label class="col-sm-2 control-label">商品名</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" maxlength="4" value="<?php echo (session('name')); ?>" name="name">
-                                </div>
-                            </div>
-                            <div class="hr-line-dashed"></div>
-                            <!--箴言-->
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">箴言</label>
-                                <div class="col-sm-10">
-                                    <input type="text" class="form-control" maxlength="32" value="<?php echo (session('maxim')); ?>" name="maxim">
-                                </div>
-                            </div>
-                            <div class="hr-line-dashed"></div>
-                            <!--联系方式-->
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">联系方式</label>
-                                <div class="col-sm-10">
-                                    <input type="number" class="form-control" value="<?php echo (session('mobile_number')); ?>" maxlength="11" name="mobile_number">
+                                    <input type="text" class="form-control" name="name" maxlength="6" value="<?php echo ($product["name"]); ?>">
+                                    <input type="hidden" name="id" value="<?php echo ($product["id"]); ?>"></input>
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
                             <div class="form-group">
+                                <label class="col-sm-2 control-label">商品类型</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="type">
+                                        <option value="0">请选择~~</option>
+                                        <option value="1" <?php if($product["type"] == 1): ?>selected="selected"<?php endif; ?>>普通产品</option>
+                                        <option value="2" <?php if($product["type"] == 2): ?>selected="selected"<?php endif; ?>>特色产品</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">价格</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="price" maxlength="8" value="<?php echo ($product["price"]); ?>">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">折扣</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="discount" maxlength="3" value="<?php echo ($product["discount"]); ?>">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">简介</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="introduce" maxlength="32"><?php echo ($product["introduce"]); ?></textarea>
+<!--                                    <input type="text" class="form-control" name="bridegroom_info" maxlength="100">-->
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">选择图片</label>
+                                <div class="col-sm-10">
+                                    <input type="file" name="file"><font color="red">*如不修改则不上传</font>
+                                </div>
+                            </div>
+                             <div class="form-group">
                                 <div class="col-sm-4 col-sm-offset-2">
-                                    <button class="btn btn-primary" type="submit">保存</button>
+                                    <button class="btn btn-primary" type="submit">确认加入</button>
                                 </div>
                             </div>
                         </form>
@@ -107,7 +129,7 @@
 
 
     <script>
-        $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green",})});
+        laydate({elem:"#hello",event:"focus"});var start={elem:"#start",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){end.min=datas;end.start=datas}};var end={elem:"#end",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){start.max=datas}};laydate(start);laydate(end);
     </script>
 </body>
 </html>

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
-<!--    <meta http-equiv="Cache-Control" content="no-siteapp" />-->
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
     <title>职员管理</title>
     <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
     <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
@@ -50,42 +50,31 @@
                         <thead>
                         <tr>
                             <th>#</th>
-                            <th>头像</th>
-                            <th>箴言</th>
-                            <th>姓名</th>
-                            <th>性别</th>
-                            <th>年龄</th>
-                            <th>入职日期</th>
-                            <th>职位</th>
-                            <th>薪资</th>
-                            <th>联系方式</th>
-                            <th>状态</th>
-                            <th>登陆时间</th>
-                            <th>权限</th>
-                            <th>操作</th>
+                            <th>商品名</th>
+                            <th>价格</th>
+                            <th>折扣</th>
+                            <th>简介</th>
+                            <th>缩略图</th>
+                            <th>图片名称</th>
+                            <th>图片路径</th>
+                            <th>商品类型</th>
+                            <th>添加时间</th>
                         </tr>
                         </thead>
                         <tbody>
-                        <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><tr>
+                        <?php if(is_array($product)): $i = 0; $__LIST__ = $product;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><tr>
                                 <td><?php echo ($vol["id"]); ?></td>
-                                <td>
-                                    <?php if($vol['has_avatar'] == 0): ?><img src="/Public/Admin/img/null.jpg" width="100">
-                                        <?php else: ?>
-                                        <img src="<?php echo ($vol["avatar"]); ?>" width="100"><?php endif; ?>
-                                </td>
-                                <td><?php echo (msubstr($vol["maxim"],0,10)); ?></td>
                                 <td><?php echo ($vol["name"]); ?></td>
-                                <td><?php if($vol['sex'] == 1): ?>男<?php else: ?>女<?php endif; ?></td>
-                                <td><?php echo ($vol["age"]); ?></td>
-                                <td><?php echo (date('Y-m-d H:i:s', $vol["join_time"])); ?></td>
-                                <td><?php echo ($vol["position_name"]); ?></td>
-                                <td><?php echo ($vol["salary"]); ?></td>
-                                <td><?php echo ($vol["mobile_number"]); ?></td>
-                                <td><?php echo ($vol["status_name"]); ?></td>
-                                <td><?php echo (date('Y-m-d H:i:s', $vol["last_time"])); ?></td>
-                                <td><?php echo ($vol["authority"]); ?></td>
+                                <td><?php echo ($vol["price"]); ?></td>
+                                <td><?php echo ($vol["discount"]); ?></td>
+                                <td><?php echo ($vol["introduce"]); ?></td>
+                                <td><img src="<?php echo ($vol["file_path"]); ?>" style="width:50px;"></td>
+                                <td><?php echo ($vol["file_name"]); ?></td>
+                                <td><?php echo ($vol["file_path"]); ?></td>
+                                <td><?php if($vol['type'] == 1): ?>普通产品<?php elseif($vol['type'] == 2): ?>特色产品<?php endif; ?></td>
+                                <td><?php echo (date('Y-m-d H:i:s', $vol["addtime"])); ?></td>
                                 <td>
-                                    <a  href="/index.php/Admin/User/edit/id/<?php echo ($vol["id"]); ?>" title="编辑" target="_blank"><i class="glyphicon glyphicon-pencil"></i></a>
+                                    <a  href="/index.php/Admin/Product/update/id/<?php echo ($vol["id"]); ?>" title="编辑"><i class="glyphicon glyphicon-pencil"></i></a>
                                     &emsp;
                                     <a href="javascript:;" title="删除" onclick="ask('<?php echo ($vol["id"]); ?>')"><i class="glyphicon glyphicon-trash"></i></a>
                                 </td>
@@ -132,7 +121,7 @@ function ask(id) {
     layer.confirm('确定删除吗？', {
         btn: ['是','否'] //按钮
     }, function(){
-      location.href = '/index.php/Admin/User/del/id/'+id;
+      location.href = '/index.php/Admin/Product/del/id/'+id;
     });
 }
     $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"})});

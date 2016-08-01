@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="renderer" content="webkit">
-<!--    <meta http-equiv="Cache-Control" content="no-siteapp" />-->
-    <title>职员管理</title>
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <title>入职</title>
     <meta name="keywords" content="H+后台主题,后台bootstrap框架,会员中心主题,后台HTML,响应式后台">
     <meta name="description" content="H+是一个完全响应式，基于Bootstrap3最新版本开发的扁平化主题，她采用了主流的左右两栏式布局，使用了Html5+CSS3等现代技术">
     <!--[if lt IE 9]>
@@ -32,72 +32,72 @@
 <!--    <link href="/Public/Admin/css/plugins/summernote/summernote.css" rel="stylesheet">
     <link href="/Public/Admin/css/plugins/summernote/summernote-bs3.css" rel="stylesheet">-->
     </head>
-</head>
 <body class="gray-bg">
-<div class="wrapper wrapper-content animated fadeInRight">
-    <div class="row">
-        <div class="col-sm-12">
-            <div class="ibox float-e-margins">
-                <div class="ibox-title">
-                    <h5>婚礼列表</h5>
-                    <div class="ibox-tools">
-                        <a  href="<?php echo U('add');?>" title="新增职员" ><i class="glyphicon glyphicon-plus"></i></a>
-                        &emsp;&emsp;&emsp;
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                    <a href="<?php echo U('index');?>"><<<返回</a>
+                        <form method="post" class="form-horizontal" enctype="multipart/form-data" action="<?php echo U('addOk');?>">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">商品名</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="name" maxlength="6">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">商品类型</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="type">
+                                        <option value="0">请选择~~</option>
+                                        <option value="1">普通产品</option>
+                                        <option value="2">特色产品</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">价格</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="price" maxlength="8">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">折扣</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="discount" maxlength="3">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">简介</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="introduce" maxlength="32"></textarea>
+<!--                                    <input type="text" class="form-control" name="bridegroom_info" maxlength="100">-->
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">选择图片</label>
+                                <div class="col-sm-10">
+                                    <input type="file" name="file">
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <button class="btn btn-primary" type="submit">确认加入</button>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                </div>
-                <div class="ibox-content">
-                    <table class="table">
-                        <thead>
-                        <tr>
-                            <th>#</th>
-                            <th>头像</th>
-                            <th>箴言</th>
-                            <th>姓名</th>
-                            <th>性别</th>
-                            <th>年龄</th>
-                            <th>入职日期</th>
-                            <th>职位</th>
-                            <th>薪资</th>
-                            <th>联系方式</th>
-                            <th>状态</th>
-                            <th>登陆时间</th>
-                            <th>权限</th>
-                            <th>操作</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-                        <?php if(is_array($info)): $i = 0; $__LIST__ = $info;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><tr>
-                                <td><?php echo ($vol["id"]); ?></td>
-                                <td>
-                                    <?php if($vol['has_avatar'] == 0): ?><img src="/Public/Admin/img/null.jpg" width="100">
-                                        <?php else: ?>
-                                        <img src="<?php echo ($vol["avatar"]); ?>" width="100"><?php endif; ?>
-                                </td>
-                                <td><?php echo (msubstr($vol["maxim"],0,10)); ?></td>
-                                <td><?php echo ($vol["name"]); ?></td>
-                                <td><?php if($vol['sex'] == 1): ?>男<?php else: ?>女<?php endif; ?></td>
-                                <td><?php echo ($vol["age"]); ?></td>
-                                <td><?php echo (date('Y-m-d H:i:s', $vol["join_time"])); ?></td>
-                                <td><?php echo ($vol["position_name"]); ?></td>
-                                <td><?php echo ($vol["salary"]); ?></td>
-                                <td><?php echo ($vol["mobile_number"]); ?></td>
-                                <td><?php echo ($vol["status_name"]); ?></td>
-                                <td><?php echo (date('Y-m-d H:i:s', $vol["last_time"])); ?></td>
-                                <td><?php echo ($vol["authority"]); ?></td>
-                                <td>
-                                    <a  href="/index.php/Admin/User/edit/id/<?php echo ($vol["id"]); ?>" title="编辑" target="_blank"><i class="glyphicon glyphicon-pencil"></i></a>
-                                    &emsp;
-                                    <a href="javascript:;" title="删除" onclick="ask('<?php echo ($vol["id"]); ?>')"><i class="glyphicon glyphicon-trash"></i></a>
-                                </td>
-                            </tr><?php endforeach; endif; else: echo "" ;endif; ?>
-                        </tbody>
-                    </table>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<script src="/Public/Admin/js/jquery.min.js?v=2.1.4"></script>
+    <script src="/Public/Admin/js/jquery.min.js?v=2.1.4"></script>
 <script src="/Public/Admin/js/bootstrap.min.js?v=3.3.6"></script>
 <script src="/Public/Admin/js/plugins/metisMenu/jquery.metisMenu.js"></script>
 <script src="/Public/Admin/js/plugins/slimscroll/jquery.slimscroll.min.js"></script>
@@ -127,15 +127,8 @@
 <script src="/Public/Admin/js/plugins/fancybox/jquery.fancybox.js"></script>
 
 
-<script>
-function ask(id) {
-    layer.confirm('确定删除吗？', {
-        btn: ['是','否'] //按钮
-    }, function(){
-      location.href = '/index.php/Admin/User/del/id/'+id;
-    });
-}
-    $(document).ready(function(){$(".i-checks").iCheck({checkboxClass:"icheckbox_square-green",radioClass:"iradio_square-green"})});
-</script>
+    <script>
+        laydate({elem:"#hello",event:"focus"});var start={elem:"#start",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){end.min=datas;end.start=datas}};var end={elem:"#end",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){start.max=datas}};laydate(start);laydate(end);
+    </script>
 </body>
 </html>

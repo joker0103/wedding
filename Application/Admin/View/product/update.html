@@ -1,0 +1,73 @@
+<include file="Public/header" title="入职"/>
+<body class="gray-bg">
+    <div class="wrapper wrapper-content">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="ibox float-e-margins">
+                    <div class="ibox-content">
+                    <a href="{:U('index')}"><<<返回</a>
+                        <form method="post" class="form-horizontal" enctype="multipart/form-data" action="{:U('updateOk')}">
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">商品名</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="name" maxlength="6" value="{$product.name}">
+                                    <input type="hidden" name="id" value="{$product.id}"></input>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">商品类型</label>
+                                <div class="col-sm-10">
+                                    <select class="form-control m-b" name="type">
+                                        <option value="0">请选择~~</option>
+                                        <option value="1" <if condition='$product.type eq 1'>selected="selected"</if>>普通产品</option>
+                                        <option value="2" <if condition='$product.type eq 2'>selected="selected"</if>>特色产品</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">价格</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="price" maxlength="8" value="{$product.price}">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">折扣</label>
+                                <div class="col-sm-10">
+                                    <input type="text" class="form-control" name="discount" maxlength="3" value="{$product.discount}">
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">简介</label>
+                                <div class="col-sm-10">
+                                    <textarea class="form-control" name="introduce" maxlength="32">{$product.introduce}</textarea>
+<!--                                    <input type="text" class="form-control" name="bridegroom_info" maxlength="100">-->
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">选择图片</label>
+                                <div class="col-sm-10">
+                                    <input type="file" name="file"><font color="red">*如不修改则不上传</font>
+                                </div>
+                            </div>
+                             <div class="form-group">
+                                <div class="col-sm-4 col-sm-offset-2">
+                                    <button class="btn btn-primary" type="submit">确认加入</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <include file="Public/js"/>
+    <script>
+        laydate({elem:"#hello",event:"focus"});var start={elem:"#start",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){end.min=datas;end.start=datas}};var end={elem:"#end",format:"YYYY/MM/DD hh:mm:ss",min:laydate.now(),max:"2099-06-16 23:59:59",istime:true,istoday:false,choose:function(datas){start.max=datas}};laydate(start);laydate(end);
+    </script>
+</body>
+</html>

@@ -28,18 +28,18 @@
         <div class="header_top-sec">
             <div class="top_right">
                 <ul>
-                    <li><a href="#">help</a></li>|
-                    <li><a href="contact.html">Contact</a></li>|
-                    <li><a href="login.html">Track Order</a></li>
+                    <li><a href="#">帮助</a></li>|
+                    <li><a href="contact.html">联系方式</a></li>|
+                    <li><a href="login.html">订单跟踪</a></li>
                 </ul>
             </div>
             <div class="top_left">
                 <ul>
-                    <li class="top_link">Email:<a href="mailto:info@example.com">mail@example.com</a></li>|
-                    <li class="top_link"><a href="login.html">My Account</a></li>
+                    <li class="top_link">Email:<a href="mailto:info@example.com">joker@vip.com</a></li>|
+                    <li class="top_link"><a href="login.html">我的账单</a></li>
                 </ul>
             </div>
-            <div class="clearfix"> </div>
+            <div class="clearfix">     </div>
         </div>
     </div>
 </div>
@@ -47,101 +47,91 @@
     <div class="header-bottom">
         <div class="container">
             <div class="logo">
-                <a href="index.html"><h1>Wedding Store</h1></a>
+                <a href="index.html"><h1>婚礼商店</h1></a>
             </div>
             <div class="top-nav">
                 <ul class="memenu skyblue">
-                    <li class="grid"><a href="index.html">Home</a></li>
-                    <li class="grid"><a href="#">Wedding</a>
+                    <li class="grid"><a href="<?php echo U('Index/index');?>">主页</a></li>
+                    <li class="grid"><a href="#">婚礼</a>
                         <div class="mepanel">
                             <div class="row">
                                 <div class="col1 me-one">
-                                    <h4>Shop</h4>
+                                    <h4>商店</h4>
                                     <ul>
-                                        <li><a href="product.html">New Arrivals</a></li>
-                                        <li><a href="product.html">Men</a></li>
-                                        <li><a href="product.html">Women</a></li>
-                                        <li><a href="product.html">Accessories</a></li>
-                                        <li><a href="product.html">Kids</a></li>
-                                        <li><a href="product.html">login</a></li>
-                                        <li><a href="product.html">Brands</a></li>
-                                        <li><a href="product.html">My Shopping Bag</a></li>
+                                        <li><a href="product.html">新鲜上架</a></li>
+                                        <li><a href="product.html">男士</a></li>
+                                        <li><a href="product.html">女士</a></li>
+                                        <li><a href="product.html">配饰</a></li>
+                                        <li><a href="product.html">儿童</a></li>
+                                        <li><a href="product.html">我的购物车</a></li>
                                     </ul>
                                 </div>
                                 <div class="col1 me-one">
-                                    <h4>Style Zone</h4>
+                                    <h4>风格特区</h4>
                                     <ul>
-                                        <li><a href="product.html">Men</a></li>
-                                        <li><a href="product.html">Women</a></li>
-                                        <li><a href="product.html">Brands</a></li>
-                                        <li><a href="product.html">Kids</a></li>
-                                        <li><a href="product.html">Accessories</a></li>
-                                        <li><a href="product.html">Style Videos</a></li>
+                                       <li><a href="product.html">男士</a></li>
+                                        <li><a href="product.html">女士</a></li>
+                                        <li><a href="product.html">配饰</a></li>
+                                        <li><a href="product.html">儿童</a></li>
+                                        <li><a href="product.html">伴奏风格</a></li>
                                     </ul>
                                 </div>
                                 <div class="col1 me-one">
-                                    <h4>Popular Brands</h4>
+                                    <h4>流行元素</h4>
                                     <ul>
-                                        <li><a href="product.html">Levis</a></li>
-                                        <li><a href="product.html">Persol</a></li>
-                                        <li><a href="product.html">Nike</a></li>
-                                        <li><a href="product.html">Edwin</a></li>
-                                        <li><a href="product.html">New Balance</a></li>
-                                        <li><a href="product.html">Jack & Jones</a></li>
-                                        <li><a href="product.html">Paul Smith</a></li>
-                                        <li><a href="product.html">Ray-Ban</a></li>
-                                        <li><a href="product.html">Wood Wood</a></li>
+                                        <li><a href="product.html">李维斯/Levis</a></li>
+                                        <li><a href="product.html">普索/Persol</a></li>
+                                        <li><a href="product.html">耐克/Nike</a></li>
+                                        <li><a href="product.html">爱德华/Edwin</a></li>
+                                        <li><a href="product.html">新百伦/New Balance</a></li>
+                                        <li><a href="product.html">杰克琼斯/Jack & Jones</a></li>
+                                        <li><a href="product.html">保罗·斯密斯/Paul Smith</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="grid"><a href="#">Bride Style</a>
+                    <li class="grid"><a href="#">新人造型</a>
                         <div class="mepanel">
                             <div class="row">
                                 <div class="col1 me-one">
-                                    <h4>Shop</h4>
+                                    <h4>商店</h4>
                                     <ul>
-                                        <li><a href="product.html">New Arrivals</a></li>
-                                        <li><a href="product.html">Men</a></li>
-                                        <li><a href="product.html">Women</a></li>
-                                        <li><a href="product.html">Accessories</a></li>
-                                        <li><a href="product.html">Kids</a></li>
-                                        <li><a href="product.html">login</a></li>
-                                        <li><a href="product.html">Brands</a></li>
-                                        <li><a href="product.html">My Shopping Bag</a></li>
+                                        <li><a href="product.html">新鲜上架</a></li>
+                                        <li><a href="product.html">男士</a></li>
+                                        <li><a href="product.html">女士</a></li>
+                                        <li><a href="product.html">配饰</a></li>
+                                        <li><a href="product.html">儿童</a></li>
+                                        <li><a href="product.html">我的购物车</a></li>
                                     </ul>
                                 </div>
                                 <div class="col1 me-one">
-                                    <h4>Style Zone</h4>
+                                   <h4>风格特区</h4>
                                     <ul>
-                                        <li><a href="product.html">Men</a></li>
-                                        <li><a href="product.html">Women</a></li>
-                                        <li><a href="product.html">Brands</a></li>
-                                        <li><a href="product.html">Kids</a></li>
-                                        <li><a href="product.html">Accessories</a></li>
-                                        <li><a href="product.html">Style Videos</a></li>
+                                       <li><a href="product.html">男士</a></li>
+                                        <li><a href="product.html">女士</a></li>
+                                        <li><a href="product.html">配饰</a></li>
+                                        <li><a href="product.html">儿童</a></li>
+                                        <li><a href="product.html">伴奏风格</a></li>
                                     </ul>
                                 </div>
                                 <div class="col1 me-one">
-                                    <h4>Popular Brands</h4>
+                                     <h4>流行元素</h4>
                                     <ul>
-                                        <li><a href="product.html">Levis</a></li>
-                                        <li><a href="product.html">Persol</a></li>
-                                        <li><a href="product.html">Nike</a></li>
-                                        <li><a href="product.html">Edwin</a></li>
-                                        <li><a href="product.html">New Balance</a></li>
-                                        <li><a href="product.html">Jack & Jones</a></li>
-                                        <li><a href="product.html">Paul Smith</a></li>
-                                        <li><a href="product.html">Ray-Ban</a></li>
-                                        <li><a href="product.html">Wood Wood</a></li>
+                                        <li><a href="product.html">李维斯/Levis</a></li>
+                                        <li><a href="product.html">普索/Persol</a></li>
+                                        <li><a href="product.html">耐克/Nike</a></li>
+                                        <li><a href="product.html">爱德华/Edwin</a></li>
+                                        <li><a href="product.html">新百伦/New Balance</a></li>
+                                        <li><a href="product.html">杰克琼斯/Jack & Jones</a></li>
+                                        <li><a href="product.html">保罗·斯密斯/Paul Smith</a></li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
                     </li>
-                    <li class="grid"><a href="typo.html">Typo</a></li>
-                    <li class="grid"><a href="contact.html">Contact</a></li>
+                    <li class="grid"><a href="typo.html">打印订单</a></li>
+                    <li class="grid"><a href="contact.html">联系我们</a></li>
                 </ul>
                 <div class="clearfix"> </div>
             </div>
@@ -151,10 +141,10 @@
 					<span class="simpleCart_total"></span> (<span id="simpleCart_quantity" class="simpleCart_quantity"></span>)</div>
 					<span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span></h3>
 				</a>
-				<p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>
+				<p><a href="javascript:;" class="simpleCart_empty">购物车还是空的:)</a></p>
 			 	<div class="clearfix"> </div>
 			 </div>
-			 <div class="clearfix"> </div>
+			 <div class="c learfix"> </div>
 			 <!---->
 			 </div>
 			<div class="clearfix"> </div>
@@ -172,11 +162,8 @@
 			 <h2>Welcome to our site</h2>
 		 </div>
 		 <div class="col-md-9 welcome-right">
-			 <h3>Proin ornare massa eu enim pretium efficitur.</h3>
-			 <p>Etiam fermentum consectetur nulla, sit amet dapibus orci sollicitudin vel. 
-			 Nulla consequat turpis in molestie fermentum. In ornare, tellus non interdum ultricies, elit 
-			 ex lobortis ex, aliquet accumsan arcu tortor in leo. Nullam molestie elit enim. Donec ac 
-			 aliquam quam, ac iaculis diam. Donec finibus scelerisque erat, non convallis felis commodo ac.</p>
+			 <h3>奢华欧式婚礼，给您不一样的记忆</h3>
+			 <p>这是您人生中最重要的一天。从相识到相知，从相知到相许，这场甜蜜的旅程即将迎来一个崭新的开始。您与挚爱终于携手，一同揭开幸福生活的新篇章。在这一天来临前的无数个夜晚，当您闭上眼睛的时候，是否曾在脑海中勾勒过它的模样？您的这份期待，北京凯宾斯基酒店让您梦想成真。这值得回味一生的完美盛筵，请安心交由我们，让这刻的甜蜜成为永恒。</p>
 		 </div>
 	 </div>
 </div>
@@ -188,54 +175,54 @@
 				 <figure class="effect-bubba">
 						<img src="/Public/Home/images/b1.jpg" alt=""/>
 						<figcaption>
-							<h4>Nullam molestie </h4>
-							<p>In sit amet sapien eros Integer in tincidunt labore et dolore magna aliqua</p>																
+							<h4>幸福时刻 </h4>
+							<p>用快门记录下您人生中的最美好</p>																
 						</figcaption>			
 				 </figure>
 				 <div class="clearfix"></div>
-				 <h3>Wedding Dresses</h3>
+				 <h3>婚礼服饰</h3>
 			 </div>
 			 <div class="content-grid l-grids">
 				 <figure class="effect-bubba">
 						<img src="/Public/Home/images/b2.jpg" alt=""/>
 						<figcaption>
-							<h4>Nullam molestie </h4>
-							<p>In sit amet sapien eros Integer in tincidunt labore et dolore magna aliqua</p>																
+							<h4>婚礼趴 </h4>
+							<p>让人们用笑容为你们祝福</p>																
 						</figcaption>			
 				 </figure>	
 				 <div class="clearfix"></div>
-				 <h3>BridalParty & Dresses</h3>
+				 <h3>新婚趴 & 礼服</h3>
 			 </div>
 		 </div>
 		 <div class="col-md-4 bride-grid">
 				<div class="content-grid l-grids">
 						<img src="/Public/Home/images/brid.jpg" alt=""/>
 						
-				 <h3>Bridesmade Dresses</h3>
+				 <h3>伴娘服饰</h3>
 			 </div>
 		 </div>
 		 <div class="col-md-4 bride-grid">
 			 <div class="content-grid l-grids">
 				 <figure class="effect-bubba">
-						<img src="/Public/Home/images/b3.jpg" alt=""/>
+						<img src= "/Public/Home/images/b3.jpg" alt=""/>
 						<figcaption>
-							<h4>Nullam molestie </h4>
-							<p>In sit amet sapien eros Integer in tincidunt labore et dolore magna aliqua</p>																
+							<h4>交换戒指 </h4>
+							<p>从此，您的无名指不再无名</p>																
 						</figcaption>			
 				 </figure>	
 				 <div class="clearfix"></div>
-				 <h3>Wedding</h3>
+				 <h3>婚礼</h3>
 			 </div>
 			 <div class="content-grid l-grids">
 				 <figure class="effect-bubba">
 						<img src="/Public/Home/images/b4.jpg" alt=""/>
 						<figcaption>
-							<h4>Nullam molestie </h4>
-							<p>In sit amet sapien eros Integer in tincidunt labore et dolore magna aliqua</p>																
+							<h4>最美新娘 </h4>
+							<p>加入我们，你可以更美！！！</p>
 						</figcaption>			
 				 </figure>
 					<div class="clearfix"></div>
-				 <h3>Most Beautiful</h3>
+				 <h3>最美新娘</h3>
 			 </div>
 		 </div>
 		 <div class="clearfix"></div>
@@ -244,202 +231,51 @@
 <!---->
 <div class="featured">
 	 <div class="container">
-		 <h3>Featured Products</h3>
+		 <h3>特色产品</h3>
 		 <div class="feature-grids">
-			 <div class="col-md-3 feature-grid jewel">
-				 <a href="product.html"><img src="/Public/Home/images/f1.jpg" alt=""/>
-					 <div class="arrival-info">
-						 <h4>Jewellerys #1</h4>
-						 <p>Rs 12000</p>
-						 <span class="pric1"><del>Rs 18000</del></span>
-						 <span class="disc">[12% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="product.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="product.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-			 </div>
-			 <div class="col-md-3 feature-grid">
-				 <a href="product.html"><img src="/Public/Home/images/f2.jpg" alt=""/>
-					 <div class="arrival-info">
-						 <h4>Jewellerys #1</h4>
-						 <p>Rs 68000</p>
-						 <span class="pric1"><del>Rs 70000</del></span>
-						 <span class="disc">[10% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="product.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="product.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-			 </div>
-			 <div class="col-md-3 feature-grid jewel">
-				 <a href="product.html"><img src="/Public/Home/images/f3.jpg" alt=""/>
-					 <div class="arrival-info">
-						 <h4>Wedding Ceramic Pot </h4>
-						 <p>Rs 1200</p>
-						 <span class="pric1"><del>Rs 2000</del></span>
-						 <span class="disc">[10% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="product.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="product.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-			 </div>
-			 <div class="col-md-3 feature-grid">
-				 <a href="product.html"><img src="/Public/Home/images/f4.jpg" alt=""/>
-					 <div class="arrival-info">
-						 <h4>Jewellerys #1</h4>
-						 <p>Rs 12000</p>
-						 <span class="pric1"><del>Rs 18000</del></span>
-						 <span class="disc">[12% Off]</span>
-					 </div>
-					 <div class="viw">
-					 <a href="product.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="product.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-			 </div>
-			 <div class="clearfix"></div>
-		 </div>
-		 <div class="feature-grids">
-			 <div class="col-md-3 feature-grid jewel">
-				 <a href="product.html"><img src="/Public/Home/images/p7.jpg" alt=""/>
-					 <div class="arrival-info">
-						 <h4>Jewellerys #1</h4>
-						 <p>Rs 12000</p>
-						 <span class="pric1"><del>Rs 18000</del></span>
-						 <span class="disc">[12% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="product.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="product.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-			 </div>
-			 <div class="col-md-3 feature-grid">
-				 <a href="product.html"><img src="/Public/Home/images/p11.jpg" alt=""/>
-					 <div class="arrival-info">
-						 <h4>Jewellerys #1</h4>
-						 <p>Rs 12000</p>
-						 <span class="pric1"><del>Rs 18000</del></span>
-						 <span class="disc">[12% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="product.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="product.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-			 </div>
-			 <div class="col-md-3 feature-grid jewel">
-				 <a href="product.html"><img src="/Public/Home/images/p12.jpg" alt=""/>
-					 <div class="arrival-info">
-						 <h4>Jewellerys #1</h4>
-						 <p>Rs 12000</p>
-						 <span class="pric1"><del>Rs 18000</del></span>
-						 <span class="disc">[12% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="product.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="product.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-			 </div>
-			 <div class="col-md-3 feature-grid">
-				 <a href="product.html"><img src="/Public/Home/images/f2.jpg" alt=""/>
-					 <div class="arrival-info">
-						 <h4>Jewellerys #1</h4>
-						 <p>Rs 12000</p>
-						 <span class="pric1"><del>Rs 18000</del></span>
-						 <span class="disc">[12% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="product.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="product.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-			 </div>
-			 <div class="clearfix"></div>
+			 <?php if(is_array($product)): $i = 0; $__LIST__ = $product;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><div class="feature-grids">
+				 <div class="col-md-3 feature-grid jewel">
+					 <a href="product.html"><img src= "<?php echo ($vol["file_path"]); ?>" alt="" />
+						 <div class="arrival-info">
+							 <h4><?php echo ($vol["name"]); ?></h4>
+							 <p>&yen; <?php echo ($vol["price"]); ?></p>
+							 <span class="pric1"><del>&yen; <?php echo ($vol["realprice"]); ?></del></span>
+							 <span class="disc">[<?php echo ($vol["discount"]); ?> 折]</span>
+						 </div>
+						 <div class="viw">
+							<a href="product.html"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>快速预览</a>
+						 </div>
+						 <div class="shrt">
+							<a href="product.html"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>加入购物车</a>
+						 </div></a>
+				 </div>
+			</div><?php endforeach; endif; else: echo "" ;endif; ?>
+			<div class="clearfix"></div>
 		 </div>
 	 </div>
 </div>
 <!---->
 <div class="arrivals">
 	 <div class="container">	
-		 <h3>New Arrivals</h3>
+		 <h3>新鲜上架</h3>
 		 <div class="arrival-grids">			 
-			 <ul id="flexiselDemo1">
-				 <li>
-					 <a href="product.html"><img src="/Public/Home/images/a1.jpg" alt=""/>
+			<ul id="flexiselDemo1">
+			<?php if(is_array($newProduct)): $i = 0; $__LIST__ = $newProduct;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vol): $mod = ($i % 2 );++$i;?><li>
+					 <a href="product.html"><img src="<?php echo ($vol["file_path"]); ?>" alt=""/>
 					 <div class="arrival-info">
-						 <h4>Fusion Black Polyester Suits</h4>
-						 <p>Rs 12000</p>
-						 <span class="pric1"><del>Rs 18000</del></span>
-						 <span class="disc">[12% Off]</span>
+						 <h4><?php echo ($vol["name"]); ?></h4>
+						 <p>&yen; <?php echo ($vol["price"]); ?></p>
+						 <span class="pric1"><del>&yen; <?php echo ($vol["realprice"]); ?></del></span>
+						 <span class="disc">[<?php echo ($vol["discount"]); ?> 折]</span>
 					 </div>
 					 <div class="viw">
-						<a href="#"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
+						<a href="#"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>快速预览</a>
 					 </div>
 					 <div class="shrt">
-						<a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
+						<a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>加入购物车</a>
 					 </div></a>
-				 </li>
-				 <li>
-					 <a href="product.html"><img src="/Public/Home/images/a2.jpg" alt=""/>
-						<div class="arrival-info">
-						 <h4>Vogue4All White Net Gowns</h4>
-						 <p>Rs 14000</p>
-						 <span class="pric1"><del>Rs 15000</del></span>
-						 <span class="disc">[10% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="#"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-				 </li>
-				 <li>
-					 <a href="product.html"><img src="/Public/Home/images/a3.jpg" alt=""/>
-						<div class="arrival-info">
-						 <h4>Platinum Waist Coat Set Navy</h4>
-						 <p>Rs 4000</p>
-						 <span class="pric1"><del>Rs 8500</del></span>
-						 <span class="disc">[45% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="#"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-				 </li>
-				 <li>
-				    <a href="product.html"> <img src="/Public/Home/images/a4.jpg" alt=""/>
-						<div class="arrival-info">
-						 <h4>La Fanatise White Net Gowns</h4>
-						 <p>Rs 18000</p>
-						 <span class="pric1"><del>Rs 21000</del></span>
-						 <span class="disc">[8% Off]</span>
-					 </div>
-					 <div class="viw">
-						<a href="#"><span class="glyphicon glyphicon-eye-open" aria-hidden="true"></span>Quick View</a>
-					 </div>
-					 <div class="shrt">
-						<a href="#"><span class="glyphicon glyphicon-star" aria-hidden="true"></span>Shortlist</a>
-					 </div></a>
-				 </li>
-				</ul>
+				 </li><?php endforeach; endif; else: echo "" ;endif; ?>
+			</ul>
 				<script type="text/javascript">
 				 $(window).load(function() {			
 				  $("#flexiselDemo1").flexisel({
@@ -475,16 +311,16 @@
 	 <div class="container">
 		 <div class="shpng-grids">
 			 <div class="col-md-4 shpng-grid">
-				 <h3>Free Shipping</h3>
-				 <p>On Order Over Rs999</p>
+				 <h3>包邮</h3>
+				 <p>满&yen; 999包邮</p>
 			 </div>
 			 <div class="col-md-4 shpng-grid">
-				 <h3>Order Return</h3>
-				 <p>Return Within 14days</p>
+				 <h3>订单回执</h3>
+				 <p>14个工作日内</p>
 			 </div>
 			 <div class="col-md-4 shpng-grid">
 				 <h3>COD</h3>
-				 <p>Cash On Delivery</p>
+				 <p>货到付款</p>
 			 </div>
 			 <div class="clearfix"></div>
 		 </div>
@@ -495,46 +331,46 @@
 	 <div class="container">
 		 <div class="ftr-grids">
 			 <div class="col-md-3 ftr-grid">
-				 <h4>About Us</h4>
+				 <h4>关于我们</h4>
 				 <ul>
-					 <li><a href="#">Who We Are</a></li>
-					 <li><a href="contact.html">Contact Us</a></li>
-					 <li><a href="#">Our Sites</a></li>
-					 <li><a href="#">In The News</a></li>
-					 <li><a href="#">Team</a></li>
-					 <li><a href="#">Carrers</a></li>					 
+					 <li><a href="#">我们是谁</a></li>
+					 <li><a href="contact.html">联系我们</a></li>
+					 <li><a href="#">我们的站点</a></li>
+					 <li><a href="#">新闻报导</a></li>
+					 <li><a href="#">团队</a></li>
+					 <li><a href="#">成员</a></li>					 
 				 </ul>
 			 </div>
 			 <div class="col-md-3 ftr-grid">
-				 <h4>Customer service</h4>
+				 <h4>客户服务</h4>
 				 <ul>
-					 <li><a href="#">FAQ</a></li>
-					 <li><a href="#">Shipping</a></li>
-					 <li><a href="#">Cancellation</a></li>
-					 <li><a href="#">Returns</a></li>
-					 <li><a href="#">Bulk Orders</a></li>
-					 <li><a href="#">Buying Guides</a></li>					 
+					 <li><a href="#">发货</a></li>
+					 <li><a href="#">快递</a></li>
+					 <li><a href="#">取消预约</a></li>
+					 <li><a href="#">回复</a></li>
+					 <li><a href="#">团购</a></li>
+					 <li><a href="#">导购</a></li>					 
 				 </ul>
 			 </div>
 			 <div class="col-md-3 ftr-grid">
-				 <h4>Your account</h4>
+				 <h4>您的订单</h4>
 				 <ul>
-					 <li><a href="account.html">Your Account</a></li>
-					 <li><a href="#">Personal Information</a></li>
-					 <li><a href="#">Addresses</a></li>
-					 <li><a href="#">Discount</a></li>
-					 <li><a href="#">Track your order</a></li>					 					 
+					 <li><a href="account.html">个人订单</a></li>
+					 <li><a href="#">客户信息</a></li>
+					 <li><a href="#">地址</a></li>
+					 <li><a href="#">折扣</a></li>
+					 <li><a href="#">订单跟踪</a></li>					 					 
 				 </ul>
 			 </div>
 			 <div class="col-md-3 ftr-grid">
-				 <h4>Categories</h4>
+				 <h4>分类</h4>
 				 <ul>
-					 <li><a href="#">> Wedding</a></li>
-					 <li><a href="#">> Jewellerys</a></li>
-					 <li><a href="#">> Shoes</a></li>
-					 <li><a href="#">> Flowers</a></li>
-					 <li><a href="#">> Cakes</a></li>
-					 <li><a href="#">...More</a></li>					 
+					 <li><a href="#">> 婚礼</a></li>
+					 <li><a href="#">> 首饰</a></li>
+					 <li><a href="#">> 鞋类</a></li>
+					 <li><a href="#">> 鲜花</a></li>
+					 <li><a href="#">> 蛋糕</a></li>
+					 <li><a href="#">...更多</a></li>					 
 				 </ul>
 			 </div>
 			 <div class="clearfix"></div>
@@ -544,7 +380,7 @@
 <!---->
  <div class="copywrite">
 	 <div class="container">
-			 <p>Copyright © 2015 Wedding Store All rights reserved | Design by <a href="http://w3layouts.com">W3layouts</a></p>
+			 <p>Copyright © 2015 Wedding Store All rights reserved | 作者 <a href="http://w3layouts.com">joker</a></p>
 		 </div>
 </div>
 </body>

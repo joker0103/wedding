@@ -8,7 +8,7 @@
                 <div class="ibox-title">
                     <h5>婚礼列表</h5>
                     <div class="ibox-tools">
-                        <a  href="{:U('add')}" title="新增职员" target="_blank"><i class="glyphicon glyphicon-plus"></i></a>
+                        <a  href="{:U('add')}" title="新增职员" ><i class="glyphicon glyphicon-plus"></i></a>
                         &emsp;&emsp;&emsp;
                     </div>
                 </div>
@@ -43,7 +43,7 @@
                                         <img src="{$vol.avatar}" width="100">
                                     </if>
                                 </td>
-                                <td>{$vol.maxim|mb_substr=0,10}</td>
+                                <td>{$vol.maxim|msubstr=0,10}</td>
                                 <td>{$vol.name}</td>
                                 <td><if condition="$vol['sex'] eq 1">男<else/>女</if></td>
                                 <td>{$vol.age}</td>

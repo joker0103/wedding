@@ -1,0 +1,14 @@
+INSERT INTO `wed_product` VALUES (1, '精品项链', 12000, '8.8', '南非钻石，你值得拥', '/Public/Admin/Uploads/2016-07-29/579b78e83af25.jpg', 'f1.jpg', 1469892706, 2);
+INSERT INTO `wed_product` VALUES (2, '钻戒', 68000, '9.0', '尽享奢华', '/Public/Admin/Uploads/2016-07-30/579b800e6597d.jpg', 'f2.jpg', 1469808654, 2);
+INSERT INTO `wed_product` VALUES (3, '婚礼花篮', 1200, '9.0', '奢华的花篮', '/Public/Admin/Uploads/2016-07-30/579b80daeef89.jpg', 'f3.jpg', 1469894835, 2);
+INSERT INTO `wed_product` VALUES (4, '铂金钻戒', 12000, '8.0', '铂金钻戒，纯白无暇', '/Public/Admin/Uploads/2016-07-30/579b81425c774.jpg', 'f4.jpg', 1469808962, 2);
+INSERT INTO `wed_product` VALUES (5, '时尚胸针', 16000, '8.0', '瑞士进口，顶级工匠打造', '/Public/Admin/Uploads/2016-07-31/579dd5bd8ece4.jpg', 'p1.jpg', 1469961661, 2);
+INSERT INTO `wed_product` VALUES (6, '耳坠', 14000, '7', 'made in hongkong', '/Public/Admin/Uploads/2016-07-31/579dd7fa2388f.jpg', 'p2.jpg', 1469962234, 2);
+INSERT INTO `wed_product` VALUES (7, '土豪专用项链', 888888, '8.0', '土豪就是土豪，不差钱', '/Public/Admin/Uploads/2016-07-31/579dd85fa36ae.jpg', 'p3.jpg', 1469962336, 2);
+INSERT INTO `wed_product` VALUES (8, '精美钻戒', 666666, '6.0', '劳力士出品，必须精品', '/Public/Admin/Uploads/2016-07-31/579dd8934c7e0.jpg', 'p4.jpg', 1469962388, 2);
+INSERT INTO `wed_product` VALUES (9, '男士婚礼服', 8888, '8.5', '修身小西服', '/Public/Admin/Uploads/2016-07-31/579ddad365681.jpg', 'a1.jpg', 1469962963, 1);
+INSERT INTO `wed_product` VALUES (10, '意大利婚纱', 10000, '9.0', '意大利名师量身定做', '/Public/Admin/Uploads/2016-07-31/579ddb1260abc.jpg', 'a2.jpg', 1469963026, 1);
+INSERT INTO `wed_product` VALUES (11, '男士礼服（）', 12000, '6.0', '意大利设计师，丝质', '/Public/Admin/Uploads/2016-07-31/579dde3299fce.jpg', 'a3.jpg', 1469963826, 1);
+INSERT INTO `wed_product` VALUES (12, '婚纱（长款）', 12000, '7.5', '给你公主般的享受', '/Public/Admin/Uploads/2016-07-31/579dde7549dd4.jpg', 'a4.jpg', 1469963893, 1);
+INSERT INTO `wed_product` VALUES (13, '欧式古典男装', 8000, '8.0', '复古男士婚礼服', '/Public/Admin/Uploads/2016-07-31/579ddeb2883e3.jpg', 'p9.jpg', 1469963954, 1);
+INSERT INTO `wed_product` VALUES (14, '欧式复古礼服', 6000, '6.5', '欧式复古女士婚礼服', '/Public/Admin/Uploads/2016-07-31/579ddee8772c8.jpg', 'p10.jpg', 1469964008, 1);

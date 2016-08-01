@@ -65,7 +65,7 @@
                             <?php if(is_array($history)): $i = 0; $__LIST__ = $history;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr>
                                     <td><?php echo ($vo["id"]); ?></td>
                                     <td><?php echo (date('Y-m-d H:i:s', $vo["time"])); ?></td>
-                                    <td><?php echo (mb_substr($vo["history"],0,20)); ?></td>
+                                    <td><?php echo (msubstr($vo["history"],0,20)); ?></td>
                                     <td>
                                         <span title="记录信息" class="look" data="<?php echo ($vo["id"]); ?>" which="history"><i class="glyphicon glyphicon-search"></i></span>
                                         &emsp;
