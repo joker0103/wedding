@@ -41,6 +41,7 @@ class EditController extends CommonController
 
     public function avatared()
     {
+        //dump($_FILES);die;
         $u = M('User');
         $config = [
             'rootPath'=>WORK_PATH.UPLOAD_PATH,

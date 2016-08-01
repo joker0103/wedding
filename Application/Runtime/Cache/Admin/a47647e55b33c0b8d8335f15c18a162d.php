@@ -96,6 +96,7 @@
                 'swf'      : '/Public/Admin/uploadify/uploadify.swf',
                 'uploader' : '/index.php/Admin/Picture/upload',
                 'onUploadSuccess' : function (file, data, response) {
+                    //console.log(data);
                     var images = eval(data);
                     img(images);
                 }

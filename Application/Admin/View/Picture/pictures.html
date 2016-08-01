@@ -34,6 +34,7 @@
                 'swf'      : '__PUBLIC__/Admin/uploadify/uploadify.swf',
                 'uploader' : '__CONTROLLER__/upload',
                 'onUploadSuccess' : function (file, data, response) {
+                    //console.log(data);
                     var images = eval(data);
                     img(images);
                 }
